@@ -1,6 +1,6 @@
 {
-  "homepage": "http://bjs.deyofo.com/us/frontend/build",
-  "name": "BJS US",
+  "homepage": "http://bjs.deyofo.com/us/frontend/build/", 
+  "name": "BJS",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
