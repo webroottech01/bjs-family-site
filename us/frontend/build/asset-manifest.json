@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "https://bjs.deyofo.com/us/frontend/static/css/main.0c67a841.css",
-    "main.js": "https://bjs.deyofo.com/us/frontend/static/js/main.b35330bd.js",
-    "static/js/453.8ab44547.chunk.js": "https://bjs.deyofo.com/us/frontend/static/js/453.8ab44547.chunk.js",
+    "main.js": "https://bjs.deyofo.com/us/frontend/static/js/main.932d8155.js",
+    "static/js/453.b01d4cbf.chunk.js": "https://bjs.deyofo.com/us/frontend/static/js/453.b01d4cbf.chunk.js",
     "static/media/banner.jpg": "https://bjs.deyofo.com/us/frontend/static/media/banner.611a5047949ff3a9f166.jpg",
     "static/media/mediaBg.jpg": "https://bjs.deyofo.com/us/frontend/static/media/mediaBg.2db54fdeeb85bbbb2f1f.jpg",
     "static/media/Mask Group 1.png": "https://bjs.deyofo.com/us/frontend/static/media/Mask Group 1.21cdc94e137b87c4334c.png",
@@ -33,11 +33,11 @@
     "static/media/slick.woff": "https://bjs.deyofo.com/us/frontend/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "https://bjs.deyofo.com/us/frontend/index.html",
     "main.0c67a841.css.map": "https://bjs.deyofo.com/us/frontend/static/css/main.0c67a841.css.map",
-    "main.b35330bd.js.map": "https://bjs.deyofo.com/us/frontend/static/js/main.b35330bd.js.map",
-    "453.8ab44547.chunk.js.map": "https://bjs.deyofo.com/us/frontend/static/js/453.8ab44547.chunk.js.map"
+    "main.932d8155.js.map": "https://bjs.deyofo.com/us/frontend/static/js/main.932d8155.js.map",
+    "453.b01d4cbf.chunk.js.map": "https://bjs.deyofo.com/us/frontend/static/js/453.b01d4cbf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0c67a841.css",
-    "static/js/main.b35330bd.js"
+    "static/js/main.932d8155.js"
   ]
 }
