@@ -31,31 +31,31 @@ const Partners = () => {
     <div className="partnerslider">
       <Slider {...settings}>
         <div className='partnersLogo'>
-          <img src='./images/richersounds.png' alt="Richer Sounds" className='partnerMainlogo' />
+          <img src={process.env.PUBLIC_URL + "/images/richersounds.png"} alt="Richer Sounds" className='partnerMainlogo' />
         </div>
         <div className='partnersLogo'>
-          <img src='./images/oliverbonas.png' alt="Oliver Bonas" className='partnerMainlogo' />
+          <img src={process.env.PUBLIC_URL + "/images/oliverbonas.png"} alt="Oliver Bonas" className='partnerMainlogo' />
         </div>
         <div className='partnersLogo'>
-          <img src='./images/wayfair.png' alt="Wayfair" className='partnerMainlogo' />
+          <img src={process.env.PUBLIC_URL + "/images/wayfair.png"} alt="Wayfair" className='partnerMainlogo' />
         </div>
         <div className='partnersLogo'>
-          <img src='./images/tikamoon.png' alt="Tikamoon" className='partnerMainlogo' />
+          <img src={process.env.PUBLIC_URL + "/images/tikamoon.png"} alt="Tikamoon" className='partnerMainlogo' />
         </div>
         <div className='partnersLogo'>
-          <img src='./images/sweeek.png' alt="Sweeek" className='partnerMainlogo' />
+          <img src={process.env.PUBLIC_URL + "/images/sweeek.png"} alt="Sweeek" className='partnerMainlogo' />
         </div>
         <div className='partnersLogo'>
-          <img src='./images/richersounds.png' alt="Richer Sounds" className='partnerMainlogo' />
+          <img src={process.env.PUBLIC_URL + "/images/richersounds.png"} alt="Richer Sounds" className='partnerMainlogo' />
         </div>
         <div className='partnersLogo'>
-          <img src='./images/oliverbonas.png' alt="Oliver Bonas" className='partnerMainlogo' />
+          <img src={process.env.PUBLIC_URL + "/images/oliverbonas.png"} alt="Oliver Bonas" className='partnerMainlogo' />
         </div>
         <div className='partnersLogo'>
-          <img src='./images/wayfair.png' alt="Wayfair" className='partnerMainlogo' />
+          <img src={process.env.PUBLIC_URL + "/images/wayfair.png"} alt="Wayfair" className='partnerMainlogo' />
         </div>
         <div className='partnersLogo'>
-          <img src='./images/tikamoon.png' alt="Tikamoon" className='partnerMainlogo' />
+          <img src={process.env.PUBLIC_URL + "/images/tikamoon.png"} alt="Tikamoon" className='partnerMainlogo' />
         </div>
       </Slider>
     </div>
