@@ -1,0 +1,9 @@
+export { default as YourDetails } from "./your-details";
+export { default as TheRole } from "./the-role";
+export { default as AddYourCV } from "./add-your-cv";
+export { default as YourBackground } from "./your-background";
+export { default as WorkHistory } from "./work-history";
+export { default as EducationHistory } from "./education-history";
+export { default as AdditionalInformation } from "./additional-information";
+export { default as SupportingDocuments } from "./supporting-documents";
+export { default as Submission } from "./submission";

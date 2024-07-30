@@ -1,0 +1,327 @@
+.header .dropdown-menu-container {
+  display: flex;
+}
+
+.header {
+  padding: 3px 0;
+  display: flex;
+  align-items: center;
+  background: #fff;
+
+  .container {
+    max-width: 1860px;
+
+    .bg-body-tertiary {
+      background: #fff !important;
+    }
+
+    .mainNavigation {
+      margin-right: 8px;
+    }
+
+    .navbarsecond a#basic-nav-dropdown {
+      font-family: "Gotham Bold";
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+
+    .mainNavigation {
+      .custom-dropdown.dropdown {
+        position: unset;
+      }
+      .dropdown-menu {
+        padding: 0;
+        right: 0;
+        left: auto;
+        border: none;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 30px;
+        border-radius: 12px;
+        overflow: hidden;
+        .dropdown-menu-container {
+          display: flex;
+
+          .dropdown-items {
+            padding: 66px 0px;
+            display: flex;
+            flex-direction: column;
+            a {
+              padding: 15px 45px 15px 43px;
+              font-family: "Eveleth Dot";
+              font-size: 14px;
+              line-height: 22px;
+              &:before {
+                content: "\25CF";
+                color: #feba30;
+                font-weight: bold;
+                display: inline-block;
+                font-size: 20px;
+                line-height: 1;
+                margin-right: 20px;
+              }
+              &.active {
+                background-color: transparent;
+                color: #feba30;
+              }
+              &:hover {
+                background-color: transparent;
+                color: #feba30;
+              }
+            }
+          }
+        }
+      }
+      a.nav-link {
+        font-family: Gotham Bold;
+        font-size: 15px;
+        line-height: 14.36px;
+        text-align: left;
+        color: #877b6f;
+        padding: 10px 12px;
+
+        &.active {
+          color: #feba30;
+        }
+      }
+    }
+
+    .flags {
+      background: url(../../../public/images/US-Flag.png) no-repeat scroll left
+        center;
+      padding: 0 0 0 18px;
+    }
+
+    .navbarsecond {
+      align-items: center;
+      gap: 15px;
+
+      .dropdown {
+        position: unset;
+        .dropdown-menu {
+          right: 0;
+          left: auto;
+          border: none;
+          padding: 40px 60px;
+          max-width: 55%;
+          box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 30px;
+          border-radius: 12px;
+
+          h5 {
+            color: #24292c;
+            font-family: "Gotham Medium";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 22px;
+            text-align: center;
+          }
+          .regional-drop {
+            display: flex;
+            gap: 20px;
+            text-align: center;
+            margin: 25px 0 40px;
+            > div {
+              padding: 25px;
+              border-radius: 10px;
+              background: #f9f9f9;
+
+              .region-title {
+                color: #24292c;
+                font-family: "Gotham Bold";
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 18px;
+                margin: 20px 0 10px;
+              }
+              p {
+                color: #24292c;
+                font-family: "Gotham Book";
+                font-size: 12px;
+                line-height: 16px;
+                margin-bottom: 0;
+              }
+              .currentregion {
+                font-family: "Gotham Book";
+                font-size: 13px;
+                font-style: italic;
+                line-height: 18px;
+                opacity: unset;
+                padding: 15px 30px;
+                width: fit-content;
+                margin: 25px auto 0;
+                border-radius: 66px;
+                border: 1px solid #c5d1dc;
+                color: #c5d1dc;
+              }
+              .otherregion {
+                font-family: "Gotham Bold";
+                font-size: 13px;
+                background-color: #24292c;
+                color: #fff;
+                line-height: 18px;
+                opacity: unset;
+                padding: 15px 30px;
+                width: fit-content;
+                margin: 25px auto 0;
+                border-radius: 66px;
+                border: 1px solid #c5d1dc;
+                text-decoration: none;
+                display: block;
+              }
+            }
+          }
+          button {
+            color: #747e87;
+            font-family: "Gotham Book";
+            font-size: 12px;
+            line-height: 22px;
+            text-decoration-line: none;
+            background: #fff;
+            border: none;
+            padding: 0;
+            margin: 0 auto;
+            display: block;
+          }
+        }
+      }
+
+      // .nav-link.active{
+      //     .talktous{
+      //         color: #fff;
+      //         background-color: #000;
+      //     }
+      // }
+
+      .talktous {
+        width: 148px;
+        height: 42px;
+        padding: 0 0 0 18px;
+        gap: 6px;
+        border-radius: 66px;
+        opacity: 0px;
+        text-transform: uppercase;
+        color: #fff;
+        border: 0px;
+        font-family: "Gotham Bold";
+        background: #747e87 url(../../../public/images/phone.png) no-repeat
+          scroll left 11px top 11px;
+      }
+    }
+  }
+ .dropdown-toggle::after {
+    content: "┏";
+    border: none;
+    transform: rotate(224deg);
+    padding-bottom: 2px;
+    padding-right: 2px;
+    vertical-align: baseline;
+}
+}
+
+
+
+@media screen and (max-width:1710px) {
+.header {
+  .container{
+    max-width: 98%;
+  }
+}
+}
+
+@media screen and (max-width:1600px) {
+
+.header {
+  .container {
+    .mainNavigation {
+      a.nav-link{
+        font-size: 14px;
+      }
+    }
+    .navbarsecond {
+      .talktous{
+        font-size: 14px;
+        width: 140px;
+        height: 39px;
+      }
+
+    }
+  }
+
+}
+
+}
+
+@media screen and (max-width:1450px) {
+.header {
+  .container {
+
+    .navbar-brand {
+      img {
+        width: 175px;
+      }
+    }
+    .mainNavigation {
+      a.nav-link {
+      font-size: 13px;
+      padding: 5px 12px;
+      line-height: 11.36px;
+      }
+    }
+    .navbarsecond {
+      .talktous {
+        font-size: 13px;
+        width: 135px;
+        height: 35px;
+        background-size: 15px;
+        background-position: 12px 10px;
+        padding: 0 0 0 15px;
+      }
+    }
+
+  }
+}
+  
+}
+
+
+@media screen and (max-width:1024px) {
+.header {
+  .container {
+    .navbar-brand {
+      order: 1;
+    }
+    .navbarsecond{
+      flex-direction: row;
+      margin-left: auto;
+      margin-right: 0% !important;
+      order: 3;
+    }
+    button.navbar-toggler {
+      order: 4;
+    }
+    #basic-navbar-nav{
+      order: 2;
+    }
+  
+  }
+
+}
+
+}
+
+
+@media screen and (max-width:990px) {
+  .header {
+    .container {
+      #basic-navbar-nav{
+        order: 5;
+      }
+    .navbarsecond{
+      margin-right: 5% !important;
+    }
+    
+    }
+  
+  }
+  
+  }
+

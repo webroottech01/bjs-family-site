@@ -1,0 +1,123 @@
+.our-technology {
+    padding: 45px 0 66px;
+    background-image: url("/../public/images/Clip path group.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: bottom;
+
+    .container-py {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .about-title {
+        color: #2C3033;
+        font-family: 'Brixton_Wood_PERSONAL_USE_ONLY Vector';
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 30px;
+    }
+
+    p.jt-p {
+        color: var(--bjs-dark-tone-copy, #877B6F);
+        text-align: center;
+        font-family: "Gotham Book";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        margin-bottom: 20px;
+    }
+
+    p.sm-p {
+        color: var(--bjs-dark-tone-copy, #877B6F);
+        text-align: center;
+        font-family: "Gotham Book";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+    }
+
+}
+
+.our-patners {
+    padding-top: 42px;
+
+    h3 {
+        color: var(--BJS-Mid-Gray, #747E87);
+        font-family: "Gotham Book";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+.patners-logo {
+    padding-top: 22px;
+    position: relative;
+
+    img {
+        padding-right: 30px;
+    }
+}
+
+.patners-logo:before {
+    content: "";
+    width: 200px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 12px;
+    height: 1px;
+    background: rgb(58 54 48 / 17%);
+}
+
+
+
+.about-technology{
+
+    .partnersMAin {
+        background: #fff;
+    }
+    .newsPartners {
+        max-width: 1700px;
+        margin: 0 auto;
+        padding: 55px 0;
+    
+        h2 {
+            color: #919495;
+            font-family: "Eveleth Dot";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 950;
+            line-height: normal;
+            position: relative;
+            margin: 0 auto ;
+            &:before {
+                content: "";
+                position: absolute;
+                width: 43%;
+                background: #d1d6d8;
+                height: 1px;
+                left: 0;
+                top: 12px;
+            }
+            &:after {
+                content: "";
+                position: absolute;
+                width: 43%;
+                background: #d1d6d8;
+                height: 1px;
+                right: 0;
+                top: 12px;
+            }
+        }
+    }
+
+}

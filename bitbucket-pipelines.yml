@@ -1,0 +1,112 @@
+image: atlassian/default-image:2
+
+definitions:
+  services:
+    docker:
+      memory: 3000
+  steps:
+    - step: &SonarqubeScan
+        name: Sonarqube Scan
+        script:
+          - echo "successfully build"
+          # - pipe: sonarsource/sonarqube-scan:1.1.0
+          #   variables:
+          #     SONAR_HOST_URL: ${SONAR_HOST_URL} # Get the value from the repository/workspace variable.
+          #     SONAR_TOKEN: ${SONAR_KEY}
+          #     EXTRA_ARGS: "-Dsonar.projectKey=$SONAR_ID"
+
+    - step: &SonarqubeQualityGate
+        name: Check Quality Gate on SonarQube
+        max-time: 5
+        script:
+          - pipe: sonarsource/sonarqube-quality-gate:1.1.0
+            variables:
+              SONAR_TOKEN: ${SONAR_KEY}
+              EXTRA_ARGS: "-Dsonar.projectKey=$SONAR_ID"
+
+    - step: &BuildTestOnly
+        name: Build Only (No Push)
+        services:
+          - docker
+        caches:
+          - docker
+          - node
+        script:
+          - export IMAGE_NAME="bjs-family-site":$BITBUCKET_BRANCH
+          - DOCKER_BUILDKIT=1 docker build -t $IMAGE_NAME --build-arg FONTAWESOME_NPM_AUTH_TOKEN="${FONTAWESOME_NPM_AUTH_TOKEN}" --build-arg NPM_TOKEN="${NPM_TOKEN}" -f docker/Dockerfile .
+          - echo "SUCCESS"
+
+    - step: &BuildAndPushVersion
+        name: Build Image Push
+        services:
+          - docker
+        caches:
+          - docker
+          - node
+        script:
+          - DOCKER_BUILDKIT=1 docker build -t bjs-family-site --build-arg FONTAWESOME_NPM_AUTH_TOKEN="${FONTAWESOME_NPM_AUTH_TOKEN}" --build-arg NPM_TOKEN="${NPM_TOKEN}" -f docker/Dockerfile .
+          - pipe: atlassian/aws-ecr-push-image:1.1.1
+            variables:
+              AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+              AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+              AWS_DEFAULT_REGION: ${AWS_DEFAULT_REGION}
+              IMAGE_NAME: "bjs-family-site"
+              TAGS: $BITBUCKET_BRANCH
+
+    - step: &BuildAndPushTag
+        name: Build Image Push
+        services:
+          - docker
+        caches:
+          - docker
+          - node
+        script:
+          - DOCKER_BUILDKIT=1 docker build -t bjs-family-site --build-arg FONTAWESOME_NPM_AUTH_TOKEN="${FONTAWESOME_NPM_AUTH_TOKEN}" --build-arg NPM_TOKEN="${NPM_TOKEN}" -f docker/Dockerfile .
+          - pipe: atlassian/aws-ecr-push-image:1.1.1
+            variables:
+              AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+              AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+              AWS_DEFAULT_REGION: ${AWS_DEFAULT_REGION}
+              IMAGE_NAME: "bjs-family-site"
+              TAGS: $BITBUCKET_TAG
+              DEBUG: "true"
+
+    - step: &BuildAndPushThisBranch
+        name: Build Image Push
+        services:
+          - docker
+        caches:
+          - docker
+          - node
+        script:
+          - export IMAGE_NAME_FIXED=$BITBUCKET_BUILD_NUMBER-$BITBUCKET_BRANCH
+          - DOCKER_BUILDKIT=1 docker build -t bjs-family-site --build-arg FONTAWESOME_NPM_AUTH_TOKEN="${FONTAWESOME_NPM_AUTH_TOKEN}" --build-arg NPM_TOKEN="${NPM_TOKEN}" -f docker/Dockerfile  .
+          - pipe: atlassian/aws-ecr-push-image:1.1.1
+            variables:
+              AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID}
+              AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
+              AWS_DEFAULT_REGION: ${AWS_DEFAULT_REGION}
+              IMAGE_NAME: "bjs-family-site"
+              TAGS: "${BITBUCKET_BRANCH} $IMAGE_NAME_FIXED"
+
+pipelines:
+  default:
+    - step: *SonarqubeScan
+    #  - step: *SonarqubeQualityGate
+  #  - step: *BuildTestOnly
+  custom:
+    regular_deploy_branch:
+      #   - step: *SonarqubeScan
+      #   - step: *SonarqubeQualityGate
+      - step: *BuildAndPushThisBranch
+  branches:
+    development:
+      #   - step: *SonarqubeScan
+      #   - step: *SonarqubeQualityGate
+      - step: *BuildAndPushThisBranch
+    staging:
+      - step: *BuildAndPushThisBranch
+
+  tags:
+    "*.*.*":
+      - step: *BuildAndPushTag

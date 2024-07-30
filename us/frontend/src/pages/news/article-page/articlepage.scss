@@ -1,0 +1,228 @@
+.articlepageMain {
+    .articlepage {
+        background: #2c3033;
+        padding: 25px 30px;
+        button {
+            border-radius: 66px;
+            background: rgba(61, 64, 67, 0.4);
+            padding: 14px 20px;
+            a {
+                color: #fff;
+                font-family: "Gotham Book";
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                text-decoration: none;
+            }
+        }
+        h3 {
+            color: #fff;
+            text-align: center;
+            font-family: "Gotham Bold";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            margin-bottom: 15px;
+        }
+        p {
+            color: var(--BJS-Light-Gray, #c5d1dc);
+            font-family: "Gotham Medium";
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 12px; /* 100% */
+            margin: 0;
+            .comaImg {
+                height: 13px;
+            }
+        }
+    }
+    .articleContentMain {
+        max-width: 1002px;
+        margin: 0 auto;
+        padding: 30px 0;
+        .descriptionArticles {
+            padding-right: 30px !important;
+        }
+        .articlesocialMedia {
+            padding-left: 30px !important;
+            flex-direction: column;
+            gap: 10px;
+        }
+        img {
+            width: 100%;
+        }
+        h2 {
+            color: var(--bjs-dark-tone-copy, #24292c);
+            font-family: "Gotham Book";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 22px; /* 122.222% */
+            margin-bottom: 20px;
+        }
+        p {
+            color: var(--bjs-dark-tone-copy, #24292c);
+            font-family: "Gotham Book";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            margin-bottom: 21px;
+            line-height: 18px;
+        }
+        .row {
+            width: 100%;
+            padding-top: 30px;
+            margin: 0 auto;
+        }
+        h4 {
+            color: var(--BJS-Mid-Gray, #747e87);
+            text-align: center;
+            font-family: "Gotham Book";
+            font-size: 12px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: normal;
+        }
+        .articlesocialMedia {
+            img {
+                width: 40px;
+            }
+        }
+        .whatSaid {
+            padding-top: 19px;
+            img {
+                width: 50px;
+                padding: 20px 0;
+            }
+            h3 {
+                margin: 0;
+                color: var(--bjs-dark-tone-copy, #24292c);
+                font-family: "Gotham Medium";
+                font-size: 16px;
+                font-style: italic;
+                font-weight: 500;
+                line-height: normal;
+            }
+            p {
+                color: var(--BJS-Mid-Gray, #747e87);
+                font-family: "Gotham Book";
+                font-size: 12px;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 16px; /* 133.333% */
+            }
+            h4 {
+                color: var(--bjs-dark-tone-copy, #24292c);
+                font-family: "Gotham Book";
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 18px; /* 128.571% */
+                padding: 40px 0;
+                text-align: left;
+            }
+        }
+    }
+    .articleLastsec {
+        padding: 40px 0 20px 30px;
+        gap: 15px;
+        text-align: left;
+        border-top: 1px solid var(--BJS-Light-Gray, #c5d1dc);
+        p {
+            color: var(--BJS-Mid-Gray, #747e87);
+            font-family: "Gotham Book";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin: 0;
+        }
+        a {
+            color: var(--bjs-dark-tone-copy, #24292c);
+            font-family: "Gotham Book";
+            font-size: 14px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 18px; /* 128.571% */
+            text-decoration-line: underline;
+            width: 62%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .articlepageMain {
+        .articleContentMain {
+            max-width: 54%;
+            .whatSaid {
+                img {
+                    width: 34px;
+                    padding: 20px 0;
+                }
+                h4 {
+                    padding: 12px 0;
+                }
+            }
+            h2 {
+                font-size: 16px;
+            }
+            p {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .articlepageMain {
+        .articlepage {
+            .d-flex {
+                flex-direction: column;
+                gap: 20px;
+            }
+            button {
+                padding: 9px 18px;
+                a {
+                    font-size: 12px;
+                }
+            }
+        }
+        .articleContentMain {
+            max-width: 70%;
+            .row {
+                flex-direction: column;
+            }
+            .descriptionArticles {
+                padding: 0 !important;
+            }
+            .articlesocialMedia {
+                flex-direction: row;
+                gap: 10px;
+                align-items: center;
+                margin-bottom: 30px;
+                h4 {
+                    margin: 0;
+                }
+            }
+        }
+        .articleLastsec {
+            padding: 40px 0 20px;
+            flex-direction: column;
+            align-items: start !important;
+            a {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .articlepageMain {
+        .articleContentMain {
+            max-width: 90%;
+        }
+    }
+}

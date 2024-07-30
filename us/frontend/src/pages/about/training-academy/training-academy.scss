@@ -1,0 +1,88 @@
+.about-training-academy {
+  .training-academy {
+    padding: 45px 0 72px;
+    background-image: url("/../public/images/Clip path group (2).png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: calc(14% - 0px) calc(0% - 0px);
+  }
+
+  .container-xy {
+    max-width: 1420px; 
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  .about-title {
+    color: #2c3033;
+    font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  p.jt-p {
+    color: var(--bjs-dark-tone-copy, #24292c);
+    font-family: "Gotham Book";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    margin-bottom: 1.8rem;
+  }
+
+  p.sm-p {
+    color: var(--bjs-dark-tone-copy, #24292c);
+    font-family: "Gotham Book";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+  }
+
+  .left-coulmn {
+    padding-right: 1.5rem;
+    padding-top: 10px;
+  }
+
+  .link-btn {
+    margin-top: 3rem;
+  }
+
+  .link-btn a {
+    padding-bottom: 8px;
+    color: var(--bjs-dark-tone-copy, #24292c);
+    font-family: "Gotham Bold";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+    border-bottom: 2px solid var(--BJS-Yellow, #feba30);
+  }
+
+  .link-btn a img {
+    padding-left: 20px;
+  }
+
+  .right-column {
+    padding-left: 5px;
+    padding-top: 7px;
+  }
+
+  .training-ac-layout .title-column {
+    padding: 40px 50px;
+  }
+
+  .newsPartners h2.text-center {
+    margin-bottom: 0;
+  }
+
+  .training-ac-layout {
+    padding-top: 10px;
+  }
+}

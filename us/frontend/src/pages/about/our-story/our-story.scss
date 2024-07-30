@@ -1,0 +1,58 @@
+.ourStoryMain {
+  padding: 60px 0 0;
+  h1 {
+    color: #2c3033;
+    font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .ourStoryInner {
+    max-width: 1000px;
+    margin: 40px auto 60px;
+    padding: 0 16px 0 30px;
+    border-radius: 3px;
+    border-left: 1px solid var(--BJS-Light-Gray, #c5d1dc);
+    .storyContent {
+      gap: 40px;
+      margin-bottom: 30px;
+      .storyYear {
+        padding: 10px 14px;
+        border-radius: 3px;
+        background: var(--bjs-dark-tone-copy, #24292c);
+        color: #fff;
+        font-family: "Gotham Bold";
+        font-size: 18px;
+      }
+      h3 {
+        color: var(--BJS-Mid-Gray, #747e87);
+        text-align: center;
+        font-family: "Gotham Book";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        margin: 10px 0 20px;
+        text-align: left;
+      }
+      img {
+        margin-bottom: 20px;
+      }
+      .storyDetail {
+        p {
+          color: var(--bjs-dark-tone-copy, #24292c);
+          font-family: "Gotham Book";
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 16px; /* 133.333% */
+          margin-bottom: 20px;
+          text-align: left;
+        }
+      }
+    }
+  }
+}

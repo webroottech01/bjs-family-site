@@ -1,0 +1,334 @@
+.archiveWrapper {
+    padding-bottom: 30px;
+    background: linear-gradient(289deg, #e4e4e4 0%, #f6f6f6 100%);
+    .archivewrapperInner {
+        background: #2c3033;
+        padding: 25px 30px;
+        .newsMenu {
+            p {
+                color: var(--BJS-Light-Gray, #c5d1dc);
+                text-align: center;
+                font-family: "Gotham Book";
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                font-style: normal;
+                margin-bottom: 15px;
+            }
+        }
+        button {
+            border-radius: 66px;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 6px 15px;
+            color: #fff;
+            font-family: "Gotham Bold";
+        }
+        a {
+            border-radius: 66px;
+            background: rgba(61, 64, 67, 0.4);
+            padding: 14px 20px;
+            color: #fff;
+            font-family: "Gotham Book";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-decoration: none;
+        }
+        p {
+            color: var(--BJS-Light-Gray, #c5d1dc);
+            text-align: center;
+            font-family: "Gotham Book";
+            font-size: 14px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: normal;
+            text-transform: capitalize;
+        }
+    }
+    .archiveMain {
+        .singleNews {
+            margin-bottom: 15px;
+        }
+        .iconMain {
+            width: 14px !important;
+        }
+        padding-top: 30px;
+        .container {
+            max-width: 1202px;
+            margin: 0 auto;
+        }
+        .imageSection {
+            .mainImg {
+                .mainImgContent {
+                    border-radius: 0 0 10px 10px;
+                    background: #fff;
+                    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.08);
+                    padding: 30px;
+                    width: 100%;
+                    .headLink {
+                        text-decoration: none;
+                    }
+                    .articleListdescrip {
+                        width: 72%;
+                    }
+                    .describe {
+                        color: var(--bjs-dark-tone-copy, #24292c);
+                        font-family: "Gotham Book";
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 18px;
+                        margin: 15px 0 0;
+                    }
+                }
+                img {
+                    width: 226px;
+                }
+            }
+            h3 {
+                color: var(--bjs-dark-tone-copy, #877b6f);
+                font-family: "Gotham Bold";
+                font-size: 16px;
+                font-style: normal;
+                line-height: 22px; /* 137.5% */
+                margin-bottom: 32px;
+            }
+            .article {
+                p {
+                    color: var(--BJS-Mid-Gray, #747e87);
+                    font-family: "Gotham Medium";
+                    font-size: 12px;
+                    font-style: normal;
+                    line-height: 12px; /* 100% */
+                    margin: 0;
+                }
+            }
+            .description {
+                color: var(--bjs-dark-tone-copy, #877b6f);
+                font-family: "Gotham Book";
+                font-size: 14px;
+                font-style: normal;
+                line-height: 18px; /* 128.571% */
+                margin-bottom: 92px;
+            }
+            .articleTime {
+                p {
+                    color: var(--BJS-Mid-Gray, #747e87);
+                    font-family: "Gotham Book";
+                    font-size: 14px;
+                    font-style: normal;
+                    margin: 0;
+                    line-height: normal;
+                }
+                a {
+                    color: var(--bjs-dark-tone-copy, #877b6f);
+                    font-family: "Gotham Bold";
+                    font-size: 14px;
+                    font-style: normal;
+                    line-height: normal;
+                    padding-bottom: 10px;
+                    text-decoration: none;
+                    border-bottom: 2px solid var(--BJS-Yellow, #feba30);
+                    img {
+                        margin-left: 22px;
+                        width: 16px !important;
+                    }
+                }
+            }
+            .mainImgContent {
+                padding: 30px;
+
+                .headLink {
+                    text-decoration: none;
+                }
+            }
+            img {
+                width: 312px;
+            }
+            .timeLink {
+                margin-top: 68px;
+                p {
+                    color: var(--BJS-Mid-Gray, #747e87);
+                    font-family: "Gotham Book";
+                    font-size: 14px;
+                    font-style: normal;
+                    line-height: normal;
+                    margin: 0;
+                    margin: 0 0 20px;
+                    text-align: right;
+                }
+                .readLink {
+                    color: var(--bjs-dark-tone-copy, #877b6f);
+                    font-family: "Gotham Bold";
+                    font-size: 14px;
+                    font-style: normal;
+                    line-height: normal;
+                    padding-bottom: 10px;
+                    text-decoration: none;
+                    border-bottom: 2px solid var(--BJS-Yellow, #feba30);
+                }
+                a {
+                    color: var(--bjs-dark-tone-copy, #877b6f);
+                    font-family: "Gotham Bold";
+                    font-size: 14px;
+                    font-style: normal;
+                    line-height: normal;
+                    padding-bottom: 10px;
+                    text-decoration: none;
+                    border-bottom: 2px solid var(--BJS-Yellow, #feba30);
+                    img {
+                        margin-left: 22px;
+                        width: 16px !important;
+                    }
+                }
+            }
+            h3 {
+                color: var(--bjs-dark-tone-copy, #877b6f);
+                font-family: "Gotham Bold";
+                font-size: 14px;
+                font-style: normal;
+                line-height: 18px; /* 128.571% */
+                margin-bottom: 15px;
+            }
+        }
+        .row {
+            position: relative;
+        }
+    }
+    .showMoreButton {
+        width: fit-content;
+        border-radius: 6px;
+        border: 1px solid var(--BJS-Light-Gray, #c5d1dc);
+        padding: 20px 60px;
+        color: #747e87;
+        text-transform: uppercase;
+        font-family: "Gotham Bold";
+
+        &:before {
+            position: absolute;
+            content: "";
+            width: 38%;
+            height: 1px;
+            background: #d1d6d8;
+            left: 0;
+            top: 34px;
+        }
+        &:after {
+            position: absolute;
+            content: "";
+            width: 38%;
+            height: 1px;
+            background: #d1d6d8;
+            right: 0;
+            top: 34px;
+        }
+    }
+}
+
+// RESPONSIVE
+
+@media only screen and (max-width: 1250px) {
+    .archiveWrapper {
+        .archiveMain {
+            .container {
+                max-width: 90%;
+                margin: 0 auto;
+            }
+        }
+        .showMoreButton {
+            padding: 12px 29px;
+            font-size: 14px;
+        }
+        .showMoreButton {
+            &:before {
+                width: 40%;
+                top: 23px;
+            }
+            &:after {
+                width: 40%;
+                top: 23px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .archiveWrapper {
+        .archiveMain {
+            .imageSection {
+                h3 {
+                    font-size: 12px;
+                }
+                .timeLink {
+                    margin-top: 24px;
+                    .readLink {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .archiveWrapper {
+        .archivewrapperInner {
+            button {
+                font-size: 10px;
+            }
+        }
+        .archiveMain {
+            .imageSection {
+                .mainImg {
+                    img {
+                        width: 100%;
+                    }
+                    .mainImgContent {
+                        flex-direction: column;
+                        align-items: start;
+                        .articleListdescrip {
+                            width: 100%;
+                        }
+                    }
+                }
+                .timeLink {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+                }
+            }
+            .singleNews {
+                flex-direction: column;
+            }
+        }
+        .showMoreButton {
+            &:before {
+                width: 36%;
+            }
+            &:after {
+                width: 36%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .archiveWrapper {
+        .archivewrapperInner {
+            .introSection {
+                flex-direction: column;
+                gap: 25px;
+            }
+        }
+        .showMoreButton {
+            &:before {
+                width: 26%;
+            }
+            &:after {
+                width: 26%;
+            }
+        }
+    }
+}

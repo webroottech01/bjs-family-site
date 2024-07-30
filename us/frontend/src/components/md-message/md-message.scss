@@ -1,0 +1,264 @@
+.md-message {
+    padding: 62px 0;
+
+    .container-md {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+
+    h3 {
+        color: var(--BJS-Mid-Gray, #747E87);
+        font-family: "Gotham Bold";
+        font-size: 36px;
+        font-style: italic;
+        font-weight: 700;
+        line-height: 42px;
+        /* 116.667% */
+    }
+
+    p {
+        color: var(--BJS-Mid-Gray, #747E87);
+        font-family: "Gotham Book";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        /* 128.571% */
+    }
+
+    .md-info img {
+        // width: 209.767px; 
+        height: 140px;
+        flex-shrink: 0;
+        object-fit: contain;
+        border-radius: 50%;
+    }
+
+    .md-info {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        padding: 0;
+        width: 24%;
+
+        h5 b {
+            color: var(--bjs-dark-tone-copy, #877B6F);
+            font-family: "Gotham Bold";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+
+        h5 {
+            color: var(--BJS-Mid-Gray, #747E87);
+            font-family: "Gotham Book";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .md-profile {
+            text-align: left;
+            padding-left: 22px;
+        }
+    }
+
+    .md-quote {
+        text-align: left;
+        padding-right: 25px;
+
+        img {
+            margin-bottom: 31px;
+        }
+    }
+
+    .md-xm-mid {
+        padding: 18px 0px 0 42px;
+        width: 51%;
+
+        p {
+            text-align: left;
+        }
+    }
+}
+
+
+
+@media screen and (max-width:1710px) {
+.md-message {
+    .container-md {
+        max-width: 90%;
+    }
+}
+    
+}
+
+@media screen and (max-width:1600px) {
+.md-message {
+    padding: 50px 0;
+    h3 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+    .md-quote {
+        padding-right: 20px;
+        img {
+            margin-bottom: 25px;
+        }
+    }
+    .md-xm-mid {
+        padding: 15px 0px 0 32px;
+    }
+    .md-info {
+        img {
+            height: 100px;
+        }
+        .md-profile {
+            padding-left: 18px;
+        }
+        h5 {
+            font-size: 13px;
+            margin-bottom: 5px;
+            b{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+}
+
+
+
+@media screen and (max-width:1600px) {
+.md-message {
+    padding: 38px 0;
+    h3 {
+        font-size: 25px;
+        line-height: 26px;
+    }
+    .md-quote {
+        padding-right: 15px;
+        img {
+            margin-bottom: 20px;
+            width: 38px;
+        }
+    }
+    .md-xm-mid {
+        padding: 10px 0px 0 25px;
+    }
+    p{
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .md-info {
+        img {
+            height: 85px;
+        }
+        .md-profile {
+            padding-left: 15px;
+        }
+        h5 {
+            font-size: 12px;
+            margin-bottom: 4px;
+            b {
+                font-size: 14px;
+            }
+        }
+    }
+}
+}
+
+
+@media screen and (max-width:1024px) {
+.md-message {
+    padding: 32px 0;
+    .md-quote img {
+        margin-bottom: 15px;
+        width: 30px;
+    }
+    h3 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+
+    .md-info img {
+        height: 70px;
+    }
+    .md-xm-mid {
+        padding: 5px 0px 0 18px;
+    }
+}
+    
+}
+
+
+@media screen and (max-width:825px) {
+.md-message {
+    padding: 28px 0;
+    .md-xm-mid {
+        padding: 5px 0px 0 12px;
+        width: 70%;
+    }
+    .md-info{
+        width:30%;
+    }
+}
+    
+}
+
+
+@media screen and (max-width:768px) {
+.md-message {
+    .md-xm-mid {
+        width: 65%;
+    }
+    .md-info{
+        width:35%;
+    }
+}
+
+}
+
+
+@media screen and (max-width:500px) {
+.md-message {
+    padding: 25px 0;
+    .md-quote {
+        padding: 0;
+        img {
+            margin-bottom: 12px;
+            width: 25px;
+        }
+    }
+    h3 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .md-xm-mid {
+        width: 100%;
+        padding: 5px 0px 0;
+    }
+    .md-info {
+        width: 100%;
+        justify-content: left;
+        img {
+            height: 50px;
+        }
+        h5 {
+            font-size: 12px;
+            margin-bottom: 3px;
+            b {
+                font-size: 13px;
+            }
+        }
+        .md-profile {
+            padding-left: 12px;
+        }
+    }
+}
+
+
+}

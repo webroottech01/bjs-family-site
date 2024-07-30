@@ -1,0 +1,106 @@
+.mediaslidercompo {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 60px 0;
+    .mediaLogo {
+        padding: 20px;
+        gap: 20px;
+        text-align: left;
+        border-radius: 10px;
+        background: #fff;
+        box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.25);
+    }
+    .mediaMainlogo {
+        width: 100px;
+        height: 100px;
+    }
+    .enterNextlogo {
+        width: 11px;
+        height: 11px;
+    }
+    .slick-next {
+        right: -42px;
+        top: 60px !important;
+        &:before {
+            content: "" !important;
+            background-image: url("/../public/images/nextslide.png");
+            width: 22px;
+            height: 44px;
+            display: block;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+    .slick-prev {
+        left: -42px;
+        top: 60px;
+        &:before {
+            content: "" !important;
+            background-image: url("/../public/images/prevslide.png");
+            width: 22px;
+            height: 44px;
+            display: block;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+    ul {
+        .slick-active {
+            background: #feba30 !important;
+        }
+        li {
+            background: #c5d1dc;
+            border-radius: 50px !important;
+            overflow: hidden;
+            width: 42px !important;
+            height: 3px !important;
+        }
+    }
+    .partnerMainlogo {
+        width: 168px;
+        margin: 0 auto;
+    }
+
+    .slick-track {
+        display: flex;
+        align-items: center;
+        padding-bottom: 40px;
+        gap: 28px;
+    }
+    h3 {
+        color: var(--bjs-dark-tone-copy, #877b6f);
+        font-family: "Gotham Bold";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px; /* 128.571% */
+    }
+    p {
+        color: var(--bjs-dark-tone-copy, #877b6f);
+        font-family: "Gotham Book";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 150% */
+    }
+    a {
+        color: var(--BJS-Mid-Gray, #747e87);
+        font-family: "Gotham Medium";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px; /* 150% */
+        text-decoration-line: underline;
+    }
+}
+
+@media only screen and (max-width: 1210px) {
+    .mediaslidercompo {
+        .slick-prev {
+            top: 30%;
+        }
+        .slick-next {
+            top: 30% !important; 
+        }
+    }
+}
