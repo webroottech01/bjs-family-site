@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/us/frontend/build/static/css/main.3347e7ff.css",
-    "main.js": "/us/frontend/build/static/js/main.22d616c9.js",
+    "main.js": "/us/frontend/build/static/js/main.a9afb3f5.js",
     "static/js/453.5d962359.chunk.js": "/us/frontend/build/static/js/453.5d962359.chunk.js",
     "static/media/banner.jpg": "/us/frontend/build/static/media/banner.611a5047949ff3a9f166.jpg",
     "static/media/mediaBg.jpg": "/us/frontend/build/static/media/mediaBg.2db54fdeeb85bbbb2f1f.jpg",
@@ -33,11 +33,11 @@
     "static/media/slick.woff": "/us/frontend/build/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/us/frontend/build/index.html",
     "main.3347e7ff.css.map": "/us/frontend/build/static/css/main.3347e7ff.css.map",
-    "main.22d616c9.js.map": "/us/frontend/build/static/js/main.22d616c9.js.map",
+    "main.a9afb3f5.js.map": "/us/frontend/build/static/js/main.a9afb3f5.js.map",
     "453.5d962359.chunk.js.map": "/us/frontend/build/static/js/453.5d962359.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3347e7ff.css",
-    "static/js/main.22d616c9.js"
+    "static/js/main.a9afb3f5.js"
   ]
 }
