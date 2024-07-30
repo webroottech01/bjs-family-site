@@ -1,6 +1,6 @@
 {
   "homepage": "/us/frontend/build", 
-  "name": "frontend",
+  "name": "BJS US",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
