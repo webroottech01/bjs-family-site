@@ -58,3 +58,4 @@ Thumbs.db
 public/sitemap.xml
 
 us/frontend/node_modules
+us/frontend/.env
