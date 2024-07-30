@@ -20,7 +20,7 @@ import Careers from "./pages/career-page/careers";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/us">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
