@@ -8,8 +8,8 @@ import { LinkContainer } from "react-router-bootstrap";
 const Header = () => {
   const [showDropdown, setShowDropdown] = useState(false);
   const [hoveredImages, setHoveredImages] = useState({
-    "About BJS": process.env.PUBLIC_URL + "images/about-default.webp",
-    Us: process.env.PUBLIC_URL + "images/us-default.png",
+    "About BJS": process.env.PUBLIC_URL + "/images/about-default.webp",
+    Us: process.env.PUBLIC_URL + "/images/us-default.png",
   });
 
   const menuItems = [
@@ -23,35 +23,35 @@ const Header = () => {
         {
           name: "Our Values",
           link: "/our-values",
-          image: process.env.PUBLIC_URL + "images/about-values.webp",
+          image: process.env.PUBLIC_URL + "/images/about-values.webp",
         },
         {
           name: "what makes bjs different",
           link: "/our-difference",
-          image: process.env.PUBLIC_URL + "images/about-different.webp",
+          image: process.env.PUBLIC_URL + "/images/about-different.webp",
         },
         {
           name: "Our Technology",
           link: "/technology",
-          image: process.env.PUBLIC_URL + "images/about-technology.webp",
+          image: process.env.PUBLIC_URL + "/images/about-technology.webp",
         },
         {
           name: "charity & community",
           link: "/charity-community",
-          image: process.env.PUBLIC_URL + "images/about-charity.webp",
+          image: process.env.PUBLIC_URL + "/images/about-charity.webp",
         },
         {
           name: "training academy",
           link: "/training-academy",
-          image: process.env.PUBLIC_URL + "images/about-training.webp",
+          image: process.env.PUBLIC_URL + "/images/about-training.webp",
         },
         {
           name: "our story",
           link: "/our-story",
-          image: process.env.PUBLIC_URL + "images/about-story.webp",
+          image: process.env.PUBLIC_URL + "/images/about-story.webp",
         },
       ],
-      defaultImage: process.env.PUBLIC_URL + "images/about-default.webp",
+      defaultImage: process.env.PUBLIC_URL + "/images/about-default.webp",
     },
     {
       name: "News",
@@ -165,7 +165,7 @@ const Header = () => {
               <div className="regional-drop">
                 <div>
                   <img
-                    src={process.env.PUBLIC_URL + "images/uslogo.png"}
+                    src={process.env.PUBLIC_URL + "/images/uslogo.png"}
                     alt=""
                   />
                   <p className="region-title">United States</p>
@@ -180,7 +180,7 @@ const Header = () => {
                 </div>
                 <div>
                   <img
-                    src={process.env.PUBLIC_URL + "images/uklogo.png"}
+                    src={process.env.PUBLIC_URL + "/images/uklogo.png"}
                     alt=""
                   />
                   <p className="region-title">United Kingdom</p>
