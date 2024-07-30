@@ -56,7 +56,7 @@ Thumbs.db
 .vscode
 
 .env
-
+.gitignore
 public/sitemap.xml
 
 us/frontend/node_modules/
