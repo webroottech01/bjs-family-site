@@ -6,7 +6,7 @@
 # Node artifact files
 node_modules/
 dist/
-
+.npmrc/
 # Compiled Java class files
 *.class
 
@@ -57,5 +57,5 @@ Thumbs.db
 
 public/sitemap.xml
 
-us/frontend/node_modules
+us/frontend/node_modules/
 us/frontend/.env
