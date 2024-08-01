@@ -52,7 +52,7 @@ Thumbs.db
 
 # Next Server
 .next/
-
+.next 
 .vscode
 
 .env
