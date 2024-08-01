@@ -1,84 +1,121 @@
-
-.caseStudy-main{
-    .caseColm{
-        //padding: 0 100px;
-        p{
-            color: var(--bjs-dark-tone-copy, #24292C);
-            font-family: "Gotham Book";
-            font-size: 14px;
-            font-style: italic;
-            font-weight: 400;
-            line-height: 18px; /* 128.571% */
-        }
-        p.explain{
-            color: var(--BJS-Mid-Gray, #747E87);
-            font-style: normal;
-        }
-        h3{
-            color: var(--BJS-Light-Gray, #C5D1DC);
-            text-align: right;
-            font-family: "Gotham Book";
-            font-size: 38px;
-            font-style: italic;
-            font-weight: 400;
-            line-height: 38px;
-            letter-spacing: 0.6px;;            
-        }
-        h4{
-            color: var(--bjs-dark-tone-copy, #24292C);
-            font-family: "Gotham Medium";
-            font-size: 16px;
-            font-style: italic;
-            font-weight: 500;
-            line-height: 22px; 
-            margin: 28px 0 15px;   
-        }
-        a{
-            color: var(--BJS-Mid-Gray, #747E87);
-            font-family: "Gotham Book";
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            text-decoration-line: underline;        
-        }
-        .weUsed{
-            padding: 0 28px;
-        }
-        .colm1{
-            padding: 20px 0 25px;
-            margin: 0 auto;
-            max-width: 100%;
-        }
-
+.caseStudy-main {
+  .caseColm {
+    //padding: 0 100px;
+    p {
+      color: var(--bjs-dark-tone-copy, #24292c);
+      font-family: "Gotham Book";
+      font-size: 14px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 18px;
     }
-    .slick-prev{
-        top: -11%;
-        right: 2.5%;
-        left: auto;
-        &:before {
-        content: "" !important;
-        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAtCAYAAACqCZtVAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJuSURBVHgB7ZbNbhJRFMfPnY7CxgTfoI/ATqAKTCBpl7Drru0TOE1RA6n0VipEK0KfoLh01bpsGuygEbqTPoEscVeXVWaO547MhI5QhplumvDfDOd+/Li55+sCzDXX3dcC+FCuWN6JJdJaLJ761f7SPB+dk8CjBBSAcdNgbM05L4MHbRUrT+nDLRt12HSumfnEz7fLGQZQt2wDYaP6Oq/5Aj/jb8O6xA4tGxF235fyjXFrGbjUC15ZHBhwRhsWLWi1lOeT1rsCO6HMwIP9vYJ6056pYJXz0IIR+G5DGRzv7+az0/bJ06Cycf8MhlC6gO4f9nsDXOhG593TAzU6Y9hEAvQGEsvWOb8EP+DcTqWGDNYtqC6BUuf5HrjUWLCZVQiqV+hY8GiqEvRSkhays0KFrkXFVrG8xoA1LBsNzFb3CsfgQTZYxKpuwA97BnHzXalQB4+yr8IAIwS3KLset7XP/QjVVcbYijlA36iSbnW0Zg886Fqh71CxjsbTxIakyUbILC0tn7S/nvZhRv3XQQiuRROph+TECJlBlHAlrqQ/fdOarhLD0sRakduuNMgDZmcQsSxTLL/xmyBCA/lKJEh3+O8UMXikqty1gyeCRU0YSFeKOO2/ERaWHwSOwC/Ygot0tuHk1NzLSg1caGr7PyenPSLnUYSs05UECR6JJVLQbjVbvsAW/LGyfIKIqyYcWHLcW2JmsFBbO+1TjP+kGM+YAyKBEqlep9W88AUWohjvjmYnxXpyUgLN/MRyZGcQJFx9oqQ/OhPI0xNLtH0EPBiaIV2HQ+caz2+36itq/wZ8EL8Z4gXctlSq4zDXXK70F0xx9Ih/NsARAAAAAElFTkSuQmCC);
-        width: 22px;
-        height: 44px;
-        display: block;
-        background-size: contain;
-        background-repeat: no-repeat;
-        }
+    p.explain {
+      color: var(--BJS-Mid-Gray, #747e87);
+      font-style: normal;
     }
-    .slick-next{
-        top: -11%;
-        right: 0%;
-        &:before {
-        content: "" !important;
-        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAtCAYAAACqCZtVAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJOSURBVHgB7ZXNTttAFIXvnYTCplUeIX0DWJW/JrESCZZh1x3wBLXalCoVPxNRJWpRwX0C6BuUJUIWCYiky7DrMt3RHeoure3pjGMXN7bJ2GaDlLPJzOTmy/jMPWOAscZ6+EoNL1S26zvz+VJzPl+EdktvQUwR3wrDwmCAVPwJ3BeYWVC7nSF9vV1fhRjyWdG50HuzudIPRCjbaMDy4vPi1eW5/h0iKBW02DnXu3O5EnJ4QcwZ4vLCwtJJ++L0GpKAHXjTA59ihC3nlNLxZVO/AQnhqALuscbteCnGDKCXJqB8oNVeYrBQZbNxxI951YWbv/ozmkbv3DkBCRnpvso/us5Osuknj85UlWYSgzVKbwzSV8RuBys4PfF48iAx2IWb3F8XzhDWKluNUHgKIugb74hnvDOQwRq3ZIr7MhsW/UhgF76oLJ0wxl7YcMBCEDwyWKjdPL3mPf7TTaeAz+WLvU5Lv3JrpNotTK+26ipB/OezQeCp5vS49OEFiceShX0XG7yxWS/zx9XcOWNQ0zyJjGXFG/px2rLMM/7jjAv9tFul3prI4Le0kTUsENCsDbDY573379ThukhgHxTh616tuhJUmwZJqZRmvFBuQPcP/l4Pq5c+vAlz8tCFilgbBFdEzBOBKzuNA+aEwb42+Z2hjbiTR3o8eFMjdaDiIprRJC56Igu1i0lKkYEKhR7e4LV/C7UYrO/TjS5IKnDHIgAc+l+q9nerRxBBPo+HezUoVTLy7dg04dCbqjjQQLAF7NgZfAmKaiKp3A4Ya6x7119TeOqvMzydwQAAAABJRU5ErkJggg==);
-        width: 22px;
-        height: 44px;
-        display: block;
-        background-size: contain;
-        background-repeat: no-repeat;
-        }
+    h3 {
+      color: var(--BJS-Light-Gray, #c5d1dc);
+      text-align: right;
+      font-family: "Gotham Book";
+      font-size: 38px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 38px;
+      letter-spacing: 0.6px;
     }
+    h4 {
+      color: var(--bjs-dark-tone-copy, #24292c);
+      font-family: "Gotham Medium";
+      font-size: 16px;
+      font-style: italic;
+      font-weight: 500;
+      line-height: 22px;
+      margin: 28px 0 15px;
+    }
+    a {
+      color: var(--BJS-Mid-Gray, #747e87);
+      font-family: "Gotham Book";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-decoration-line: underline;
+    }
+    .weUsed {
+      padding: 0 28px;
+    }
+    .colm1 {
+      padding: 20px 0 25px;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+  }
+  .slick-prev {
+    top: -11%;
+    right: 2.5%;
+    left: auto;
+    &:before {
+      content: "" !important;
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAtCAYAAACqCZtVAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJuSURBVHgB7ZbNbhJRFMfPnY7CxgTfoI/ATqAKTCBpl7Drru0TOE1RA6n0VipEK0KfoLh01bpsGuygEbqTPoEscVeXVWaO547MhI5QhplumvDfDOd+/Li55+sCzDXX3dcC+FCuWN6JJdJaLJ761f7SPB+dk8CjBBSAcdNgbM05L4MHbRUrT+nDLRt12HSumfnEz7fLGQZQt2wDYaP6Oq/5Aj/jb8O6xA4tGxF235fyjXFrGbjUC15ZHBhwRhsWLWi1lOeT1rsCO6HMwIP9vYJ6056pYJXz0IIR+G5DGRzv7+az0/bJ06Cycf8MhlC6gO4f9nsDXOhG593TAzU6Y9hEAvQGEsvWOb8EP+DcTqWGDNYtqC6BUuf5HrjUWLCZVQiqV+hY8GiqEvRSkhays0KFrkXFVrG8xoA1LBsNzFb3CsfgQTZYxKpuwA97BnHzXalQB4+yr8IAIwS3KLset7XP/QjVVcbYijlA36iSbnW0Zg886Fqh71CxjsbTxIakyUbILC0tn7S/nvZhRv3XQQiuRROph+TECJlBlHAlrqQ/fdOarhLD0sRakduuNMgDZmcQsSxTLL/xmyBCA/lKJEh3+O8UMXikqty1gyeCRU0YSFeKOO2/ERaWHwSOwC/Ygot0tuHk1NzLSg1caGr7PyenPSLnUYSs05UECR6JJVLQbjVbvsAW/LGyfIKIqyYcWHLcW2JmsFBbO+1TjP+kGM+YAyKBEqlep9W88AUWohjvjmYnxXpyUgLN/MRyZGcQJFx9oqQ/OhPI0xNLtH0EPBiaIV2HQ+caz2+36itq/wZ8EL8Z4gXctlSq4zDXXK70F0xx9Ih/NsARAAAAAElFTkSuQmCC);
+      width: 22px;
+      height: 44px;
+      display: block;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+  .slick-next {
+    top: -11%;
+    right: 0%;
+    &:before {
+      content: "" !important;
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAtCAYAAACqCZtVAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJOSURBVHgB7ZXNTttAFIXvnYTCplUeIX0DWJW/JrESCZZh1x3wBLXalCoVPxNRJWpRwX0C6BuUJUIWCYiky7DrMt3RHeoure3pjGMXN7bJ2GaDlLPJzOTmy/jMPWOAscZ6+EoNL1S26zvz+VJzPl+EdktvQUwR3wrDwmCAVPwJ3BeYWVC7nSF9vV1fhRjyWdG50HuzudIPRCjbaMDy4vPi1eW5/h0iKBW02DnXu3O5EnJ4QcwZ4vLCwtJJ++L0GpKAHXjTA59ihC3nlNLxZVO/AQnhqALuscbteCnGDKCXJqB8oNVeYrBQZbNxxI951YWbv/ozmkbv3DkBCRnpvso/us5Osuknj85UlWYSgzVKbwzSV8RuBys4PfF48iAx2IWb3F8XzhDWKluNUHgKIugb74hnvDOQwRq3ZIr7MhsW/UhgF76oLJ0wxl7YcMBCEDwyWKjdPL3mPf7TTaeAz+WLvU5Lv3JrpNotTK+26ipB/OezQeCp5vS49OEFiceShX0XG7yxWS/zx9XcOWNQ0zyJjGXFG/px2rLMM/7jjAv9tFul3prI4Le0kTUsENCsDbDY573379ThukhgHxTh616tuhJUmwZJqZRmvFBuQPcP/l4Pq5c+vAlz8tCFilgbBFdEzBOBKzuNA+aEwb42+Z2hjbiTR3o8eFMjdaDiIprRJC56Igu1i0lKkYEKhR7e4LV/C7UYrO/TjS5IKnDHIgAc+l+q9nerRxBBPo+HezUoVTLy7dg04dCbqjjQQLAF7NgZfAmKaiKp3A4Ya6x7119TeOqvMzydwQAAAABJRU5ErkJggg==);
+      width: 22px;
+      height: 44px;
+      display: block;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+}
 
+@media screen and (max-width: 1600px) {
+  .caseStudy-main {
+    .caseColm {
+      h3 {
+        font-size: 30px;
+        line-height: 35px;
+        letter-spacing: 0.5px;
+      }
+    }
+  }
+}
 
+@media screen and (max-width: 1450px) {
+  .caseStudy-main {
+    .caseColm {
+      h3 {
+        font-size: 26px;
+        line-height: 30px;
+      }
+      p {
+        font-size: 13px;
+        line-height: 16px;
+      }
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .caseStudy-main {
+    .caseColm {
+      h3 {
+        font-size: 22px;
+        line-height: 25px;
+      }
+    }
+  }
 }
