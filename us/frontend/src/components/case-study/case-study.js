@@ -2,10 +2,6 @@ import React from 'react';
 import "./case-study.scss";
 import Slider from "react-slick";
 
-
-
-
-
 const CaseStudy = () => {
 
   var settings = {
@@ -38,7 +34,7 @@ const CaseStudy = () => {
                 <div className='col-md-5'>
                     <img className='w-100' src={process.env.PUBLIC_URL + "/images/julian.jpg"} alt="" /> 
                 </div>
-                <div className='col-md-7 text-start ps-4'>
+                <div className='col-md-7 text-start ps-4 caseText'>
                     <img src={process.env.PUBLIC_URL + "/images/caseFrame.png"} alt="" /> 
                     <h4>I first saw one of the BJS vans when they made a delivery to our office </h4>
                     <p>It’s not just that BJS Home Delivery look fantastic, their coverage is great too and the automation side of things – with choice for the our customers and tracking portals – has really helped our business to grow.</p>
@@ -66,7 +62,7 @@ const CaseStudy = () => {
                 <div className='col-md-5'>
                     <img className='w-100' src={process.env.PUBLIC_URL + "/images/julian.jpg"} alt="" /> 
                 </div>
-                <div className='col-md-7 text-start ps-4'>
+                <div className='col-md-7 text-start ps-4 caseText'>
                     <img src={process.env.PUBLIC_URL + "/images/caseFrame.png"} alt="" /> 
                     <h4>I first saw one of the BJS vans when they made a delivery to our office </h4>
                     <p>It’s not just that BJS Home Delivery look fantastic, their coverage is great too and the automation side of things – with choice for the our customers and tracking portals – has really helped our business to grow.</p>

@@ -79,43 +79,127 @@
   }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width:1600px) {
   .caseStudy-main {
-    .caseColm {
-      h3 {
-        font-size: 30px;
-        line-height: 35px;
-        letter-spacing: 0.5px;
+
+      .caseColm {
+          h3 {
+              font-size: 30px;
+              line-height: 35px;
+              letter-spacing: 0.5px;
+          }
       }
-    }
   }
+  
+} 
+
+@media screen and (max-width:1450px) {
+  .caseStudy-main {
+
+      .caseColm {
+          h3 {
+              font-size: 26px;
+              line-height: 30px;
+          }
+          p {
+              font-size: 13px;
+              line-height: 16px;
+          }
+          a{
+              font-size: 14px;
+          }
+          
+          
+      }
+  }
+  
 }
 
-@media screen and (max-width: 1450px) {
+
+@media screen and (max-width:1024px) {
   .caseStudy-main {
-    .caseColm {
-      h3 {
-        font-size: 26px;
-        line-height: 30px;
+
+      .caseColm {
+          h3 {
+              font-size: 22px;
+              line-height: 25px;
+          }
+    
       }
-      p {
-        font-size: 13px;
-        line-height: 16px;
-      }
-      a {
-        font-size: 14px;
-      }
-    }
   }
+  
 }
 
-@media screen and (max-width: 1450px) {
+
+@media screen and (max-width:825px) {
   .caseStudy-main {
-    .caseColm {
-      h3 {
-        font-size: 22px;
-        line-height: 25px;
+
+      .caseColm {
+          h3 {
+              font-size: 20px;
+              line-height: 22px;
+          }
+          h4 {
+              font-size: 15px;
+              line-height: 20px;
+              margin: 20px 0 10px;
+          }
+          .caseText {
+              img {
+              width: 35px;
+              }
+          }
+   
       }
-    }
+      .slick-prev {
+          right: 3.5%;
+          &:before{
+              width:15px;
+          }
+      }
+      .slick-next{
+          &:before{
+              width: 15px;
+          }
+      }
   }
+  
+}
+
+
+@media screen and (max-width:780px) {
+
+.caseStudy-main {
+  .caseColm {
+      .colm1 {
+          padding: 10px 0 18px;
+      .col-md-2{
+          width: 150px;
+          margin: 10px 0;
+          padding: 0;
+      }
+      }
+      .weUsed {
+          padding: 0;
+      }
+      .caseText {
+          padding: 25px 20px;
+      }
+  }
+  .slick-next, .slick-prev{
+      top:-4%;
+  }
+}
+  
+}
+
+
+@media screen and (max-width:500px) {
+
+  .caseStudy-main {
+      .slick-prev {
+          right: 5%;
+      }
+  }
+  
 }

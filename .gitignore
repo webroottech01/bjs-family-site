@@ -5,9 +5,20 @@
 
 # Node artifact files
 node_modules/
-
+components/
+docker/
+pages/
+public/
+subsidiary-config/
 dist/
-
+bitbucket-pipelines.yml
+imageloader.js
+next-env.d.ts
+next-config.jsold.babelrc
+post.config.json
+react-recaptcha-v3.d.ts
+tsconfig.json
+yarn.lock
 .npmrc
 # Compiled Java class files
 *.class
