@@ -250,13 +250,13 @@ const Servicepage = () => {
 
       <div className='heartFelt'>
                 <div className='row'>
-                    <div className='col-6 heartFeltCustomer'>
+                    <div className='col-lg-6 col-md-12 col-sm-12 heartFeltCustomer'>
                     <h2 className='text-start'>what our customers think</h2>
 
                         <Testimonials />
 
                     </div>
-                    <div className='col-6 heartFeltContent'>
+                    <div className='col-lg-6 col-md-12 col-sm-12 heartFeltContent'>
                         <h2>Heart Felt</h2>
                         <p>BJS is a corporate built on compassionate values; named after Baba Jaswant Singh Ji - who remains the spiritual inspiration and guidance behind the brand after his death in 2020 – BJS has an authentic desire to make a lasting and positive impact on the world. </p>
                         <Link to="/our-values">Our Values</Link>
