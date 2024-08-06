@@ -20,10 +20,15 @@ const omitDuplicates = [
 /** @type {import('next').NextConfig} */
 module.exports = withBundleAnalyzer(withPreact({
   reactStrictMode: true,
-
+  output: "export",
   swcMinify: true,
+  siteUrl: 'https://bjs.deyofo.com', // Replace with your site URL
+  generateRobotsTxt: true, // (optional)
 
   images: {
+    loader: "custom",
+    loaderFile: "./imageloader.js",
+    unoptimized: true,
     minimumCacheTTL: 86400,
     formats: [//'image/avif',
      'image/webp'],
@@ -36,8 +41,8 @@ module.exports = withBundleAnalyzer(withPreact({
     styledComponents: true
   },
   experimental: {
-    outputStandalone: true
-  },
+    outputStandalone: false
+  }, 
 
   async rewrites() {
     return [

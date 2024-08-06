@@ -51,8 +51,8 @@ Thumbs.db
 *.wmv
 
 # Next Server
-.next
-
+.next/
+.next 
 .vscode
 
 .env
@@ -60,5 +60,5 @@ Thumbs.db
 public/sitemap.xml
 
 us/frontend/node_modules/
-us/frontend/package-lock.json
+us/frontend/package-lock.json 
 us/frontend/.env

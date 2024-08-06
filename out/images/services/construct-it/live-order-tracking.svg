@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65.803" height="58.216" viewBox="0 0 65.803 58.216">
+  <g id="Live_Order_Tracking" data-name="Live Order Tracking" transform="translate(-211.505 -109.768)">
+    <rect id="Rectangle_413" data-name="Rectangle 413" width="65.803" height="40.375" transform="translate(211.505 127.609)" fill="#2c3135"/>
+    <path id="Path_5" data-name="Path 5" d="M280.615,213.129V210.65h-9.128V202.9h-2.479v7.754H252.756V202.9h-2.479v7.754H225.211V202.9h-2.479v7.754h-7.92v2.479h7.92v9.641h-7.92v2.479h7.92v10.329h-7.92v2.479h21.28v5.214h2.479v-5.214h11.706v5.214h2.479v-5.214h27.859v-2.479H252.756V225.248h27.859v-2.479h-9.128v-9.641Zm-30.338,0v3.03H225.211v-3.03Zm-25.065,5.509h25.065v4.132H225.211Zm0,16.94V225.248h10.88v10.329Zm25.065,0H238.57V225.248h11.706Zm18.73-12.808H252.756v-9.641h16.251Z" transform="translate(-3.307 -75.287)" fill="#e6e6e6"/>
+    <path id="Path_6" data-name="Path 6" d="M368.506,121.649c0,6.565-11.887,21.19-11.887,21.19s-11.887-14.625-11.887-21.19a11.887,11.887,0,0,1,23.774,0Z" transform="translate(-108.337)" fill="#e4e428"/>
+    <path id="Path_7" data-name="Path 7" d="M389.284,146.155a5.434,5.434,0,1,1-5.434-5.434,5.434,5.434,0,0,1,5.434,5.434Z" transform="translate(-135.568 -25.023)" fill="#2c3135"/>
+    <circle id="Ellipse_48" data-name="Ellipse 48" cx="3.204" cy="3.204" r="3.204" transform="translate(245.077 145.009)" fill="#e4e428"/>
+  </g>
+</svg>

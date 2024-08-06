@@ -189,7 +189,7 @@ const Header = () => {
                     bespoke forage jean shorts blackbird spyplane helvetica
                     edison bulb eiusmod scenester.
                   </p>
-                  <a href="#" className="otherregion">
+                  <a href="https://bjsfamily.com/" className="otherregion">
                     Switch to UK Site
                   </a>
                 </div>

@@ -42,6 +42,10 @@
                     border-bottom: 2px solid var(--BJS-Yellow, #feba30);
                     text-decoration: none;
                 }
+                .iconMain {
+                    margin-left: 10px;
+                    filter: brightness(0.5);
+                }
             }
         }
     }

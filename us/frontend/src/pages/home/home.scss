@@ -1,1086 +1,1091 @@
 .bannerSection {
-    background: url(../../../public/images/banner.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  background: url(../../../public/images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
-    .container {
-        max-width: 1180px;
-        padding-top: 37px;
-
-        p {
-            font-family: "Gotham book";
-            font-size: 20px;
-            font-weight: 400;
-            line-height: 26px;
-            text-align: center;
-            margin: 0px;
-            color: #fff;
-        }
-
-        h1 {
-            font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
-            font-size: 180px;
-            font-weight: 700;
-            text-align: center;
-            text-transform: uppercase;
-            color: #faa00e;
-            margin-top: 10px;
-            line-height: 80px;
-        }
-
-        h5 {
-            position: absolute;
-            right: 52px;
-            bottom: -123px;
-            text-transform: uppercase;
-            font-size: 104px;
-            font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
-            transform: rotate(-7deg);
-            color: #73c8ef;
-        }
-
-        .maintextouter {
-            position: relative;
-        }
-    }
-
-    .bannerButtons {
-        margin-top: 30%;
-        padding-bottom: 64px;
-
-        .container {
-            max-width: 567px;
-        }
-
-        button {
-            border-radius: 66px;
-            border: 1px 0px 0px 0px;
-            opacity: 0px;
-            background: transparent;
-            width: 100%;
-            border: #fff 1px solid;
-        }
-        button:hover {
-            background: #fff;
-            color: #000;
-            a {
-                color: #000;
-            }
-        }
-
-        .bjsServices {
-            background: #24292C !important;
-            text-transform: uppercase;
-            border: 0px;
-            span {
-                color: #feba30;
-            }
-
-            a {
-                font-size: 27px;
-                font-family: 'Gotham Bold';
-            }
-        }
-        .bjsServices:hover {
-            background: #feba30 !important;
-            span {
-                color: #24292C;
-            }
-            a {
-                color: #fff;
-            }
-        }
-
-        a {
-            font-family: 'Gotham Book';
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 51px;
-            text-align: left;
-            text-decoration: none;
-            color: #ffffff;
-            background: transparent;
-        }
-    }
-}
-
-.homeDeliverSection {
-    .container {
-        max-width: 1720px;
-    }
-}
-
-.leftContent {
-    margin-top: 80px;
-    text-align: left;
-
-    h2 {
-        font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
-        font-size: 100px;
-        font-weight: 700;
-        line-height: 95.5px;
-        text-align: left;
-        text-transform: uppercase;
-        color: #73c8ef;
-    }
-
-    span {
-        color: #fbc22b;
-    }
+  .container {
+    max-width: 1180px;
+    padding-top: 37px;
 
     p {
-        width: 600px;
-        margin-top: 20px;
-        color: #24292C;
-        text-align: justify;
-        font-family: 'Gotham Book';
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 22px;
+      font-family: "Gotham book";
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 26px;
+      text-align: center;
+      margin: 0px;
+      color: #fff;
     }
 
-    .moreinfo {
-        margin-top: 40px;
+    h1 {
+      font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
+      text-transform: uppercase;
+      color: #faa00e;
+      font-size: 180px;
+      font-weight: 700;
+      line-height: normal;
+      margin-top: -30px;
+      text-align: center;
+    }
+
+    h5 {
+      text-align: right;
+      bottom: 45px;
+      color: #73c8ef;
+      font-size: 104px;
+      position: relative;
+      right: 50px;
+      transform: rotate(-7deg);
+      line-height: normal;
+      font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
+      text-transform: uppercase;
+    }
+
+    .maintextouter {
+      position: relative;
+    }
+  }
+
+  .bannerButtons {
+    margin-top: 30%;
+    padding-bottom: 64px;
+
+    .container {
+      max-width: 567px;
     }
 
     button {
-        padding: 16px 30px;
-        border-radius: 66px;
-        opacity: 0px;
-        color: #24292C;
-        font-family: "Gotham Bold";
-        text-transform: uppercase;
-        border: 0px;
-        background: #feba30;
+      border-radius: 66px;
+      background: transparent;
+      width: 100%;
+      border: #fff 1px solid;
     }
     button:hover {
-        background: #24292C;
-        color: #fff;
+      background: #fff;
+      color: #000;
+      a {
+        color: #000;
+      }
     }
 
-    .muchmore {
-        font-family: Gotham Book;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 13.4px;
-        text-align: left;
-        color: #000;
+    .bjsServices {
+      background: #24292c !important;
+      text-transform: uppercase;
+      border: 0px;
+      span {
+        color: #feba30;
+      }
+
+      a {
+        font-size: 27px;
+        font-family: "Gotham Bold";
+      }
     }
+    .bjsServices:hover {
+      background: #feba30 !important;
+      span {
+        color: #24292c;
+      }
+      a {
+        color: #fff;
+      }
+    }
+
+    a {
+      font-family: "Gotham Book";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 51px;
+      text-align: left;
+      text-decoration: none;
+      color: #ffffff;
+      background: transparent;
+    }
+  }
+}
+
+.homeDeliverSection {
+  .container {
+    max-width: 1720px;
+  }
+}
+
+.leftContent {
+  margin-top: 80px;
+  text-align: left;
+
+  h2 {
+    font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 95.5px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #73c8ef;
+  }
+
+  span {
+    color: #fbc22b;
+  }
+
+  p {
+    width: 600px;
+    margin-top: 20px;
+    color: #24292c;
+    text-align: justify;
+    font-family: "Gotham Book";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  .moreinfo {
+    margin-top: 40px;
+  }
+
+  button {
+    padding: 16px 30px;
+    border-radius: 66px;
+    color: #24292c;
+    font-family: "Gotham Bold";
+    text-transform: uppercase;
+    border: 0px;
+    background: #feba30;
+  }
+  button:hover {
+    background: #24292c;
+    color: #fff;
+  }
+
+  .muchmore {
+    font-family: Gotham Book;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 13.4px;
+    text-align: left;
+    color: #000;
+  }
 }
 
 .twoparts {
+  margin-top: 10px;
+
+  b {
+    font-family: "Eveleth Dot";
+    font-size: 14px;
+    font-weight: 950;
+    line-height: 19.38px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #24292c;
+    font-weight: normal;
+  }
+
+  ul {
+    padding: 0px 0 0 22px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+  }
+
+  li::marker {
+    color: #fbc22b;
+    font-size: 19px;
+  }
+
+  li {
+    color: #24292c;
+    font-family: Gotham Book;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 13.4px;
+    text-align: left;
     margin-top: 10px;
-
-    b {
-        font-family: "Eveleth Dot";
-        font-size: 14px;
-        font-weight: 950;
-        line-height: 19.38px;
-        text-align: left;
-        text-transform: uppercase;
-        color: #24292C;
-        font-weight: normal;
-    }
-
-    ul {
-        padding: 0px 0 0 22px;
-        margin-bottom: 25px;
-        margin-top: 15px;
-    }
-
-    li::marker {
-        color: #fbc22b;
-        font-size: 19px;
-    }
-
-    li {
-        color: #24292C;
-        font-family: Gotham Book;
-        font-size: 14px;
-        font-weight: 400;
-        line-height: 13.4px;
-        text-align: left;
-        margin-top: 10px;
-    }
+  }
 }
 
 .bjsDifferentSec {
-    .different-technology {
-        .section-content {
-            margin: 0;
-            background: linear-gradient(289deg, #70c6f0 0%, #73c8ef 100%);
-            .left-column-sc {
-                h2 {
-                    color: #24292C;
-                }
-                p {
-                    color: #24292C;
-                }
-                a {
-                    color: #73c8ef;
-                }
-                a:hover {
-                    color: #24292c;
-                }
-            }
+  .different-technology {
+    .section-content {
+      margin: 0;
+      background: linear-gradient(289deg, #70c6f0 0%, #73c8ef 100%);
+      .left-column-sc {
+        h2 {
+          color: #24292c;
         }
-        .left-column-sc {
-            background: linear-gradient(289deg, #70c6f0 0%, #73c8ef 100%);
+        p {
+          color: #24292c;
         }
+        a {
+          color: #73c8ef;
+        }
+        a:hover {
+          color: #24292c;
+        }
+      }
     }
+    .left-column-sc {
+      background: linear-gradient(289deg, #70c6f0 0%, #73c8ef 100%);
+    }
+  }
 }
 
 .newsPartners {
-    max-width: 1700px;
-    margin: 0 auto;
-    padding: 60px 0;
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 60px 0;
 
-    h2 {
-        color: #919495;
-        font-family: "Eveleth Dot";
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 950;
-        line-height: normal;
-        position: relative;
-        margin: 0 auto 40px;
-        &:before {
-            content: "";
-            position: absolute;
-            width: 43%;
-            background: #d1d6d8;
-            height: 1px;
-            left: 0;
-            top: 12px;
-        }
-        &:after {
-            content: "";
-            position: absolute;
-            width: 43%;
-            background: #d1d6d8;
-            height: 1px;
-            right: 0;
-            top: 13px;
-        }
+  h2 {
+    color: #919495;
+    font-family: "Eveleth Dot";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 950;
+    line-height: normal;
+    position: relative;
+    margin: 0 auto 40px;
+    &:before {
+      content: "";
+      position: absolute;
+      width: 43%;
+      background: #d1d6d8;
+      height: 1px;
+      left: 0;
+      top: 12px;
     }
+    &:after {
+      content: "";
+      position: absolute;
+      width: 43%;
+      background: #d1d6d8;
+      height: 1px;
+      right: 0;
+      top: 13px;
+    }
+  }
 }
 
 .beliefDevine {
-    padding: 100px 0;
-    .container {
-        max-width: 1800px !important;
-        width: 100%;
+  padding: 100px 0;
+  .container {
+    max-width: 1800px !important;
+    width: 100%;
+  }
+  .leftContent {
+    margin-top: 0;
+    button {
+      border-radius: 66px;
+      background: var(--BJS-Mid-Gray, #747e87);
+      color: #fff;
     }
-    .leftContent {
-        margin-top: 0;
-        button {
-            border-radius: 66px;
-            background: var(--BJS-Mid-Gray, #747e87);
-            color: #fff;
-        }
-        button:hover {
-            background: #feba30;
-            color: #000;
-        }
+    button:hover {
+      background: #feba30;
+      color: #000;
     }
-    h2 {
-        color: #24292C;
-        font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
-        font-size: 60px;
+  }
+  h2 {
+    color: #24292c;
+    font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+    margin-bottom: 20px !important;
+  }
+  p {
+    color: #24292c;
+    font-family: "Gotham Book";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+    width: 94%;
+    margin-bottom: 0;
+    text-align: left;
+  }
+  .comaImg {
+    margin-top: 40px;
+  }
+  .twoparts {
+    p {
+      color: var(--BJS-Mid-Gray, #747e87);
+      font-family: "Gotham Book";
+      font-size: 15px;
+      font-style: italic;
+      font-weight: 400;
+      line-height: 20px; /* 133.333% */
+      text-align: left;
+      width: 93%;
+    }
+    .authorDetailing {
+      img {
+        margin: 0;
+        width: 140px;
+      }
+      h3 {
+        color: #000;
+        font-family: "Gotham Bold";
+        font-size: 16px;
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-        width: 100%;
-        margin-bottom: 20px !important;
-    }
-    p {
-        color: #24292C;
+      }
+      p {
+        color: var(--BJS-Mid-Gray, #747e87);
         font-family: "Gotham Book";
-        font-size: 16px;
+        font-size: 14px;
         font-style: normal;
         font-weight: 400;
-        line-height: 22px; /* 137.5% */
-        width: 94%;
-        margin-bottom: 0;
-        text-align: left;
+        line-height: normal;
+      }
     }
-    .comaImg {
-        margin-top: 40px;
-    }
-    .twoparts {
-        p {
-            color: var(--BJS-Mid-Gray, #747e87);
-            font-family: "Gotham Book";
-            font-size: 15px;
-            font-style: italic;
-            font-weight: 400;
-            line-height: 20px; /* 133.333% */
-            text-align: left;
-            width: 93%;
-        }
-        .authorDetailing {
-            img {
-                margin: 0;
-                width: 140px;
-            }
-            h3 {
-                color: #000;
-                font-family: "Gotham Bold";
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: normal;
-            }
-            p {
-                color: var(--BJS-Mid-Gray, #747e87);
-                font-family: "Gotham Book";
-                font-size: 14px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: normal;
-            }
-        }
-    }
+  }
 }
 
 .heartFelt {
+  .row {
+    width: 100%;
+  }
+  .heartFeltContent {
+    padding: 94px 60px 100px;
+    background-image: url("/../public/images/heartfeltBg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    h2 {
+      color: #fff;
+      text-align: center;
+      font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
+      font-size: 200px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      transform: rotate(-4.992deg);
+    }
+    p {
+      color: #fff;
+      text-align: center;
+      text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+      font-family: "Gotham Book";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 26px;
+      margin: 40px auto 0;
+      width: 84%;
+    }
+    button {
+      color: var(--BJS-Yellow, #feba30);
+      font-family: "Eveleth Dot";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 950;
+      line-height: normal;
+      border-radius: 66px;
+      background: #fff;
+      padding: 20px 40px;
+      border: none;
+      margin-top: 60px;
+    }
+  }
+  .heartFeltCustomer {
+    padding: 60px;
+    background: linear-gradient(289deg, #e4e4e4 0%, #f6f6f6 100%);
+    .testimonialslider {
+      h3 {
+        color: #000;
+      }
+      .testimonialDescription {
+        color: #000;
+      }
+      .slick-prev {
+        left: 90%;
+      }
+      .trustpilot {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        p {
+          margin: 0;
+        }
+      }
+      .testimonialAuthor {
+        margin: 0 0 196px 0;
+      }
+      .slick-dots {
+        position: absolute;
+        top: 229px;
+      }
+    }
+
+    h2 {
+      color: #24292c;
+      font-size: 22px;
+      font-style: normal;
+      line-height: normal;
+      font-family: "Eveleth Dot";
+      padding: 10.5px 0 15px;
+      margin: 0;
+      border-bottom: 1px solid var(--BJS-Light-Gray, #c5d1dc);
+    }
+  }
+}
+/***********Responsive*************/
+/***********Screen Size 1800px*************/
+@media only screen and (max-width: 1800px) {
+  .beliefDevine {
+    .container {
+      max-width: 1540px !important;
+    }
+  }
+  .homeDeliverSection {
+    .container {
+      max-width: 1540px;
+    }
+  }
+  .newsPartners {
+    max-width: 1520px;
+  }
+}
+/***********Screen Size 1600px*************/
+@media only screen and (max-width: 1600px) {
+  .homeDeliverSection {
+    .container {
+      max-width: 1400px;
+    }
+  }
+  .newsPartners {
+    max-width: 1370px;
+  }
+  .leftContent {
+    h2 {
+      font-size: 92px;
+      line-height: 90.5px;
+    }
+  }
+  .beliefDevine {
+    .container {
+      max-width: 1400px !important;
+    }
+    h2 {
+      font-size: 60px;
+      line-height: normal;
+    }
+  }
+}
+/***********Screen Size 1400px*************/
+@media only screen and (max-width: 1400px) {
+  .bannerSection {
+    .container {
+      h1 {
+        font-size: 140px;
+      }
+      h5 {
+        right: 126px;
+        bottom: -95px;
+        font-size: 86px;
+        transform: rotate(355deg);
+      }
+      p {
+        font-size: 19px;
+        line-height: 25px;
+      }
+    }
+    .bannerButtons {
+      margin-top: 28%;
+      padding-bottom: 50px;
+      .bjsServices {
+        a {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+  .homeDeliverSection {
+    .container {
+      max-width: 1290px;
+    }
+  }
+  .leftContent {
+    margin-top: 60px;
+    h2 {
+      font-size: 84px;
+      line-height: 90.5px;
+    }
+    .moreinfo {
+      margin-top: 30px;
+    }
+    button {
+      padding: 14px 26px;
+      font-size: 15px;
+    }
+  }
+  .beliefDevine {
+    .container {
+      max-width: 1290px !important;
+    }
+    p {
+      font-size: 15px;
+      line-height: 20px;
+      width: 100%;
+    }
+    h2 {
+      font-size: 56px;
+      line-height: normal;
+    }
+    .comaImg {
+      margin-top: 30px;
+    }
+    .twoparts {
+      p {
+        font-size: 14px;
+        line-height: 19px;
+        width: 96%;
+        margin-top: 15px;
+      }
+      .authorDetailing {
+        gap: 15px !important;
+        img {
+          margin: 0;
+          width: 92px;
+        }
+      }
+    }
+  }
+  .newsPartners {
+    max-width: 1270px;
+  }
+  .heartFelt {
     .row {
-        width: 100%;
+      margin: 0 auto !important;
     }
     .heartFeltContent {
-        padding: 94px 60px 100px;
-        background-image: url("/../public/images/heartfeltBg.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        h2 {
-            color: #fff;
-            text-align: center;
-            font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
-            font-size: 200px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            transform: rotate(-4.992deg);
-        }
-        p {
-            color: #fff;
-            text-align: center;
-            text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
-            font-family: "Gotham Book";
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 26px;
-            margin: 40px auto 0;
-            width: 84%;
-        }
-        button {
-            color: var(--BJS-Yellow, #feba30);
-            font-family: "Eveleth Dot";
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 950;
-            line-height: normal;
-            border-radius: 66px;
-            background: #fff;
-            padding: 20px 40px;
-            border: none;
-            margin-top: 60px;
-        }
+      padding: 86px 50px 85px;
+      h2 {
+        font-size: 174px;
+      }
+      p {
+        font-size: 17px;
+        line-height: 24px;
+        width: 90%;
+      }
+      button {
+        font-size: 15px;
+        padding: 18px 38px;
+        margin-top: 55px;
+      }
     }
     .heartFeltCustomer {
-        padding: 60px;
-        background: linear-gradient(289deg, #e4e4e4 0%, #f6f6f6 100%);
-        .testimonialslider {
-            h3 {
-                color: #000;
-            }
-            .testimonialDescription {
-                color: #000;
-            }
-            .slick-prev {
-                left: 90%;
-            }
-            .trustpilot {
-                display: flex;
-                flex-direction: column;
-                align-items: start;
-                p {
-                    margin: 0;
-                }
-            }
-            .testimonialAuthor {
-                margin: 0 0 196px 0;
-            }
-            .slick-dots {
-                position: absolute;
-                top: 229px;
-            }
+      padding: 50px;
+      .testimonialslider {
+        .testimonialAuthor {
+          margin: 0 0 165px 0;
         }
-
-        h2 {
-            color: #24292c;
-            font-size: 22px;
-            font-style: normal;
-            line-height: normal;
-            font-family: "Eveleth Dot";
-            padding: 10.5px 0 15px;
-            margin: 0;
-            border-bottom: 1px solid var(--BJS-Light-Gray, #c5d1dc);
-        }
+      }
     }
+  }
 }
-/***********Responsive*************/ 
-/***********Screen Size 1800px*************/ 
-@media only screen and (max-width:1800px) {
-    .beliefDevine {
-        .container {
-            max-width: 1540px !important;
+/***********Screen Size 1300px*************/
+@media only screen and (max-width: 1300px) {
+  .bannerSection {
+    .container {
+      p {
+        font-size: 18px;
+        line-height: 24px;
+      }
+      h1 {
+        font-size: 120px;
+        line-height: 74px;
+      }
+      h5 {
+        right: 208px;
+        bottom: -80px;
+        font-size: 74px;
+      }
+    }
+    .bannerButtons {
+      margin-top: 24%;
+      padding-bottom: 45px;
+      a {
+        line-height: 46px;
+        font-size: 15px;
+      }
+      .bjsServices {
+        a {
+          font-size: 22px;
         }
+      }
     }
-    .homeDeliverSection{
-        .container {
-            max-width: 1540px;
+  }
+  .homeDeliverSection {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  .leftContent {
+    margin-top: 40px;
+    h2 {
+      font-size: 72px;
+      line-height: 74.5px;
+    }
+    p {
+      margin-top: 16px;
+      font-size: 15px;
+      line-height: 20px;
+    }
+    button {
+      padding: 12px 24px;
+      font-size: 14px;
+    }
+    .moreinfo {
+      margin-top: 20px;
+    }
+  }
+  .twoparts {
+    ul {
+      padding: 0px 0 0 18px;
+      margin-bottom: 20px;
+      margin-top: 10px;
+    }
+    li {
+      font-size: 13px;
+      line-height: 12.4px;
+      margin-top: 8px;
+    }
+  }
+  .beliefDevine {
+    padding: 80px 0;
+    .container {
+      max-width: 1140px !important;
+      margin-bottom: 20px !important;
+    }
+    h2 {
+      font-size: 56px;
+      line-height: normal;
+    }
+    p {
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 18px;
+    }
+    .comaImg {
+      margin-top: 15px;
+      width: 40px;
+    }
+    .twoparts {
+      p {
+        font-size: 13px;
+        line-height: 17px;
+        width: 100%;
+        margin-top: 10px;
+      }
+      .authorDetailing {
+        gap: 10px !important;
+        img {
+          width: 80px;
         }
+        h3 {
+          font-size: 15px;
+        }
+      }
     }
-    .newsPartners {
-        max-width: 1520px;
+  }
+  .newsPartners {
+    padding: 50px 0;
+    max-width: 1130px;
+    h2:before,
+    h2:after {
+      width: 41%;
     }
+  }
+  .heartFelt {
+    .heartFeltContent {
+      padding: 72px 35px 70px;
+      h2 {
+        font-size: 136px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 20px;
+        margin: 35px auto 0;
+      }
+      button {
+        font-size: 14px;
+        padding: 16px 36px;
+        margin-top: 55px;
+      }
+    }
+    .heartFeltCustomer {
+      padding: 35px;
+      h2 {
+        font-size: 20px;
+        padding: 10.5px 0 12px;
+      }
+      .testimonialslider {
+        .testimonialAuthor {
+          margin: 0 0 100px 0;
+        }
+      }
+    }
+  }
 }
-/***********Screen Size 1600px*************/ 
-@media only screen and (max-width:1600px) {
-    .homeDeliverSection {
-        .container {
-            max-width: 1400px;
-        }
+/***********Screen Size 1024px*************/
+@media only screen and (max-width: 1024px) {
+  .bannerSection {
+    .container {
+      h1 {
+        font-size: 104px;
+        line-height: 70px;
+      }
+      h5 {
+        right: 162px;
+        bottom: -68px;
+        font-size: 68px;
+      }
+      p {
+        font-size: 17px;
+        line-height: 22px;
+      }
     }
-    .newsPartners {
-        max-width: 1370px;
-    }
-    .leftContent {
-        h2 {
-            font-size: 92px;
-            line-height: 90.5px;
+    .bannerButtons {
+      margin-top: 20%;
+      padding-bottom: 45px;
+      a {
+        line-height: 44px;
+        font-size: 14px;
+      }
+      .bjsServices {
+        a {
+          font-size: 21px;
         }
+      }
     }
-    .beliefDevine {
-        .container {
-            max-width: 1400px !important;
-        }
-        h2 {
-            font-size: 60px;
-            line-height: normal;
-        }
+  }
+  .homeDeliverSection {
+    .container {
+      max-width: 960px;
     }
+  }
+  .leftContent {
+    margin-top: 20px;
+    h2 {
+      font-size: 58px;
+      line-height: 66.5px;
+    }
+    p {
+      margin-top: 10px;
+      font-size: 14px;
+      line-height: 18px;
+    }
+  }
+  .twoparts {
+    ul {
+      padding: 0px 0 0 18px;
+      margin-bottom: 15px;
+    }
+    .row {
+      margin: 0;
+      .col-8 {
+        width: 100%;
+      }
+      .col-4 {
+        width: 100%;
+      }
+    }
+  }
+  .beliefDevine {
+    padding: 65px 0;
+    .container {
+      max-width: 960px !important;
+      margin-bottom: 10px !important;
+    }
+    h2 {
+      font-size: 42px;
+      line-height: normal;
+    }
+  }
+  .heartFelt {
+    .heartFeltCustomer {
+      padding: 30px 25px;
+      h2 {
+        font-size: 19px;
+        padding: 8.5px 0 12px;
+      }
+      .testimonialslider {
+        .testimonialAuthor {
+          margin: 0 0 86px 0;
+        }
+      }
+    }
+    .heartFeltContent {
+      padding: 65px 30px 60px;
+      h2 {
+        font-size: 120px;
+      }
+      p {
+        font-size: 15px;
+        line-height: 19px;
+        width: 95%;
+      }
+    }
+  }
+  .newsPartners {
+    max-width: 980px;
+    h2:before,
+    h2:after {
+      width: 39%;
+    }
+  }
 }
-/***********Screen Size 1400px*************/ 
-@media only screen and (max-width:1400px) {
-    .bannerSection {
-        .container{
-            h1 {
-                font-size: 140px;
-            }
-            h5 {
-                right: 126px;
-                bottom: -95px;
-                font-size: 86px;
-                transform: rotate(355deg);
-            }
-            p {
-                font-size: 19px;
-                line-height: 25px;
-            }
-        }
-        .bannerButtons {
-            margin-top: 28%;
-            padding-bottom: 50px;
-            .bjsServices {
-                a {
-                    font-size: 25px;
-                }
-            }
-        }
+/***********Screen Size 820px*************/
+@media only screen and (max-width: 820px) {
+  .bannerSection {
+    .container {
+      p {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      h1 {
+        font-size: 78px;
+        line-height: 68px;
+      }
+      h5 {
+        right: 154px;
+        bottom: -42px;
+        font-size: 48px;
+      }
     }
-    .homeDeliverSection {
-        .container {
-            max-width: 1290px;
+    .bannerButtons {
+      margin-top: 18%;
+      padding-bottom: 40px;
+      .bjsServices {
+        a {
+          font-size: 20px;
         }
+      }
     }
-    .leftContent {
-        margin-top: 60px;
-        h2 {
-            font-size: 84px;
-            line-height: 90.5px;
-        }
-        .moreinfo {
-            margin-top: 30px;
-        }
-        button {
-            padding: 14px 26px;
-            font-size: 15px;
-        }
+  }
+  .homeDeliverSection {
+    .container {
+      max-width: 95%;
     }
-    .beliefDevine {
-        .container {
-            max-width: 1290px !important;
-        }
-        p {
-            font-size: 15px;
-            line-height: 20px;
-            width: 100%;
-        }
-        h2 {
-            font-size: 56px;
-            line-height: normal;
-        }
-        .comaImg {
-            margin-top: 30px;
-        }
-        .twoparts {
-            p {
-                font-size: 14px;
-                line-height: 19px;
-                width: 96%;
-                margin-top: 15px;
-            }
-            .authorDetailing {
-                gap: 15px !important;
-                img {
-                    margin: 0;
-                    width: 92px;
-                }
-            }
-        }
+  }
+  .beliefDevine {
+    .container {
+      max-width: 95% !important;
+      margin-bottom: 10px !important;
     }
-    .newsPartners {
-        max-width: 1270px;
+    h2 {
+      font-size: 42px;
+      line-height: normal;
     }
-    .heartFelt {
-        .row {
-            margin: 0 auto !important;
-        }
-        .heartFeltContent {
-            padding: 86px 50px 85px;
-            h2 {
-                font-size: 174px;
-            }
-            p {
-                font-size: 17px;
-                line-height: 24px;
-                width: 90%;
-            }
-            button {
-                font-size: 15px;
-                padding: 18px 38px;
-                margin-top: 55px;
-            }
-        }
-        .heartFeltCustomer {
-            padding: 50px;
-            .testimonialslider {
-                .testimonialAuthor {
-                    margin: 0 0 165px 0;
-                }
-            }
-        }
+    .twoparts {
+      .authorDetailing {
+        gap: 10px !important;
+        margin-top: 10px;
+      }
     }
+  }
+  .leftContent {
+    h2 {
+      font-size: 54px;
+      line-height: 60.5px;
+    }
+  }
+  .newsPartners {
+    max-width: 780px;
+    h2:before,
+    h2:after {
+      width: 38%;
+    }
+    h2 {
+      font-size: 18px;
+      margin: 0 auto 30px;
+    }
+  }
+  .heartFelt {
+    .heartFeltContent {
+      padding: 50px 30px 45px;
+      h2 {
+        font-size: 100px;
+      }
+      button {
+        padding: 14px 34px;
+        margin-top: 50px;
+      }
+    }
+  }
 }
-/***********Screen Size 1300px*************/ 
-@media only screen and (max-width:1300px) {
-    .bannerSection {
-        .container {
-            p {
-                font-size: 18px;
-                line-height: 24px;
-            }
-            h1 {
-                font-size: 120px;
-                line-height: 74px;
-            }
-            h5 {
-                right: 208px;
-                bottom: -80px;
-                font-size: 74px;
-            }
-        }
-        .bannerButtons {
-            margin-top: 24%;
-            padding-bottom: 45px;
-            a {
-                line-height: 46px;
-                font-size: 15px;
-            }
-            .bjsServices {
-                a {
-                    font-size: 22px;
-                }
-            }
-        }
+/***********Screen Size 768px*************/
+@media only screen and (max-width: 768px) {
+  .bannerSection {
+    .container {
+      h1 {
+        font-size: 68px;
+        line-height: 52px;
+      }
+      h5 {
+        right: 132px;
+        bottom: -44px;
+        font-size: 45px;
+      }
     }
-    .homeDeliverSection {
-        .container {
-            max-width: 1140px;
+    .bannerButtons {
+      margin-top: 20%;
+      padding-bottom: 35px;
+      .bjsServices {
+        a {
+          font-size: 19px;
         }
+      }
     }
-    .leftContent {
+  }
+  .leftContent {
+    h2 {
+      font-size: 48px;
+      line-height: 52.5px;
+    }
+    p {
+      width: 100%;
+    }
+  }
+  .beliefDevine {
+    padding: 55px 0;
+  }
+  .newsPartners {
+    max-width: 85%;
+    padding: 40px 0;
+    h2:before,
+    h2:after {
+      width: 35%;
+    }
+  }
+  .heartFelt {
+    .heartFeltContent {
+      h2 {
+        font-size: 86px;
+      }
+      button {
+        padding: 12px 30px;
         margin-top: 40px;
-        h2 {
-            font-size: 72px;
-            line-height: 74.5px;
-        }
-        p {
-            margin-top: 16px;
-            font-size: 15px;
-            line-height: 20px;
-        }
-        button {
-            padding: 12px 24px;
-            font-size: 14px;
-        }
-        .moreinfo {
-            margin-top: 20px;
-        }
+      }
     }
-    .twoparts {
-        ul {
-            padding: 0px 0 0 18px;
-            margin-bottom: 20px;
-            margin-top: 10px;
-        }
-        li {
-            font-size: 13px;
-            line-height: 12.4px;
-            margin-top: 8px;
-        }
-    }
-    .beliefDevine {
-        padding: 80px 0;
-        .container {
-            max-width: 1140px !important;
-            margin-bottom: 20px !important;
-        }
-        h2 {
-            font-size: 56px;
-            line-height: normal;
-        }
-        p {
-            margin-top: 10px;
-            font-size: 14px;
-            line-height: 18px;
-        }
-        .comaImg {
-            margin-top: 15px;
-            width: 40px;
-        }
-        .twoparts {
-            p {
-                font-size: 13px;
-                line-height: 17px;
-                width: 100%;
-                margin-top: 10px;
-            }
-            .authorDetailing {
-                gap: 10px !important;
-                img {
-                    width: 80px;
-                }
-                h3 {
-                    font-size: 15px;
-                }
-            }
-        }
-    }
-    .newsPartners {
-        padding: 50px 0;
-        max-width: 1130px;
-        h2:before, h2:after {
-            width: 41%;
-        }
-    }
-    .heartFelt {
-        .heartFeltContent {
-            padding: 72px 35px 70px;
-            h2 {
-                font-size: 136px;
-            }
-            p {
-                font-size: 16px;
-                line-height: 20px;
-                margin: 35px auto 0;
-            }
-            button {
-                font-size: 14px;
-                padding: 16px 36px;
-                margin-top: 55px;
-            }
-        }
-        .heartFeltCustomer {
-            padding: 35px;
-            h2 {
-                font-size: 20px;
-                padding: 10.5px 0 12px;
-            }
-            .testimonialslider {
-                .testimonialAuthor {
-                    margin: 0 0 100px 0;
-                }
-            }
-        }
-    }
+  }
 }
-/***********Screen Size 1024px*************/ 
-@media only screen and (max-width:1024px) {
-    .bannerSection {
-        .container {
-            h1 {
-                font-size: 104px;
-                line-height: 70px;
-            }
-            h5 {
-                right: 162px;
-                bottom: -68px;
-                font-size: 68px;
-            }
-            p {
-                font-size: 17px;
-                line-height: 22px;
-            }
+/***********Screen Size 668px*************/
+@media only screen and (max-width: 668px) {
+  .bannerSection {
+    .bannerButtons {
+      margin-top: 24%;
+      .bjsServices {
+        a {
+          font-size: 18px;
         }
-        .bannerButtons {
-            margin-top: 20%;
-            padding-bottom: 45px;
-            a {
-                line-height: 44px;
-                font-size: 14px;
-            }
-            .bjsServices {
-                a {
-                    font-size: 21px;
-                }
-            }
-        }
+      }
+      .row {
+        gap: 10px;
+      }
+      button {
+        width: 50%;
+      }
     }
-    .homeDeliverSection {
-        .container {
-            max-width: 960px;
-        }
-    }
-    .leftContent {
-        margin-top: 20px;
-        h2 {
-            font-size: 58px;
-            line-height: 66.5px;
-        }
-        p {
-            margin-top: 10px;
-            font-size: 14px;
-            line-height: 18px;
-        }
-    }
-    .twoparts {
-        ul {
-            padding: 0px 0 0 18px;
-            margin-bottom: 15px;
-        }
-        .row {
-            margin: 0;
-            .col-8 {
-                width: 100%;
-            }
-            .col-4 {
-                width: 100%;
-            }
-        }
-    }
-    .beliefDevine {
-        padding: 65px 0;
-        .container {
-            max-width: 960px !important;
-            margin-bottom: 10px !important;
-        }
-        h2 {
-            font-size: 42px;
-            line-height: normal;
-        }
-    }
-    .heartFelt {
-        .heartFeltCustomer {
-            padding: 30px 25px;
-            h2 {
-                font-size: 19px;
-                padding: 8.5px 0 12px;
-            }
-            .testimonialslider {
-                .testimonialAuthor {
-                    margin: 0 0 86px 0;
-                }
-            }
-        }
-        .heartFeltContent {
-            padding: 65px 30px 60px;
-            h2 {
-                font-size: 120px;
-            }
-            p {
-                font-size: 15px;
-                line-height: 19px;
-                width: 95%;
-            }
-        }
-    }
-    .newsPartners {
-        max-width: 980px;
-        h2:before,  h2:after {
-            width: 39%;
-        }
-    }
+  }
 }
-/***********Screen Size 820px*************/ 
-@media only screen and (max-width:820px) {
-    .bannerSection {
-        .container {
-            p {
-                font-size: 16px;
-                line-height: 20px;
-            }
-            h1 {
-                font-size: 78px;
-                line-height: 68px;
-            }
-            h5 {
-                right: 154px;
-                bottom: -42px;
-                font-size: 48px;
-            }
-        }
-        .bannerButtons {
-            margin-top: 18%;
-            padding-bottom: 40px;
-            .bjsServices {
-                a {
-                    font-size: 20px;
-                }
-            }
-        }
+/***********Screen Size 480px*************/
+@media only screen and (max-width: 480px) {
+  .bannerSection {
+    background-position: top;
+    .container {
+      h1 {
+        font-size: 44px;
+        line-height: 30px;
+      }
+      h5 {
+        right: 52px;
+        bottom: -40px;
+        font-size: 32px;
+      }
     }
-    .homeDeliverSection {
-        .container {
-            max-width: 95%;
-        }
+    .bannerButtons {
+      margin-top: 30%;
+      button {
+        width: 75%;
+      }
     }
-    .beliefDevine {
-        .container {
-            max-width: 95% !important;
-            margin-bottom: 10px !important;
-        }
-        h2 {
-            font-size: 42px;
-            line-height: normal;
-        }
-        .twoparts {
-            .authorDetailing {
-                gap: 10px !important;
-                margin-top: 10px;
-            }
-        }
+  }
+  .leftContent {
+    h2 {
+      font-size: 38px;
+      line-height: 46.5px;
     }
-    .leftContent {
-        h2 {
-            font-size: 54px;
-            line-height: 60.5px;
-        }
+    button {
+      width: 100%;
     }
-    .newsPartners {
-        max-width: 780px;
-        h2:before,  h2:after {
-            width: 38%;
-        }
-        h2 {
-            font-size: 18px;
-            margin: 0 auto 30px;
-        }
+  }
+  .beliefDevine {
+    padding: 45px 0;
+    h2 {
+      font-size: 34px;
+      line-height: normal;
     }
-    .heartFelt {
-        .heartFeltContent {
-            padding: 50px 30px 45px;
-            h2 {
-                font-size: 100px;
-            }
-            button {
-                padding: 14px 34px;
-                margin-top: 50px;
-            }
-        }
+  }
+  .newsPartners {
+    h2:before,
+    h2:after {
+      width: 22%;
     }
+  }
+  .heartFelt {
+    .heartFeltCustomer {
+      padding: 30px 15px;
+      h2 {
+        font-size: 18px;
+        padding: 8px 0 10px;
+        width: 80%;
+      }
+      .testimonialslider {
+        .slick-prev {
+          left: 80%;
+        }
+      }
+    }
+    .heartFeltContent {
+      padding: 40px 20px 35px;
+      h2 {
+        font-size: 62px;
+      }
+      p {
+        width: 100%;
+      }
+    }
+  }
 }
-/***********Screen Size 768px*************/ 
-@media only screen and (max-width:768px) {
-    .bannerSection {
-        .container {
-            h1 {
-                font-size: 68px;
-                line-height: 52px;
-            }
-            h5 {
-                right: 132px;
-                bottom: -44px;
-                font-size: 45px;
-            }
-        }  
-        .bannerButtons {
-            margin-top: 20%;
-            padding-bottom: 35px;
-            .bjsServices {
-                a {
-                    font-size: 19px;
-                }
-            }
-        } 
+@media only screen and (max-width: 350px) {
+  .newsPartners {
+    h2:before,
+    h2:after {
+      width: 20%;
     }
-    .leftContent {
-        h2 {
-            font-size: 48px;
-            line-height: 52.5px;
-        }
-        p {
-            width: 100%;
-        }
+  }
+  .bannerSection {
+    .bannerButtons {
+      margin-top: 38%;
+      button {
+        width: 100%;
+      }
     }
-    .beliefDevine {
-        padding: 55px 0;
+  }
+  .leftContent {
+    h2 {
+      font-size: 32px;
+      line-height: 40.5px;
     }
-    .newsPartners {
-        max-width: 85%;
-        padding: 40px 0;
-        h2:before,  h2:after {
-            width: 35%;
-        }
+  }
+  .beliefDevine {
+    h2 {
+      font-size: 28px;
+      line-height: normal;
     }
-    .heartFelt {
-        .heartFeltContent {
-            h2 {
-                font-size: 86px;
-            }
-            button {
-                padding: 12px 30px;
-                margin-top: 40px;
-            }
-        }
-    }
-}
-/***********Screen Size 668px*************/ 
-@media only screen and (max-width:668px) {
-    .bannerSection {
-        .bannerButtons {
-            margin-top: 24%;
-            .bjsServices {
-                a {
-                    font-size: 18px;
-                }
-            }
-            .row {
-                gap: 10px;
-            }
-            button {
-                width: 50%;
-            }
-        }
-    }
-}
-/***********Screen Size 480px*************/ 
-@media only screen and (max-width:480px) {
-    .bannerSection {
-        background-position: top;
-        .container {
-            h1 {
-                font-size: 44px;
-                line-height: 30px;
-            }
-            h5 {
-                right: 52px;
-                bottom: -40px;
-                font-size: 32px;
-            }
-        }
-        .bannerButtons {
-            margin-top: 30%;
-            button {
-                width: 75%;
-            }
-        }
-    }
-    .leftContent {
-        h2 {
-            font-size: 38px;
-            line-height: 46.5px;
-        }
-        button {
-            width: 100%;
-        }
-    }
-    .beliefDevine {
-        padding: 45px 0;
-        h2 {
-            font-size: 34px;
-            line-height: normal;
-        }
-    }
-    .newsPartners {
-        h2:before, h2:after {
-            width: 22%;
-        }
-    }
-    .heartFelt {
-        .heartFeltCustomer {
-            padding: 30px 15px ;
-            h2 {
-                font-size: 18px;
-                padding: 8px 0 10px;
-                width: 80%;
-            }
-            .testimonialslider {
-                .slick-prev {
-                    left: 80%;
-                }
-            }
-        }
-        .heartFeltContent {
-            padding: 40px 20px 35px;
-            h2 {
-                font-size: 62px;
-            }
-            p {
-                width: 100%;
-            }
-        }
-    }
-}
-@media only screen and (max-width:350px) {
-    .newsPartners {
-        h2:before, h2:after {
-            width: 20%;
-        }
-    }
-    .bannerSection {
-        .bannerButtons {
-            margin-top: 38%;
-            button {
-                width: 100%;
-            }    
-        }
-    }
-    .leftContent {
-        h2 {
-            font-size: 32px;
-            line-height: 40.5px;
-        }   
-    }
-    .beliefDevine {
-        h2 {
-            font-size: 28px;
-            line-height: normal;
-        }   
-    }
+  }
 }
