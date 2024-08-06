@@ -5,6 +5,8 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { LinkContainer } from "react-router-bootstrap";
 
+// import NavDropdown from 'react-bootstrap';
+
 const Header = () => {
   const [showDropdown, setShowDropdown] = useState(false);
   const [hoveredImages, setHoveredImages] = useState({
@@ -142,6 +144,16 @@ const Header = () => {
                       </div>
                     </div>
                   </NavDropdown>
+
+              //     <NavDropdown title="Dropdown" id="basic-nav-dropdown" alignRight>
+              //     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              //     <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
+              //     <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              //     <NavDropdown.Divider />
+              //     <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+              // </NavDropdown>
+
+
                 ) : (
                   <LinkContainer to={item.link} key={index}>
                     <Nav.Link>{item.name}</Nav.Link>
