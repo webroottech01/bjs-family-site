@@ -1,0 +1,213 @@
+.talkus {
+    background: linear-gradient(135.17deg, #F2F2F2 -0.3%, #EFEFEF 100%);
+    text-align: left;
+    padding: 30px 0 50px 40px;
+    p {
+        font-family: "Gotham book";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;
+        color: var(--bjs-dark-tone-copy, #24292C);
+    }
+    h2 {
+        font-family: "Eveleth Dot";
+        font-size: 18px;
+        font-weight: 950;
+        line-height: 24.45px;
+        text-align: left;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+    }
+    .row {
+        .row {  
+            align-items: center;
+            padding: 30px 0;
+            border-top: 1px solid #E5E5E5;
+            ul {
+                margin: 0;
+                padding: 0;
+                li {
+                    font-family: "Gotham book";
+                    font-size: 15px;
+                    font-weight: 400;
+                    line-height: 14.36px;
+                    text-align: left;
+                    list-style: none;
+                    color: var(--bjs-dark-tone-copy, #24292C);
+                    margin: 10px 0;
+                    a {
+                        color: var(--bjs-dark-tone-copy, #24292C);
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+.booking-quote {
+    padding: 30px 40px 30px 40px;
+    box-shadow: 0px 3px 20px 0px #0000001A;
+    text-align: left;
+    h2 {
+        font-family: "Eveleth Dot";
+        font-size: 22px;
+        font-weight: 950;
+        line-height: 30.45px;
+        text-align: left;
+    }
+    p {
+        font-family: "Gotham book";
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;
+        color: var(--BJS-Mid-Gray, #747E87);
+    }
+    .name {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: wrap;
+        .your-name {
+            width: 38%;
+        }
+        .company {
+            width: 60%;
+        }
+    }
+    .number-address {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+        .number {
+            width: 38%;
+        }
+        .email {
+            width: 60%;
+        }
+    }
+    label {
+        display: block;
+        font-family: 'Gotham Bold';
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 11.48px;
+        text-align: left;
+        color: var(--BJS-Mid-Gray, #747E87);
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    input {
+        border: 1px solid var(--BJS-Light-Gray, #C5D1DC);
+        font-family: 'Gotham Book';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 13.4px;
+        text-align: left;
+        padding: 20px;
+        border-radius: 6px;
+        width: -webkit-fill-available;
+        margin-bottom: 30px;
+    }
+    .post-code {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        .code {
+            width: 25%;
+        }
+    }
+    .vehicle-type {
+        .row {
+            margin: 0 auto;
+            gap: 5px;
+        }
+        label {
+            span {
+                font-family: 'Gotham Book';
+                font-size: 12px;
+                font-style: italic;
+                font-weight: 400;
+                line-height: 12px;
+                color: var(--BJS-Mid-Gray, #747E87);
+                text-transform: capitalize;
+            }
+        }
+        .form-check {
+            width: fit-content;
+            padding: 0;
+            position: relative;
+            display: flex;
+            align-items: center;
+            input {
+                width: 100%;
+                position: absolute;
+                padding: 0;
+                height: auto;
+                float: none;
+                margin: 0;
+                border: none;
+            }
+            label {
+                font-family: "Gotham Book";
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 11.48px;
+                text-align: left;
+                text-transform: capitalize;
+                color: var(--BJS-Mid-Gray, #747E87);
+                margin: 0;
+                background: transparent;
+                border-radius: 66px;
+                border: 1px solid var(--BJS-Light-Gray, #C5D1DC);
+                padding: 14px 20px;
+            }
+        }
+    }   
+    .agree {
+        display: flex;
+        justify-content: flex-start;
+        gap: 10px;
+        align-items: center;
+        input {
+            width: fit-content;
+            padding: 12px;
+            margin: 0;
+        }
+        label {
+            font-family: 'Gotham Book';
+            font-size: 12px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 12px;
+            text-align: left;
+            height: auto;
+            text-transform: inherit;
+            margin: 0;
+        }
+    }
+    .submit-btn {
+        text-align: right;
+        input {
+            background: var(--BJS-Mid-Gray, #747E87);
+            font-family: "Eveleth Dot";
+            font-size: 14px;
+            font-weight: 950;
+            text-align: left;
+            margin-bottom: 0;
+            padding: 20px 40px;
+            line-height: 1;
+            color: #fff;
+            width: fit-content;
+            border-radius: 66px;
+        }
+    }
+}

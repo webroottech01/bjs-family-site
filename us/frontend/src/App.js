@@ -16,6 +16,7 @@ import Archivepage from "./pages/news/archive-page/archive";
 import GalleryPage1 from "./pages/about/gallery-page1/gallery-page1";
 import Ourstory from "./pages/about/our-story/our-story";
 import Careers from "./pages/career-page/careers";
+import Talktous from "./pages/talktous/talktous";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           <Route path="/charity-community" element={<CharityCommunity />} />
           {/* News pages End */}
           <Route path="/gallery-page1" element={<GalleryPage1 />} />
+          <Route path="/talktous" element={<Talktous />} />
         </Routes>
 
         <Footer />
