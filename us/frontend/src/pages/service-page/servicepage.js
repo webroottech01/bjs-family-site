@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Partners from '../../components/partners-slider/partners';
 import Testimonials from '../../components/testimonial-slider/testimonials';
 import CaseStudy from '../../components/case-study/case-study';
+import HeartFelt from '../../components/heart-felt/heartfelt';
 
 const serviceData = {
   imageUrl: '', // Replace with your image URL
@@ -248,23 +249,7 @@ const Servicepage = () => {
 
 
 
-      <div className='heartFelt'>
-                <div className='row'>
-                    <div className='col-lg-6 col-md-12 col-sm-12 heartFeltCustomer'>
-                    <h2 className='text-start'>what our customers think</h2>
-
-                        <Testimonials />
-
-                    </div>
-                    <div className='col-lg-6 col-md-12 col-sm-12 heartFeltContent'>
-                        <h2>Heart Felt</h2>
-                        <p>BJS is a corporate built on compassionate values; named after Baba Jaswant Singh Ji - who remains the spiritual inspiration and guidance behind the brand after his death in 2020 – BJS has an authentic desire to make a lasting and positive impact on the world. </p>
-                        <Link to="/our-values">Our Values</Link>
-                    
-
-                    </div>
-                </div>
-        </div> 
+        <HeartFelt btntext="our values" btnlink="dddour-values"/>
 
 
       <Enquiries />

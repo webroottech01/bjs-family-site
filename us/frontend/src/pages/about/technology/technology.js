@@ -2,7 +2,7 @@ import React from 'react';
 import "./technology.scss";
 import MdMessage from '../../../components/md-message/md-message';
 import DifferentTechnology from '../../../components/differenttechnology/differenttechnology';
-import Withbigbulky from '../../../components/with big & bulky/withbigbulky';
+import Withbigbulky from '../../../components/big-bulky/withbigbulky';
 import Partners from '../../../components/partners-slider/partners';
 
 const partners = [

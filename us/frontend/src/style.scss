@@ -1,72 +1,180 @@
-@import '~bootstrap/scss/bootstrap';
+@import "~bootstrap/scss/bootstrap";
 @import "slick-carousel/slick/slick.css";
-@import "slick-carousel/slick/slick-theme.css"; 
+@import "slick-carousel/slick/slick-theme.css";
 
 @font-face {
-    font-family: 'Gotham Book';
-    src: url('fonts/Gotham-Book.woff2') format('woff2'),
-        url('fonts/Gotham-Book.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Gotham Book";
+  src: url("fonts/Gotham-Book.woff2") format("woff2"),
+    url("fonts/Gotham-Book.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gotham Light';
-    src: url('fonts/Gotham-Light.woff2') format('woff2'),
-        url('fonts/Gotham-Light.woff') format('woff');
-    font-weight: 300;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Gotham Light";
+  src: url("fonts/Gotham-Light.woff2") format("woff2"),
+    url("fonts/Gotham-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gotham Bold';
-    src: url('fonts/Gotham-Bold.woff2') format('woff2'),
-        url('fonts/Gotham-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Gotham Bold";
+  src: url("fonts/Gotham-Bold.woff2") format("woff2"),
+    url("fonts/Gotham-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gotham Black';
-    src: url('fonts/Gotham-Black.woff2') format('woff2'),
-        url('fonts/Gotham-Black.woff') format('woff');
-    font-weight: 900;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Gotham Black";
+  src: url("fonts/Gotham-Black.woff2") format("woff2"),
+    url("fonts/Gotham-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Gotham Medium';
-    src: url('fonts/Gotham-Medium.woff2') format('woff2'),
-        url('fonts/Gotham-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Gotham Medium";
+  src: url("fonts/Gotham-Medium.woff2") format("woff2"),
+    url("fonts/Gotham-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Eveleth Dot';
-    src: url('fonts/EvelethDotBold.woff2') format('woff2'),
-        url('fonts/EvelethDotBold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Eveleth Dot";
+  src: url("fonts/EvelethDotBold.woff2") format("woff2"),
+    url("fonts/EvelethDotBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-    font-family: 'Brixton_Wood_PERSONAL_USE_ONLY Vector';
-    src: url('fonts/Brixton_Wood_PERSONAL_USE_ONLY-Vector.woff2') format('woff2'),
-        url('fonts/Brixton_Wood_PERSONAL_USE_ONLY-Vector.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
+  src: url("fonts/Brixton_Wood_PERSONAL_USE_ONLY-Vector.woff2") format("woff2"),
+    url("fonts/Brixton_Wood_PERSONAL_USE_ONLY-Vector.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
 }
-
-
 
 span.navbar-brand {
-    cursor: pointer;
+  cursor: pointer;
+}
+
+/* Common used css */
+
+.newsPartners {
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 60px 0;
+
+  h2 {
+    color: #919495;
+    font-family: "Eveleth Dot";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 950;
+    line-height: normal;
+    position: relative;
+    margin: 0 auto 40px;
+    &:before {
+      content: "";
+      position: absolute;
+      width: 43%;
+      background: #d1d6d8;
+      height: 1px;
+      left: 0;
+      top: 12px;
+    }
+    &:after {
+      content: "";
+      position: absolute;
+      width: 43%;
+      background: #d1d6d8;
+      height: 1px;
+      right: 0;
+      top: 13px;
+    }
+  }
+}
+@media only screen and (max-width: 1800px) {
+  .newsPartners {
+    max-width: 1520px;
+  }
+}
+@media only screen and (max-width: 1600px) {
+  .newsPartners {
+    max-width: 1370px;
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .newsPartners {
+    max-width: 1270px;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .newsPartners {
+    padding: 50px 0;
+    max-width: 1130px;
+    h2:before,
+    h2:after {
+      width: 41%;
+    }
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .newsPartners {
+    max-width: 980px;
+    h2:before,
+    h2:after {
+      width: 39%;
+    }
+  }
+}
+@media only screen and (max-width: 820px) {
+  .newsPartners {
+    max-width: 780px;
+    h2:before,
+    h2:after {
+      width: 38%;
+    }
+    h2 {
+      font-size: 18px;
+      margin: 0 auto 30px;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .newsPartners {
+    max-width: 85%;
+    padding: 40px 0;
+    h2:before,
+    h2:after {
+      width: 35%;
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  .newsPartners {
+    h2:before,
+    h2:after {
+      width: 22%;
+    }
+  }
+}
+@media only screen and (max-width: 350px) {
+  .newsPartners {
+    h2:before,
+    h2:after {
+      width: 20%;
+    }
+  }
 }

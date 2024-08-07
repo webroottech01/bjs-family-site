@@ -1,15 +1,17 @@
 import React from "react";
 import "./home.scss";
-import Withbigbulky from "../../components/with big & bulky/withbigbulky";
+import Withbigbulky from "../../components/big-bulky/withbigbulky";
 import DifferentTechnology from "../../components/differenttechnology/differenttechnology";
 import Partners from "../../components/partners-slider/partners";
 import Enquiries from "../../components/enquiries/enquiries";
 import Testimonials from "../../components/testimonial-slider/testimonials";
 import {Link} from "react-router-dom"; 
+import HeartFelt from "../../components/heart-felt/heartfelt";
 
 const Home = () => {
   return (
     <>
+    <div className="homepage">
       <div className="bannerSection">
         <div className="container">
           <p>We’ve come all the way from the UK to offer the very best</p>
@@ -24,7 +26,7 @@ const Home = () => {
               <div className="row justify-content-between">
                 <div className="col-lg-6 col-md-6 col-sm-12">
                   <button>
-                  <Link to="/our-values">Learn more about our values</Link>
+                  <Link to="/our-values">Learn more about BJS</Link>
                   </button>
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12">
@@ -133,7 +135,7 @@ const Home = () => {
                 className="comaImg"
               />
               <div className="col-12 twoparts">
-                <div className="row">
+                <div className="row mx-0">
                   <div className="col-8 p-0">
                     <p>
                       Who we are as people, our values and emotional needs,
@@ -196,28 +198,12 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="heartFelt">
-        <div className="row">
-          <div className="col-lg-6 col-md-12 col-sm-12 heartFeltCustomer">
-            <h2 className="text-start">what our customers think</h2>
 
-            <Testimonials />
-          </div>
-          <div className="col-lg-6 col-md-12 col-sm-12 heartFeltContent">
-            <h2>Heart Felt</h2>
-            <p>
-              BJS is a corporate built on compassionate values; named after Baba
-              Jaswant Singh Ji - who remains the spiritual inspiration and
-              guidance behind the brand after his death in 2020 – BJS has an
-              authentic desire to make a lasting and positive impact on the
-              world.{" "}
-            </p>
-            <button>Our Values</button>
-          </div>
-        </div>
-      </div>
+          <HeartFelt btntext="our values" btnlink="dddour-values"/>
+ 
 
       <Enquiries />
+      </div>
     </>
   );
 };

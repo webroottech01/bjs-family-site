@@ -17,13 +17,17 @@ $redcolor: red;
         margin: 0 auto 12px;
         padding-bottom: 6px;
     }
-    h3{
+    a{
         color: var(--bjs-dark-tone-copy, #24292C);
         font-family: "Gotham Light";
         font-size: 30px;
         font-style: normal;
         font-weight: 300;
         line-height: normal;
+        display: block;
+        text-decoration: none;
+        margin-bottom: 8px;
+    
     }
     p{
         color: var(--BJS-Mid-Gray, #747E87);
@@ -40,7 +44,7 @@ $redcolor: red;
 /***********Responsive************/ 
 @media only screen and (max-width:1300px) {
     .enquiry {
-        h3 {
+        a {
             font-size: 24px;
         }
         h2 {
@@ -53,21 +57,21 @@ $redcolor: red;
 }
 @media only screen and (max-width:1024px) {
     .enquiry {
-        h3 {
+        a {
             font-size: 22px;
         }    
     }
 }
 @media only screen and (max-width:820px) {
     .enquiry {
-        h3 {
+        a {
             font-size: 20px;
         } 
     }
 }
 @media only screen and (max-width:480px) {
     .enquiry {
-        h3 {
+        a {
             font-size: 18px;
         }
     }
