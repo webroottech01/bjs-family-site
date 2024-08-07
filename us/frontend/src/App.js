@@ -17,12 +17,14 @@ import GalleryPage1 from "./pages/about/gallery-page1/gallery-page1";
 import Ourstory from "./pages/about/our-story/our-story";
 import Careers from "./pages/career-page/careers";
 import Talktous from "./pages/talktous/talktous";
+import ScrollToTop from "./scrolltop";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter basename="/us">
         <Header />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           {/*  News pages  */}
