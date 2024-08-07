@@ -249,7 +249,7 @@ const Servicepage = () => {
 
 
 
-        <HeartFelt btntext="our values" btnlink="dddour-values"/>
+        <HeartFelt btntext="our values" btnlink="our-values"/>
 
 
       <Enquiries />

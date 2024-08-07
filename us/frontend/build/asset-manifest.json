@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/us/frontend/build/static/css/main.f21fc6c8.css",
-    "main.js": "/us/frontend/build/static/js/main.a7239865.js",
+    "main.css": "/us/frontend/build/static/css/main.185d4373.css",
+    "main.js": "/us/frontend/build/static/js/main.96242bde.js",
     "static/js/453.5d962359.chunk.js": "/us/frontend/build/static/js/453.5d962359.chunk.js",
     "static/media/banner.jpg": "/us/frontend/build/static/media/banner.611a5047949ff3a9f166.jpg",
     "static/media/mediaBg.jpg": "/us/frontend/build/static/media/mediaBg.2db54fdeeb85bbbb2f1f.jpg",
     "static/media/Mask Group 1.png": "/us/frontend/build/static/media/Mask Group 1.21cdc94e137b87c4334c.png",
     "static/media/Clip path group (2).png": "/us/frontend/build/static/media/Clip path group (2).aa61e12a6cec3512cbee.png",
     "static/media/Clip path group.png": "/us/frontend/build/static/media/Clip path group.7427fe7038916f45b846.png",
+    "static/media/ourstoryback.png": "/us/frontend/build/static/media/ourstoryback.4a5c10359eeda0537ec0.png",
     "static/media/EvelethDotBold.woff": "/us/frontend/build/static/media/EvelethDotBold.445cd1649a3acbf24bd7.woff",
     "static/media/EvelethDotBold.woff2": "/us/frontend/build/static/media/EvelethDotBold.b35ecac12a3aa848a421.woff2",
     "static/media/Brixton_Wood_PERSONAL_USE_ONLY-Vector.woff": "/us/frontend/build/static/media/Brixton_Wood_PERSONAL_USE_ONLY-Vector.4a093f6b8fd31b8995dc.woff",
@@ -32,12 +33,12 @@
     "static/media/slick.ttf": "/us/frontend/build/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/us/frontend/build/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/us/frontend/build/index.html",
-    "main.f21fc6c8.css.map": "/us/frontend/build/static/css/main.f21fc6c8.css.map",
-    "main.a7239865.js.map": "/us/frontend/build/static/js/main.a7239865.js.map",
+    "main.185d4373.css.map": "/us/frontend/build/static/css/main.185d4373.css.map",
+    "main.96242bde.js.map": "/us/frontend/build/static/js/main.96242bde.js.map",
     "453.5d962359.chunk.js.map": "/us/frontend/build/static/js/453.5d962359.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f21fc6c8.css",
-    "static/js/main.a7239865.js"
+    "static/css/main.185d4373.css",
+    "static/js/main.96242bde.js"
   ]
 }

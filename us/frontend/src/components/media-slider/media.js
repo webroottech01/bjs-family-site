@@ -42,91 +42,91 @@ const Media = () => {
           </div>
           <div className='mediaLogo d-flex'>
             <img src={process.env.PUBLIC_URL + "/images/media1.png"} alt="" className='mediaMainlogo' />
-            <dic className="">
+            <div className="">
               <h3>New SDC trailers ordered</h3>
               <p>West Midlands based BJS Haulage has confirmed an order for 80 new SDC Freespan Curtainsiders in response...</p>
               <div className='d-flex justfy-content-start align-items-center gap-2'>
                 <img src={process.env.PUBLIC_URL + "/images/enterNext.png"} alt="" className='enterNextlogo' />
                 <a href="#">Global Trailer Mag</a>
               </div>
-            </dic>
+            </div>
           </div>
           <div className='mediaLogo d-flex'>
             <img src={process.env.PUBLIC_URL + "/images/media1.png"} alt="" className='mediaMainlogo' />
-            <dic className="">
+            <div className="">
               <h3>New SDC trailers ordered</h3>
               <p>West Midlands based BJS Haulage has confirmed an order for 80 new SDC Freespan Curtainsiders in response...</p>
               <div className='d-flex justfy-content-start align-items-center gap-2'>
                 <img src={process.env.PUBLIC_URL + "/images/enterNext.png"} alt="" className='enterNextlogo' />
                 <a href="#">Global Trailer Mag</a>
               </div>
-            </dic>
+            </div>
           </div>
           <div className='mediaLogo d-flex'>
             <img src={process.env.PUBLIC_URL + "/images/media1.png"} alt="" className='mediaMainlogo' />
-            <dic className="">
+            <div className="">
               <h3>New SDC trailers ordered</h3>
               <p>West Midlands based BJS Haulage has confirmed an order for 80 new SDC Freespan Curtainsiders in response...</p>
               <div className='d-flex justfy-content-start align-items-center gap-2'>
                 <img src={process.env.PUBLIC_URL + "/images/enterNext.png"} alt="" className='enterNextlogo' />
                 <a href="#">Global Trailer Mag</a>
               </div>
-            </dic>
+            </div>
           </div>
           <div className='mediaLogo d-flex'>
             <img src={process.env.PUBLIC_URL + "/images/media1.png"} alt="" className='mediaMainlogo' />
-            <dic className="">
+            <div className="">
               <h3>New SDC trailers ordered</h3>
               <p>West Midlands based BJS Haulage has confirmed an order for 80 new SDC Freespan Curtainsiders in response...</p>
               <div className='d-flex justfy-content-start align-items-center gap-2'>
                 <img src={process.env.PUBLIC_URL + "/images/enterNext.png"} alt="" className='enterNextlogo' />
                 <a href="#">Global Trailer Mag</a>
               </div>
-            </dic>
+            </div>
           </div>
           <div className='mediaLogo d-flex'>
             <img src={process.env.PUBLIC_URL + "/images/media1.png"} alt="" className='mediaMainlogo' />
-            <dic className="">
+            <div className="">
               <h3>New SDC trailers ordered</h3>
               <p>West Midlands based BJS Haulage has confirmed an order for 80 new SDC Freespan Curtainsiders in response...</p>
               <div className='d-flex justfy-content-start align-items-center gap-2'>
                 <img src={process.env.PUBLIC_URL + "/images/enterNext.png"} alt="" className='enterNextlogo' />
                 <a href="#">Global Trailer Mag</a>
               </div>
-            </dic>
+            </div>
           </div>
           <div className='mediaLogo d-flex'>
             <img src={process.env.PUBLIC_URL + "/images/media1.png"} alt="" className='mediaMainlogo' />
-            <dic className="">
+            <div className="">
               <h3>New SDC trailers ordered</h3>
               <p>West Midlands based BJS Haulage has confirmed an order for 80 new SDC Freespan Curtainsiders in response...</p>
               <div className='d-flex justfy-content-start align-items-center gap-2'>
                 <img src={process.env.PUBLIC_URL + "/images/enterNext.png"} alt="" className='enterNextlogo' />
                 <a href="#">Global Trailer Mag</a>
               </div>
-            </dic>
+            </div>
           </div>
           <div className='mediaLogo d-flex'>
             <img src={process.env.PUBLIC_URL + "/images/media1.png"} alt="" className='mediaMainlogo' />
-            <dic className="">
+            <div className="">
               <h3>New SDC trailers ordered</h3>
               <p>West Midlands based BJS Haulage has confirmed an order for 80 new SDC Freespan Curtainsiders in response...</p>
               <div className='d-flex justfy-content-start align-items-center gap-2'>
                 <img src={process.env.PUBLIC_URL + "/images/enterNext.png"} alt="" className='enterNextlogo' />
                 <a href="#">Global Trailer Mag</a>
               </div>
-            </dic>
+            </div>
           </div>
           <div className='mediaLogo d-flex'>
             <img src={process.env.PUBLIC_URL + "/images/media1.png"} alt="" className='mediaMainlogo' />
-            <dic className="">
+            <div className="">
               <h3>New SDC trailers ordered</h3>
               <p>West Midlands based BJS Haulage has confirmed an order for 80 new SDC Freespan Curtainsiders in response...</p>
               <div className='d-flex justfy-content-start align-items-center gap-2'>
                 <img src={process.env.PUBLIC_URL + "/images/enterNext.png"} alt="" className='enterNextlogo' />
                 <a href="#">Global Trailer Mag</a>
               </div>
-            </dic>
+            </div>
           </div>
         </Slider>
       </div>
