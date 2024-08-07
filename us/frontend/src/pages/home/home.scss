@@ -26,7 +26,7 @@
       font-size: 180px;
       font-weight: 700;
       line-height: normal;
-      margin-top: -30px;
+      margin-top: -5px;
       text-align: center;
     }
 
@@ -403,8 +403,8 @@
         font-size: 140px;
       }
       h5 {
-        right: 126px;
-        bottom: -95px;
+        right: 155px;
+        bottom: 40px;
         font-size: 86px;
         transform: rotate(355deg);
       }
@@ -491,8 +491,8 @@
         font-size: 120px;
       }
       h5 {
-        right: 208px;
-        bottom: -80px;
+        right: 220px;
+        bottom: 27px;
         font-size: 74px;
       }
     }
@@ -601,8 +601,7 @@
         font-size: 104px;
       }
       h5 {
-        right: 162px;
-        bottom: -68px;
+        right: 170px;
         font-size: 68px;
       }
       p {
@@ -681,7 +680,7 @@
   .bannerSection {
     .container {
       p {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px;
       }
       h1 {
@@ -689,7 +688,7 @@
       }
       h5 {
         right: 154px;
-        bottom: -42px;
+        bottom: 17px;
         font-size: 48px;
       }
     }
@@ -752,8 +751,8 @@
         
       }
       h5 {
-        right: 132px;
-        bottom: -44px;
+        right: 22%;
+        bottom: 15px;
         font-size: 45px;
       }
     }
@@ -791,7 +790,12 @@
 }
 /***********Screen Size 668px*************/
 @media only screen and (max-width: 668px) {
+
   .bannerSection {
+    .container h5 {
+      right: 17%;
+      bottom: 20px;
+    }
     .bannerButtons {
       margin-top: 24%;
       .bjsServices {
@@ -808,6 +812,7 @@
     }
   }
 }
+
 /***********Screen Size 480px*************/
 @media only screen and (max-width: 480px) {
   .bannerSection {
@@ -817,8 +822,8 @@
         font-size: 44px;
       }
       h5 {
-        right: 52px;
-        bottom: -40px;
+        right: 20%;
+        bottom: 18px;
         font-size: 32px;
       }
     }
@@ -853,6 +858,17 @@
   }
 
 }
+@media only screen and (max-width: 400px){
+  .bannerSection {
+    .container {
+      h5 {
+        right: 45px;
+        bottom: 20px;
+        font-size: 32px;
+      }
+    }
+  }
+}
 @media only screen and (max-width: 350px) {
   .newsPartners {
     h2:before,
@@ -861,6 +877,10 @@
     }
   }
   .bannerSection {
+    .container h5 {
+      right: 20px;
+      bottom: 21px;
+    }
     .bannerButtons {
       margin-top: 38%;
       button {

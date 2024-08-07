@@ -8,6 +8,7 @@ import { LinkContainer } from "react-router-bootstrap";
 // import NavDropdown from 'react-bootstrap';
 
 const Header = () => {
+  const [expanded, setExpanded] = useState(false);
   const [showDropdown, setShowDropdown] = useState(false);
   const [hoveredImages, setHoveredImages] = useState({
     "About BJS": process.env.PUBLIC_URL + "/images/about-default.webp",
@@ -92,11 +93,14 @@ const Header = () => {
     setShowDropdown(false);
   };
 
+  const navToggle = () => setExpanded(!expanded);
+  const closeNavbar = () => setExpanded(false);
+
   return (
     <div className="header sticky-top">
       <div className="container">
-        <Navbar expand="lg" className="bg-body-tertiary">
-          <Navbar.Brand>
+        <Navbar expand="lg" className="bg-body-tertiary" expanded={expanded} onToggle={navToggle}>
+          <Navbar.Brand> 
             <LinkContainer to="/">
               <img
                 src={process.env.PUBLIC_URL + "/FamilyLogo.png"}
@@ -109,7 +113,7 @@ const Header = () => {
             id="basic-navbar-nav"
             className="justify-content-end"
           >
-            <Nav className="mainNavigation">
+            <Nav className="mainNavigation" >
               {menuItems.map((item, index) => {
                 const sanitizedClassName = item.name.replace(/\s+/g, "-");
                 return item.subMenu ? (
@@ -118,11 +122,12 @@ const Header = () => {
                     id={`nav-dropdown-${index}`}
                     key={index}
                     className={`custom-dropdown ${sanitizedClassName}`}
+                    renderMenuOnMount={true}
                   >
                     <div className="dropdown-menu-container">
                       <div className="dropdown-items">
                         {item.subMenu.map((subItem, subIndex) => (
-                          <LinkContainer to={subItem.link} key={subIndex}>
+                          <LinkContainer to={subItem.link} key={subIndex} onClick={closeNavbar}>
                             <NavDropdown.Item
                               onMouseEnter={() =>
                                 handleMouseEnter(item.name, subItem.image)
@@ -155,7 +160,7 @@ const Header = () => {
 
 
                 ) : (
-                  <LinkContainer to={item.link} key={index}>
+                  <LinkContainer to={item.link} key={index} onClick={closeNavbar}>
                     <Nav.Link>{item.name}</Nav.Link>
                   </LinkContainer>
                 );
