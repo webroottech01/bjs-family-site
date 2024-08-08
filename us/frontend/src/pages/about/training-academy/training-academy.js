@@ -50,7 +50,7 @@ const TrainingAcademy = () => {
           title="charity & community"
           content="From its very inception spiritual guidance was sought for the BJS venture from Baba Jaswant Singh Ji– whom the company is named after. Prior to his death in 2020 Baba Jaswant Singh Ji was based in Punjab and was the founder of a trust that runs projects for the welfare of humanity; provision of health care facilities, higher medical education and to show ‘the path of spiritual righteousness’. To ‘foster human values and welfare with esteemed devotion indeed’. "
           customContent="BJS continues to act on the pledge and commitment to do good."
-          link="#"
+          link="/charity-community"
           imageUrl1="/images/Clip path group (1).jpg" 
           customClass="training-ac-layout"
         />

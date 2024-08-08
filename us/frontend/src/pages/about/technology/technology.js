@@ -44,7 +44,7 @@ const Technology = () => {
         layout="layout1"
         title="What Makes BJS Different"
         content="We provide the very best customer service at every stage of the delivery process, putting customers at the heart of everything we do – so that your products, reputation, customers and peace of mind really are safe in our hands."
-        link="#"
+        link="/our-difference"
         imageUrl1="/images/Clip path group_11zon.jpg"
         customClass="blue-bg"
       />

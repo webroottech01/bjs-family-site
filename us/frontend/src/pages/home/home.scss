@@ -36,15 +36,18 @@
       color: #73c8ef;
       font-size: 104px;
       position: relative;
-      right: 50px;
+      right: 38px;
       transform: rotate(-7deg);
       line-height: normal;
       font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
       text-transform: uppercase;
+      letter-spacing: -2px;
     }
 
     .maintextouter {
       position: relative;
+      width: fit-content;
+      margin: 0 auto;
     }
   }
 
@@ -149,10 +152,10 @@
   }
 
   .moreinfo {
-    margin-top: 40px;
+    margin-top: 58px;
   }
 
-  button {
+  a {
     padding: 16px 30px;
     border-radius: 66px;
     color: #24292c;
@@ -162,8 +165,9 @@
     background: #feba30;
     box-shadow: 0px 4px 10px 0px rgba(0 0 0 / 15%);
     transition: all 0.5s linear;
+    text-decoration: none;
   }
-  button:hover {
+  a:hover {
     background: #24292c;
     color: #fff;
   }
@@ -284,13 +288,13 @@
   }
   .leftContent {
     margin-top: 0;
-    button {
+    a {
       font-family: 'Eveleth Dot';
       border-radius: 66px;
       background: var(--BJS-Mid-Gray, #747e87);
       color: #fff;
     }
-    button:hover {
+    a:hover {
       background: #feba30;
       color: #000;
     }
@@ -407,10 +411,9 @@
         font-size: 140px;
       }
       h5 {
-        right: 155px;
-        bottom: 40px;
-        font-size: 86px;
+        font-size: 80px;
         transform: rotate(355deg);
+        right: 33px;
       }
       p {
         font-size: 19px;
@@ -437,9 +440,9 @@
       line-height: 90.5px;
     }
     .moreinfo {
-      margin-top: 30px;
+      margin-top: 45px;
     }
-    button {
+    a {
       padding: 14px 26px;
       font-size: 15px;
     }
@@ -493,9 +496,9 @@
         font-size: 120px;
       }
       h5 {
-        right: 220px;
-        bottom: 27px;
-        font-size: 74px;
+        bottom: 38px;
+        font-size: 67px;
+        right: 30px;
       }
     }
     .bannerButtons {
@@ -526,12 +529,12 @@
       font-size: 15px;
       line-height: 20px;
     }
-    button {
+    a {
       padding: 12px 24px;
       font-size: 14px;
     }
     .moreinfo {
-      margin-top: 20px;
+      margin-top: 35px;
     }
   }
   .twoparts {
@@ -601,8 +604,9 @@
         font-size: 104px;
       }
       h5 {
-        right: 170px;
-        font-size: 68px;
+        font-size: 60px;
+        right: 25px;
+        bottom: 34px;
       }
       p {
         font-size: 17px;
@@ -685,9 +689,9 @@
         font-size: 78px;
       }
       h5 {
-        right: 154px;
-        bottom: 17px;
-        font-size: 48px;
+        bottom: 27px;
+        font-size: 45px;
+        right: 20px;
       }
     }
     .bannerButtons {
@@ -745,9 +749,9 @@
         
       }
       h5 {
-        right: 22%;
-        bottom: 15px;
-        font-size: 45px;
+        bottom: 26px;
+        font-size: 40px;
+        right: 17px;
       }
     }
     .bannerButtons {
@@ -783,8 +787,7 @@
 
   .bannerSection {
     .container h5 {
-      right: 17%;
-      bottom: 20px;
+
     }
     .bannerButtons {
       margin-top: 24%;
@@ -810,9 +813,10 @@
         font-size: 44px;
       }
       h5 {
-        right: 20%;
-        bottom: 18px;
-        font-size: 32px;
+        bottom: 20px;
+        font-size: 30px;
+        letter-spacing: 0px;
+        right: 8px;
       }
     }
     .bannerButtons {
@@ -827,7 +831,7 @@
       font-size: 38px;
       line-height: 46.5px;
     }
-    button {
+    a {
       width: 100%;
     }
   }
@@ -850,9 +854,8 @@
   .bannerSection {
     .container {
       h5 {
-        right: 45px;
-        bottom: 20px;
-        font-size: 32px;
+        font-size: 28px;
+        right: 9px;
       }
     }
   }
@@ -866,8 +869,7 @@
   }
   .bannerSection {
     .container h5 {
-      right: 20px;
-      bottom: 21px;
+
     }
     .bannerButtons {
       margin-top: 38%;

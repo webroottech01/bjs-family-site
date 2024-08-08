@@ -168,7 +168,7 @@ const Header = () => {
             </Nav>
           </Navbar.Collapse>
           <Nav className="me-auto navbarsecond">
-            <Nav.Link href="#home">
+            <Nav.Link href="tel:+15593385575">
               <button className="talktous">Talk to us</button>
             </Nav.Link>
             <NavDropdown

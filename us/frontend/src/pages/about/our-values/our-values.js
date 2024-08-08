@@ -49,7 +49,7 @@ const Ourvalues = () => {
         layout="layout2"
         title="our technology"
         content="As a fast-growing group of delivery business’ BJS needs a smooth road to run on. Ours is paved with cutting edge technology. By investing in IT we ensure we are driven by excellence from the inside out. "
-        link="#"
+        link="/technology"
         imageUrl2="/images/technology.jpg"
       />
       {/* Include DifferentTechnology Component */}

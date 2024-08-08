@@ -175,7 +175,7 @@ const Ourstory = () => {
                 layout="layout1"
                 title="our services"
                 content="We’ve been delivering all sorts of things for all sorts of people for over a decade. Our fleet of vehicles has grown over the years, but the excellent customer service foundations remain the same. So, if you need a small van and friendly two-man delivery team, or a truck or a trailer with DVS compliance and peace of mind with every booking… we are happy to help. "
-                link="#"
+                link="/services"
                 imageUrl1="/images/serviceman.jpg"
                 customClass="blue-bg"
             />
