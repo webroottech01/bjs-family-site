@@ -140,7 +140,7 @@ const OurDifference = () => {
           layout="layout1"
           title="training academy"
           content="The life size training academy is a unique way for teams to hone their home delivery skills; meaning that when it comes to crossing thresholds for real, they are confident at tight corners and awkward spaces which is why we have a less than .5% damage rate and consistently high client feedback scores upwards of 97%."
-          link="#"
+          link="/training-academy"
           imageUrl1="/images/Uplift Feature.jpg" 
           customClass="blue-bg"
         />

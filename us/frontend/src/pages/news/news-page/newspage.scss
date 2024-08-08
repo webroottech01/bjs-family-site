@@ -135,15 +135,21 @@
         text-align: center;
         padding: 30px 0 110px !important;
         a {
-            font-family: "Gotham Bold";
-            font-size: 16px;
+            font-family: Eveleth Dot;
+            font-size: 14px;
+            line-height: 100%;
             text-decoration: none;
-            color: #877b6f;
-            padding: 20px 40px;
+            color: #24292C;
+            padding: 15px 39px;
             border: 1px solid #877b6f;
             border-radius: 50px;
             position: relative;
             top: 60px;
+            transition: all 0.4s linear;
+            &:hover{
+                background: #feba30;
+                border-color:transparent;
+            }
         }
         p {
             margin: 0;

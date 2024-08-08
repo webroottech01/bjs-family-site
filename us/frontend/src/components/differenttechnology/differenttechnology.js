@@ -1,5 +1,6 @@
 import React from "react";
 import "./differenttechnology.scss";
+import { Link } from "react-router-dom";
 
 const DifferentTechnology = ({ title, content, customContent, link, imageUrl1, imageUrl2, layout, customClass }) => {
   return (
@@ -11,7 +12,7 @@ const DifferentTechnology = ({ title, content, customContent, link, imageUrl1, i
               <h2>{title}</h2>
               <p>{content}</p>
               <p>{customContent}</p>
-              <a href={link}>Learn More</a>
+              <Link to={link}>Learn More</Link>
             </div>
           </div>
           <div className="col-lg-6 col-md-12 right-column-sc">
@@ -28,7 +29,7 @@ const DifferentTechnology = ({ title, content, customContent, link, imageUrl1, i
               <h2>{title}</h2>
               <p>{content}</p>
               <p>{customContent}</p>
-              <a href={link}>Learn More</a>
+              <Link to={link}>Learn More</Link>
             </div>
           </div>
           <div className="col-md-6 right-column-sc">

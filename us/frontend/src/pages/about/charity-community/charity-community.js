@@ -38,7 +38,7 @@ const CharityCommunity = () => {
         layout="layout1"
         title="Our story"
         content="BJS is a family run distribution and logistics business based in the Midlands. We provide the very best customer service at every stage so that your products, reputation, clients and peace of mind really are safe in our hands. "
-        link="#"
+        link="/our-story"
         imageUrl1="/images/OurStory.jpg"
       />
       {/* Include DifferentTechnology Component */}

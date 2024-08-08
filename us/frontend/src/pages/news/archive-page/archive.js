@@ -69,7 +69,7 @@ const Archive = () => {
               ))}
             </div>
           </div>
-          <div className='row justify-content-center'>
+          <div className='row justify-content-center showBTN'>
             {!showAll ? (
               <button className='showMoreButton' onClick={handleShowMore}>
                 Show More

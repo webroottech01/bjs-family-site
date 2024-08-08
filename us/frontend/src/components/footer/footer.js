@@ -70,7 +70,7 @@ const Footer = () => {
                 <div className="fotrServices">
                   <h3>Our Services</h3>
                   <Nav className="d-block">
-                    <Nav.Link href="#">Two-Man Home Delivery</Nav.Link>
+                    <Nav.Link href="#">Two-Person Home Delivery</Nav.Link>
                   </Nav>
                 </div>
                 <div className="fotrInfo">

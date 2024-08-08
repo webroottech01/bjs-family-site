@@ -93,7 +93,7 @@ const Newspage = () => {
         <div className="progress-bar">
           <div className="fill" style={{ width: `${percentage}%` }}></div>
         </div>
-        <Link to='/archive'>VIEW ALL STORIES</Link> 
+        <Link to='/archive'>VIEW ALL NEWS STORIES</Link> 
       </div>
       <div className='mediaSlider'>
         <h2 className='text-center'>MENTIONED IN THE MEDIA</h2>

@@ -49,7 +49,7 @@ const Home = () => {
                 high <span>cali</span>ber home delivery
               </h2>
               <p>
-                Award winning two-man home delivery teams, trained in excellence
+                Award winning two-person home delivery teams, trained in excellence
                 and trusted by leading brands. With an enviable track record of
                 more than a decade the BJS family offer a range of flexible
                 services to keep you and your customers happy.
@@ -78,7 +78,7 @@ const Home = () => {
               </div>
               <div className="col-12 muchmore">And much more...</div>
               <div className="col-12 moreinfo">
-                <button>
+                <Link to="/services">
                   More info{" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +93,7 @@ const Home = () => {
                       d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708"
                     />
                   </svg>
-                </button>
+                </Link>
               </div>
             </div>
             <div className="col-lg-5 col-md-12 col-sm-12 img-sec">
@@ -165,7 +165,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="col-12 moreinfo">
-                <button>OUR STORY</button>
+                <Link to="our-story">OUR STORY</Link>
               </div>
             </div>
             <div className="col-lg-5 col-md-12 col-sm-12 ">
@@ -184,7 +184,7 @@ const Home = () => {
           layout="layout1"
           title="what makes bjs different"
           content="We provide the very best customer service at every stage of the delivery process, putting customers at the heart of everything we do – so that your products, reputation, customers and peace of mind really are safe in our hands."
-          link="#"
+          link="/our-difference"
           imageUrl1="/images/Clip path group_11zon.jpg"
         />
       </div>
@@ -195,7 +195,7 @@ const Home = () => {
           <h2 className="text-center">Our Partners</h2>
           <Partners />
         </div>
-      </div>
+      </div> 
 
 
           <HeartFelt btntext="our values" btnlink="our-values"/>
