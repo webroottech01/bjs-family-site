@@ -104,7 +104,7 @@ const Footer = () => {
       <div className="reserved">
         <div className="container">
           <p className="text-center m-0">
-            ©BJS Distribution Limited, 2024 - All rights reserved.
+            ©BJS Distribution Couriers & Storage Services Inc.
           </p>
         </div>
       </div>

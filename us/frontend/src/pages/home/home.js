@@ -25,16 +25,15 @@ const Home = () => {
             <div className="container">
               <div className="row justify-content-between">
                 <div className="col-lg-6 col-md-6 col-sm-12">
-                  <button>
+                  
                   <Link to="/our-values">Learn more about BJS</Link>
-                  </button>
+                  
                 </div>
                 <div className="col-lg-6 col-md-6 col-sm-12">
-                  <button className="bjsServices">
-                  <Link to="/services">
+                  <Link to="/services" className="bjsServices">
+                  
                       <span>BJS</span> Services
                     </Link>
-                  </button>
                 </div>
               </div>
             </div>
@@ -199,7 +198,7 @@ const Home = () => {
       </div>
 
 
-          <HeartFelt btntext="our values" btnlink="dddour-values"/>
+          <HeartFelt btntext="our values" btnlink="our-values"/>
  
 
       <Enquiries />

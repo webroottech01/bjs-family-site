@@ -56,13 +56,16 @@
       max-width: 567px;
     }
 
-    button {
+    a {
       border-radius: 66px;
       background: transparent;
       width: 100%;
       border: #fff 1px solid;
+      display: block;
+      text-align: center;
+      transition: all 0.4s linear;
     }
-    button:hover {
+    a:hover {
       background: #fff;
       color: #000;
       a {
@@ -71,34 +74,33 @@
     }
 
     .bjsServices {
-      background: #24292c !important;
+      background: #24292c ;
       text-transform: uppercase;
       border: 0px;
+      font-size: 20px;
+      font-family: 'Eveleth Dot';
       span {
         color: #feba30;
+        transition: all 0.4s linear;
       }
 
-      a {
-        font-size: 27px;
-        font-family: 'Eveleth Dot';
-      }
-    }
-    .bjsServices:hover {
-      background: #feba30 !important;
+    
+    &:hover {
+      background: #feba30 ;      
+      color: #fff;
       span {
         color: #24292c;
-      }
-      a {
-        color: #fff;
+        
       }
     }
+  }
 
     a {
       font-family: "Gotham Book";
       font-size: 16px;
       font-weight: 400;
       line-height: 51px;
-      text-align: left;
+      text-align: center;
       text-decoration: none;
       color: #ffffff;
       background: transparent;
@@ -419,9 +421,7 @@
       margin-top: 28%;
       padding-bottom: 50px;
       .bjsServices {
-        a {
           font-size: 25px;
-        }
       }
     }
   }
@@ -506,9 +506,7 @@
         font-size: 15px;
       }
       .bjsServices {
-        a {
-          font-size: 22px;
-        }
+          font-size: 15px;
       }
     }
   }
@@ -619,9 +617,7 @@
         font-size: 14px;
       }
       .bjsServices {
-        a {
-          font-size: 21px;
-        }
+          font-size: 14px;
       }
     }
   }
@@ -697,11 +693,7 @@
     .bannerButtons {
       margin-top: 18%;
       padding-bottom: 40px;
-      .bjsServices {
-        a {
-          font-size: 20px;
-        }
-      }
+
     }
   }
   .homeDeliverSection {
@@ -761,11 +753,7 @@
     .bannerButtons {
       margin-top: 20%;
       padding-bottom: 35px;
-      .bjsServices {
-        a {
-          font-size: 19px;
-        }
-      }
+
     }
   }
   .leftContent {
@@ -800,16 +788,14 @@
     }
     .bannerButtons {
       margin-top: 24%;
-      .bjsServices {
-        a {
-          font-size: 18px;
-        }
-      }
+
       .row {
         gap: 10px;
       }
-      button {
+      a {
         width: 50%;
+        margin-left: auto;
+        margin-right: auto;
       }
     }
   }
@@ -831,7 +817,7 @@
     }
     .bannerButtons {
       margin-top: 30%;
-      button {
+      a {
         width: 75%;
       }
     }
@@ -885,7 +871,7 @@
     }
     .bannerButtons {
       margin-top: 38%;
-      button {
+      a {
         width: 100%;
       }
     }
