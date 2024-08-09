@@ -67,6 +67,7 @@
       display: block;
       text-align: center;
       transition: all 0.4s linear;
+      line-height: 62px;
     }
     a:hover {
       background: #fff;
@@ -77,11 +78,12 @@
     }
 
     .bjsServices {
-      background: #24292c ;
-      text-transform: uppercase;
-      border: 0px;
+      background: #24292c;
+      border: 1px solid #24292c;
+      font-family: Eveleth Dot;
       font-size: 20px;
-      font-family: 'Eveleth Dot';
+      text-transform: uppercase;
+      max-width: 235px; 
       span {
         color: #feba30;
         transition: all 0.4s linear;
@@ -89,7 +91,8 @@
 
     
     &:hover {
-      background: #feba30 ;      
+      background: #feba30 ; 
+      border-color:#feba30 ;     
       color: #fff;
       span {
         color: #24292c;
@@ -102,7 +105,6 @@
       font-family: "Gotham Book";
       font-size: 16px;
       font-weight: 400;
-      line-height: 51px;
       text-align: center;
       text-decoration: none;
       color: #ffffff;
@@ -425,6 +427,7 @@
       padding-bottom: 50px;
       .bjsServices {
           font-size: 25px;
+          max-width: 210px;
       }
     }
   }
