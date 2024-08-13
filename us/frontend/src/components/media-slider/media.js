@@ -29,6 +29,7 @@ const Media = () => {
     <>
       <div className="mediaslidercompo">
         <Slider {...settings}>
+        <a href="#">
           <div className='mediaLogo d-flex'>
             <img src={process.env.PUBLIC_URL + "/images/media1.png"} alt="" className='mediaMainlogo' />
             <div>
@@ -40,6 +41,8 @@ const Media = () => {
               </div>
             </div>
           </div>
+          </a>
+        <a href="#">
           <div className='mediaLogo d-flex'>
             <img src={process.env.PUBLIC_URL + "/images/media1.png"} alt="" className='mediaMainlogo' />
             <div className="">
@@ -51,6 +54,8 @@ const Media = () => {
               </div>
             </div>
           </div>
+          </a>
+        <a href="#">
           <div className='mediaLogo d-flex'>
             <img src={process.env.PUBLIC_URL + "/images/media1.png"} alt="" className='mediaMainlogo' />
             <div className="">
@@ -62,6 +67,8 @@ const Media = () => {
               </div>
             </div>
           </div>
+          </a>
+        <a href="#">
           <div className='mediaLogo d-flex'>
             <img src={process.env.PUBLIC_URL + "/images/media1.png"} alt="" className='mediaMainlogo' />
             <div className="">
@@ -73,6 +80,8 @@ const Media = () => {
               </div>
             </div>
           </div>
+          </a>
+        <a href="#">
           <div className='mediaLogo d-flex'>
             <img src={process.env.PUBLIC_URL + "/images/media1.png"} alt="" className='mediaMainlogo' />
             <div className="">
@@ -84,6 +93,8 @@ const Media = () => {
               </div>
             </div>
           </div>
+          </a>
+        <a href="#">
           <div className='mediaLogo d-flex'>
             <img src={process.env.PUBLIC_URL + "/images/media1.png"} alt="" className='mediaMainlogo' />
             <div className="">
@@ -95,6 +106,8 @@ const Media = () => {
               </div>
             </div>
           </div>
+          </a>
+        <a href="#">
           <div className='mediaLogo d-flex'>
             <img src={process.env.PUBLIC_URL + "/images/media1.png"} alt="" className='mediaMainlogo' />
             <div className="">
@@ -106,6 +119,8 @@ const Media = () => {
               </div>
             </div>
           </div>
+          </a>
+        <a href="#">
           <div className='mediaLogo d-flex'>
             <img src={process.env.PUBLIC_URL + "/images/media1.png"} alt="" className='mediaMainlogo' />
             <div className="">
@@ -117,6 +132,8 @@ const Media = () => {
               </div>
             </div>
           </div>
+          </a>
+        <a href="#">
           <div className='mediaLogo d-flex'>
             <img src={process.env.PUBLIC_URL + "/images/media1.png"} alt="" className='mediaMainlogo' />
             <div className="">
@@ -128,6 +145,7 @@ const Media = () => {
               </div>
             </div>
           </div>
+          </a>
         </Slider>
       </div>
     </>

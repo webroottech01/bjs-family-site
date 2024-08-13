@@ -30,10 +30,7 @@ const Testimonials = () => {
               <p className='testimonialAuthor'>Allison - Wednesbury</p>
             </div>
             <div className='trustpilot text-end'>
-              <img src={process.env.PUBLIC_URL + "/images/trustpilotLogo.png"} alt="" className='iconMain' />
-              <div className='trustRating'>
-                <img src={process.env.PUBLIC_URL + "/images/trustRating.png"} alt="" className='iconMain' />
-              </div>
+            <img src={process.env.PUBLIC_URL + "/images/tp.svg"} alt="tp Logo" />
               <p>TrustScore <strong>4.6</strong> | <strong>29,473</strong> Reviews</p>
             </div>
           </div>
@@ -47,10 +44,7 @@ const Testimonials = () => {
               <p className='testimonialAuthor'>Allison - Wednesbury</p>
             </div>
             <div className='trustpilot text-end'>
-              <img src={process.env.PUBLIC_URL + "/images/trustpilotLogo.png"} alt="" className='iconMain' />
-              <div className='trustRating'>
-                <img src={process.env.PUBLIC_URL + "/images/trustRating.png"} alt="" className='iconMain' />
-              </div>
+              <img src={process.env.PUBLIC_URL + "/images/tp.svg"} alt="tp Logo" />
               <p>TrustScore <strong>4.6</strong> | <strong>29,473</strong> Reviews</p>
             </div>
           </div>

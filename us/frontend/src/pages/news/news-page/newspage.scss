@@ -10,6 +10,9 @@
     }
     .imageSection {
         .mainImg {
+            a {
+                text-decoration: none;
+            }
             .mainImgContent {
                 border-radius: 0 0 10px 10px;
                 background: #fff;
@@ -24,12 +27,15 @@
             }
         }
         h3 {
-            color: var(--bjs-dark-tone-copy, #877b6f);
+            color: #24292C;
             font-family: "Gotham Bold";
             font-size: 16px;
             font-style: normal;
             line-height: 22px; /* 137.5% */
             margin-bottom: 32px;
+        }
+        .articleMains {
+            padding-top:5px;
         }
         .article {
             p {
@@ -42,7 +48,7 @@
             }
         }
         .description {
-            color: var(--bjs-dark-tone-copy, #877b6f);
+            color: #24292C;
             font-family: "Gotham Book";
             font-size: 14px;
             font-style: normal;
@@ -59,7 +65,7 @@
                 line-height: normal;
             }
             a {
-                color: var(--bjs-dark-tone-copy, #877b6f);
+                color: #24292C;
                 font-family: "Gotham Bold";
                 font-size: 14px;
                 font-style: normal;
@@ -79,12 +85,16 @@
         }
         .listNews {
             padding-left: 30px;
+            a {
+                text-decoration: none;
+            }
             .singleNews {
                 margin-bottom: 15px;
                 border-radius: 10px;
                 background: #fff;
                 box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.05);
                 overflow: hidden;
+                
                 .mainImgContent {
                     padding: 30px;
 
@@ -106,7 +116,7 @@
                         margin: 0;
                     }
                     a {
-                        color: var(--bjs-dark-tone-copy, #877b6f);
+                        color: #24292C;
                         font-family: "Gotham Bold";
                         font-size: 14px;
                         font-style: normal;
@@ -121,7 +131,7 @@
                     }
                 }
                 h3 {
-                    color: var(--bjs-dark-tone-copy, #877b6f);
+                    color: #24292C;
                     font-family: "Gotham Bold";
                     font-size: 14px;
                     font-style: normal;
@@ -153,6 +163,10 @@
         }
         p {
             margin: 0;
+            color: #747E87;
+            font-style: italic;
+            font-size: 14px;
+            line-height: 14px;
         }
         .progress-bar {
             display: flex;
