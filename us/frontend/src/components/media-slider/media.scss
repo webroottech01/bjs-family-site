@@ -68,20 +68,22 @@
         gap: 28px;
     }
     h3 {
-        color: var(--bjs-dark-tone-copy, #877b6f);
+        color: #24292C;
         font-family: "Gotham Bold";
         font-size: 14px;
         font-style: normal;
         font-weight: 700;
-        line-height: 18px; /* 128.571% */
+        line-height: 18px;
+        margin-bottom: 10px;
     }
     p {
-        color: var(--bjs-dark-tone-copy, #877b6f);
+        color: #24292C;
         font-family: "Gotham Book";
         font-size: 12px;
         font-style: normal;
         font-weight: 400;
-        line-height: 18px; /* 150% */
+        line-height: 18px;
+        margin-bottom: 20px;
     }
     a {
         color: var(--BJS-Mid-Gray, #747e87);
@@ -90,7 +92,7 @@
         font-style: normal;
         font-weight: 500;
         line-height: 18px; /* 150% */
-        text-decoration-line: underline;
+        text-decoration-line: none;
     }
 }
 

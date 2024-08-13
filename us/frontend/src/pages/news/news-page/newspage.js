@@ -25,6 +25,7 @@ const Newspage = () => {
       <div className='container imageSection'>
         <div className='row justify-content-between listnewsDesktop'>
           <div className='col-md-6 mainImg p-0'>
+          <Link to={`/article/${newsData[0].id}`} >
             <div className='singleNews'>
               <img src={process.env.PUBLIC_URL + newsData[0].imageUrl} alt="" />
               <div className='mainImgContent'>
@@ -32,7 +33,7 @@ const Newspage = () => {
                   <div className='col-md-9'>
                   <Link className='headLink' to={`/article/${news.id}`}><h3 className='text-start'>{newsData[0].heading}</h3></Link>
                   </div>
-                  <div className='col-md-3 d-flex justify-content-between article'>
+                  <div className='col-md-3 d-flex justify-content-between article articleMains'>
                     <p><img src={process.env.PUBLIC_URL + "/images/articleIcon.png"} alt="" className='iconMain' /> {newsData[0].article}</p>
                     <p>{newsData[0].datePosted}</p>
                   </div>
@@ -44,10 +45,13 @@ const Newspage = () => {
                 </div>
               </div>
             </div>
+            </Link>
           </div>
           <div className='col-md-6 listNews'>
             {newsData.slice(1, 5).map((news) => (
-              <div key={news.id} className='singleNews d-flex'>
+              
+              <Link to={`/article/${news.id}`} key={news.id} >
+              <div className='singleNews d-flex'>
                 <img src={process.env.PUBLIC_URL + news.imageUrl} alt="" />
                 <div className='mainImgContent'>
                 <Link className='headLink' to={`/article/${news.id}`}><h3 className='text-start'>{newsData[0].heading}</h3></Link>
@@ -61,6 +65,7 @@ const Newspage = () => {
                   </div>
                 </div>
               </div>
+              </Link>
             ))}
           </div>
         </div>
@@ -68,6 +73,7 @@ const Newspage = () => {
               
           <div className='listNews listnewsMobile p-0'>
             {newsData.slice(0, 5).map((news) => (
+                <Link to={`/article/${news.id}`}>
               <div key={news.id} className='singleNews d-flex'>
                 <img src={process.env.PUBLIC_URL + news.imageUrl} alt="" />
                 <div className='mainImgContent'>
@@ -78,10 +84,11 @@ const Newspage = () => {
                   </div>
                   <div className='d-flex justify-content-between timeLink'>
                     <p><img src={process.env.PUBLIC_URL + "/images/clock.png"} alt="" className='iconMain' /> {news.time}</p>
-                    <Link to={`/article/${news.id}`}>Read Article <img src={process.env.PUBLIC_URL + "/images/nextArrow.png"} alt="" className='iconMain' /> </Link>
+                    <Link to={`/article/${news.id}`}>Reads Article <img src={process.env.PUBLIC_URL + "/images/nextArrow.png"} alt="" className='iconMain' /> </Link>
                   </div>
                 </div>
               </div>
+              </Link>
             ))}
           </div>
 
