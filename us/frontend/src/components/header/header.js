@@ -4,12 +4,14 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { LinkContainer } from "react-router-bootstrap";
+import CounteriesSwitcher from "../countries-switcher/counteries";
+import Talktous from "../talktous/talktous";
 
 // import NavDropdown from 'react-bootstrap';
 
 const Header = () => {
   const [expanded, setExpanded] = useState(false);
-  const [showDropdown, setShowDropdown] = useState(false);
+
   const [hoveredImages, setHoveredImages] = useState({
     "About BJS": process.env.PUBLIC_URL + "/images/about-default.webp",
     Us: process.env.PUBLIC_URL + "/images/us-default.png",
@@ -85,13 +87,6 @@ const Header = () => {
     }));
   };
 
-  const handleToggle = (isOpen) => {
-    setShowDropdown(isOpen);
-  };
-
-  const handleClose = () => {
-    setShowDropdown(false);
-  };
 
   const navToggle = () => setExpanded(!expanded);
   const closeNavbar = () => setExpanded(false);
@@ -103,7 +98,7 @@ const Header = () => {
           <Navbar.Brand> 
             <LinkContainer to="/">
               <img
-                src={process.env.PUBLIC_URL + "/FamilyLogo.png"}
+                src={process.env.PUBLIC_URL + "/FamilyLogo.svg"}
                 alt="Family Logo"
               />
             </LinkContainer>
@@ -167,53 +162,8 @@ const Header = () => {
               })}
             </Nav>
           </Navbar.Collapse>
-          <Nav className="me-auto navbarsecond">
-            <Nav.Link href="tel:+15593385575">
-              <button className="talktous">Talk to us</button>
-            </Nav.Link>
-            <NavDropdown
-              title="Us"
-              id="basic-nav-dropdown"
-              className="flags"
-              show={showDropdown}
-              onToggle={handleToggle}
-            >
-              <h5>Choose your region</h5>
-              <div className="regional-drop">
-                <div>
-                  <img
-                    src={process.env.PUBLIC_URL + "/images/uslogo.png"}
-                    alt=""
-                  />
-                  <p className="region-title">United States</p>
-                  <p>
-                    Proident kale chips vegan, succulents shaman ennui unicorn
-                    bespoke forage jean shorts blackbird spyplane helvetica
-                    edison bulb eiusmod scenester.
-                  </p>
-                  <button className="currentregion" disabled>
-                    Currently viewing
-                  </button>
-                </div>
-                <div>
-                  <img
-                    src={process.env.PUBLIC_URL + "/images/uklogo.png"}
-                    alt=""
-                  />
-                  <p className="region-title">United Kingdom</p>
-                  <p>
-                    Proident kale chips vegan, succulents shaman ennui unicorn
-                    bespoke forage jean shorts blackbird spyplane helvetica
-                    edison bulb eiusmod scenester.
-                  </p>
-                  <a href="https://bjsfamily.com/" className="otherregion">
-                    Switch to UK Site
-                  </a>
-                </div>
-              </div>
-              <button onClick={handleClose}>Close this window</button>
-            </NavDropdown>
-          </Nav>
+          <Talktous />
+          <CounteriesSwitcher />
         </Navbar>
       </div>
     </div>

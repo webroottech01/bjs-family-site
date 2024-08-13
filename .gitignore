@@ -6,9 +6,12 @@
 # Node artifact files
 node_modules/
 components/
+!/us/frontend/src/components
 docker/
 pages/
+!/us/frontend/src/pages
 public/
+!/us/frontend/public
 subsidiary-config/
 dist/
 bitbucket-pipelines.yml

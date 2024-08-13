@@ -1,0 +1,228 @@
+#switcherbtn {
+  font-family: "Gotham Bold";
+  font-size: 12px;
+  text-transform: uppercase;
+  background: url(../../../public/images/US-Flag.png) no-repeat scroll left
+    center;
+  padding: 0 0 0 25px;
+  color: #747e87;
+}
+
+.navbarsecond {
+  .dropdown {
+    position: unset;
+    .dropdownmenu {
+      right: 0;
+      left: auto;
+      border: none;
+      padding: 40px 60px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 3px 30px;
+      border-radius: 12px;
+
+      h5 {
+        color: #24292c;
+        font-family: "Gotham Medium";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+      }
+      .regional-drop {
+        display: flex;
+        gap: 20px;
+        text-align: center;
+        margin: 25px 0 40px;
+        > div {
+          padding: 25px;
+          border-radius: 10px;
+          background: #f9f9f9;
+
+          .region-title {
+            color: #24292c;
+            font-family: "Gotham Bold";
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 18px;
+            margin: 20px 0 10px;
+          }
+          p {
+            color: #24292c;
+            font-family: "Gotham Book";
+            font-size: 12px;
+            line-height: 16px;
+            margin-bottom: 0;
+          }
+          .currentregion {
+            font-family: "Gotham Book";
+            font-size: 13px;
+            font-style: italic;
+            line-height: 18px;
+            opacity: unset;
+            padding: 15px 30px;
+            width: fit-content;
+            margin: 25px auto 0;
+            border-radius: 66px;
+            border: 1px solid #c5d1dc;
+            color: #c5d1dc;
+          }
+          .otherregion {
+            font-family: "Gotham Bold";
+            font-size: 13px;
+            background-color: #24292c;
+            color: #fff;
+            line-height: 18px;
+            opacity: unset;
+            padding: 15px 30px;
+            width: fit-content;
+            margin: 25px auto 0;
+            border-radius: 66px;
+            border: 1px solid #c5d1dc;
+            text-decoration: none;
+            display: block;
+          }
+        }
+      }
+      button {
+        color: #747e87;
+        font-family: "Gotham Book";
+        font-size: 12px;
+        line-height: 22px;
+        text-decoration-line: none;
+        background: #fff;
+        border: none;
+        padding: 0;
+        margin: 0 auto;
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1710px) {
+  .header {
+    .container {
+      max-width: 98%;
+    }
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .navbarsecond {
+    .dropdown {
+      .dropdownmenu {
+        padding: 40px 30px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .navbarsecond {
+    .dropdown {
+      .dropdownmenu {
+        .regional-drop > div {
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .navbarsecond {
+    .dropdown {
+      .dropdownmenu {
+        padding: 35px 30px;
+        .regional-drop {
+          margin: 20px 0 30px;
+          > div {
+            .otherregion,
+            .currentregion {
+              font-size: 12px;
+              line-height: 16px;
+              padding: 12px 28px;
+              margin: 20px auto 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .navbarsecond {
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 0% !important;
+    order: 3;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .navbarsecond {
+    margin-right: 5% !important;
+    .flags {
+      .dropdownmenu {
+        position: absolute;
+        padding: 25px;
+      }
+    }
+    .dropdown .dropdownmenu .regional-drop > div .otherregion,
+    .dropdown .dropdownmenu .regional-drop > div .currentregion {
+      font-size: 12px;
+      line-height: 16px;
+      padding: 10px 20px;
+      margin: 18px auto 0;
+    }
+  }
+}
+
+@media screen and (max-width: 780px) {
+  #switcherbtn {
+    background-size: 15px;
+  }
+  .navbarsecond {
+    .flags {
+      background-size: 15px;
+      .dropdownmenu {
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navbarsecond {
+    margin-right: 5% !important;
+
+    .dropdown {
+      .dropdownmenu {
+        padding: 15px;
+        h5 {
+          font-size: 16px;
+          line-height: 18px;
+        }
+        .regional-drop {
+          margin: 18px 0 22px;
+          flex-direction: column;
+          > div {
+            padding: 15px;
+            .region-title {
+              font-size: 12px;
+              margin: 15px 0 8px;
+            }
+            .otherregion,
+            .currentregion {
+              font-size: 11px;
+              line-height: 15px;
+              padding: 8px 15px;
+              margin: 15px auto 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

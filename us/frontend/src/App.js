@@ -16,7 +16,7 @@ import Archivepage from "./pages/news/archive-page/archive";
 import GalleryPage1 from "./pages/about/gallery-page1/gallery-page1";
 import Ourstory from "./pages/about/our-story/our-story";
 import Careers from "./pages/career-page/careers";
-import Talktous from "./pages/talktous/talktous";
+import Talktous from "./components/talktous/talktous";
 import ScrollToTop from "./scrolltop";
 
 function App() {

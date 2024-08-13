@@ -1,3 +1,18 @@
+.talktousbtn { 
+    width: 145px;
+    height: 42px;
+    padding: 0px 0 0 22px;
+    letter-spacing: 0.5px;
+    border-radius: 66px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0px;
+    font-family: "Eveleth Dot";
+    font-size: 11px;
+    background: #747e87 url(../../../public/images/phone.png) no-repeat
+      scroll left 12px top 11px;
+}
+
 .talkus {
     background: linear-gradient(135.17deg, #F2F2F2 -0.3%, #EFEFEF 100%);
     text-align: left;
@@ -211,3 +226,38 @@
         }
     }
 }
+
+@media screen and (max-width: 1450px) {
+    .talktousbtn {
+        width: 130px;
+        height: 35px;
+        background-size: 15px;
+        background-position: 12px 10px;
+        padding: 0 0 0 15px;
+      }
+    }
+    @media screen and (max-width: 780px) {
+      .talktousbtn {
+        font-size: 10px;
+        width: 135px;
+        height: 33px;
+        padding: 0 0 0 18px;
+      }
+    }
+    @media screen and (max-width: 500px) {
+      .talktousbtn {
+        font-size: 0px;
+        height: 33px;
+        width: 34px;
+        padding: 0;
+        background-size: 20px;
+        background-position: center;
+      }
+    }
+      @media screen and (max-width: 350px) {
+      .talktousbtn {
+        height: 28px;
+        width: 28px;
+        background-size: 18px;
+      }
+    }
