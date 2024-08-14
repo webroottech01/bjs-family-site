@@ -65,7 +65,7 @@ $redcolor : red;
         border-left: 1px solid #DCDCDC;
         padding-right: 0;
         p{
-            color: var(--bjs-dark-tone-copy, #877B6F);
+            color: #24292C;
             font-family: "Gotham Book";
             font-size: 14px;
             margin: 0;
@@ -74,6 +74,7 @@ $redcolor : red;
         }
         p.based {
             margin: 14px 0 20px;
+            font-style: italic;
         }
     }
   } 

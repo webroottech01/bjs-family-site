@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/us/frontend/build/static/css/main.3e425ad0.css",
-    "main.js": "/us/frontend/build/static/js/main.ff6e829d.js",
+    "main.css": "/us/frontend/build/static/css/main.d84c1080.css",
+    "main.js": "/us/frontend/build/static/js/main.2a951737.js",
     "static/js/453.5d962359.chunk.js": "/us/frontend/build/static/js/453.5d962359.chunk.js",
     "static/media/banner.jpg": "/us/frontend/build/static/media/banner.611a5047949ff3a9f166.jpg",
     "static/media/mediaBg.jpg": "/us/frontend/build/static/media/mediaBg.2db54fdeeb85bbbb2f1f.jpg",
@@ -35,12 +35,12 @@
     "static/media/phone-blk.svg": "/us/frontend/build/static/media/phone-blk.9c06c4f9278083a60415.svg",
     "static/media/slick.woff": "/us/frontend/build/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/us/frontend/build/index.html",
-    "main.3e425ad0.css.map": "/us/frontend/build/static/css/main.3e425ad0.css.map",
-    "main.ff6e829d.js.map": "/us/frontend/build/static/js/main.ff6e829d.js.map",
+    "main.d84c1080.css.map": "/us/frontend/build/static/css/main.d84c1080.css.map",
+    "main.2a951737.js.map": "/us/frontend/build/static/js/main.2a951737.js.map",
     "453.5d962359.chunk.js.map": "/us/frontend/build/static/js/453.5d962359.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e425ad0.css",
-    "static/js/main.ff6e829d.js"
+    "static/css/main.d84c1080.css",
+    "static/js/main.2a951737.js"
   ]
 }

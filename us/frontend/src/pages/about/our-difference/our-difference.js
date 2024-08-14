@@ -94,7 +94,7 @@ const OurDifference = () => {
     <div className="our-difference">
       <div className="difference-secfull">
         <div className="container-xy">
-          <h2 className="about-title">Our Difference</h2>
+          <h2 className="about-title">What Makes BJS Different ?</h2>
           <p>We thought we would let our customers tell you what makes BJS different...</p>
           <div className="row two-column-sec">
             {testimonials.map((testimonial, index) => {

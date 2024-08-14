@@ -23,10 +23,10 @@ const CounteriesSwitcher = () => {
         <Modal
           show={show}
           onHide={overlayClose}
-          size="lg"
+          size="xl"
           aria-labelledby="contained-modal-title-vcenter"
           centered
-          className="flags dropdown"
+          className="switcherOverlay"
         >
           <div className="navbarsecond navbar-nav">
             <div className="flags dropdown">
