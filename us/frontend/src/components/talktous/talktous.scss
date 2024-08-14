@@ -9,8 +9,15 @@
     border: 0px;
     font-family: "Eveleth Dot";
     font-size: 11px;
-    background: #747e87 url(../../../public/images/phone.png) no-repeat
+    background: #747e87 url(../../../public/images/phone-yellow.svg) no-repeat
       scroll left 12px top 11px;
+      transition: all 0.5s linear;
+      
+      &:hover {
+        background: #feba30 url(../../../public/images/phone-blk.svg) no-repeat
+          scroll left 12px top 11px;
+        color: #000;
+      }
 }
 
 .talkus {
