@@ -361,7 +361,50 @@
 }
 
 
+.scroll-wrapper {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
 
+.scroll-container {
+    display: flex;
+    transition: transform 0.3s ease;
+    cursor: grab;
+}
+
+.scroll-item {
+    flex: 0 0 auto;
+    width: 200px; // Adjust width as needed
+    margin-right: 16px; // Space between items
+    background: #fff;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.pagination {
+    text-align: center;
+    margin-top: 10px;
+
+    .dot {
+        height: 10px;
+        width: 10px;
+        margin: 0 5px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+
+        &.active {
+            background-color: #717171;
+        }
+    }
+}
 
 
 
