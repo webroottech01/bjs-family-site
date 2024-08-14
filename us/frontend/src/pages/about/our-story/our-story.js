@@ -14,9 +14,9 @@ const Ourstory = () => {
                     <div className='storyDetail'>
                         <h3>Another string in our logistics bow</h3>
                         <div className='d-flex gap-4 align-items-center'>
-                            <img src={process.env.PUBLIC_URL + "/images/Construct_IT.png"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/tarmac.png"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/wienerberger.png"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/Construct_IT.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/tarmac.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/wienerberger.svg"} alt="" />
                         </div>
                         <p>We built Construct IT from the ground up to provide a safe pair of hands for industry leading construction material manufacturers.</p>
                         <p>A water-shed moment as Wienerberger choose Construct IT as a key delivery partner, based upon our stringent approach to safety and innovative IT systems.</p>
@@ -32,8 +32,8 @@ const Ourstory = () => {
                     <div className='storyDetail'>
                         <h3>An eventful year</h3>
                         <div className='d-flex gap-4 align-items-center'>
-                            <img src={process.env.PUBLIC_URL + "/images/bjs-haulage.png"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/bjs-extra.png"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/bjs-haulage.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/bjs-extra.svg"} alt="" />
                         </div>
                         <p>An eventful year of exciting growth for BJS as we expanded our capabilities and launched two new service-led brands.</p>
                         <p>BJS Haulage offers a broad range of services from tailor-made to economy and everything in-between, so with our family of delivery services — you’ll be safe in our hands.</p>
@@ -47,9 +47,9 @@ const Ourstory = () => {
                     <div className='storyDetail'>
                         <h3>Established partnerships</h3>
                         <div className='d-flex align-items-center gap-4'>
-                            <img src={process.env.PUBLIC_URL + "/images/julianbowen.png"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/oliverbonass.png"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/nectarsleep.png"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/julianbowen.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/oliverbonass.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/nectarsleep.svg"} alt="" />
                         </div>
                         <p>We begin working with Julian Bowen, a well known and established family furniture wholesaler who work with large high street retailers such as Next and DFS.</p>
                         <p>A strong brand in retail since it was founded in 1993, BJS won a tender to support Oliver Bonas in their home deliveries.</p>
@@ -65,11 +65,11 @@ const Ourstory = () => {
                     <div className='storyDetail'>
                         <h3>Business growth</h3>
                         <div className='d-flex align-items-center gap-4'>
-                            <img src={process.env.PUBLIC_URL + "/images/growth1.png"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/growth2.png"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/growth3.png"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/growth4.png"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/growth5.png"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/growth1.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/growth2.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/growth3.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/growth4.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/growth5.svg"} alt="" />
                         </div>
                         <p>We increased our fleet of vans yet again, reflecting increasing demand for home-deliveries.</p>
                         <p>We increased our warehouse space to 250,000 sq.ft. to reflect increasing demand for our services.</p>
@@ -85,8 +85,8 @@ const Ourstory = () => {
                     <div className='storyDetail'>
                         <h3>Partners & expansion</h3>
                         <div className='d-flex align-items-center gap-4'>
-                            <img src={process.env.PUBLIC_URL + "/images/wayfairs.png"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/richer-sounds.png"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/wayfairs.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/richer-sounds.svg"} alt="" />
                         </div>
                         <p>Our fleet of delivery vans increased again to 125.</p>
                         <p>Wayfair and Richer Sounds come on-board.</p>
@@ -100,11 +100,11 @@ const Ourstory = () => {
                     <div className='storyDetail'>
                         <h3>Recalibration</h3>
                         <div className='d-flex align-items-center gap-4'>
-                            <img src={process.env.PUBLIC_URL + "/images/recalibration1.png"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/recalibration2.png"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/recalibration3.png"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/recalibration4.png"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/recalibration5.png"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/recalibration1.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/recalibration2.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/recalibration3.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/recalibration4.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/recalibration5.svg"} alt="" />
                         </div>
                         <p className='m-0'>As well as improving processes and systems to increase and improve our services, we recalibrated our business to ensure that our rapid growth would not affect our overall performance.</p>
                     </div>
@@ -116,8 +116,8 @@ const Ourstory = () => {
                     <div className='storyDetail'>
                         <h3>Never standing still</h3>
                         <div className='d-flex align-items-center gap-4'>
-                            <img src={process.env.PUBLIC_URL + "/images/made.png"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/onecall.png"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/made.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/onecall.svg"} alt="" />
                         </div>
                         <p>We began working with MADE.COM and One Call to support their success in the UK furniture market.</p>
                         <p>We moved from our 18,000 sq.ft. facility into a 125,000 sq.ft. facility to meet the demands of our business growth.</p>
@@ -131,8 +131,8 @@ const Ourstory = () => {
                     <div className='storyDetail'>
                         <h3>Next day breakthrough</h3>
                         <div className='d-flex align-items-center gap-4'>
-                            <img src={process.env.PUBLIC_URL + "/images/costwold.png"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/nextdaydelievery.png"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/costwold.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/nextdaydelievery.svg"} alt="" />
                         </div>
                         <p>We began delivering for The Cotswold Company, with whom we continue to work closely.</p>
                         <p className='m-0'>We were one of the first to introduce ‘next day’ and ‘choice of delivery day’ for our customers; a breakthrough in the two-man delivery market.</p>
@@ -145,11 +145,11 @@ const Ourstory = () => {
                     <div className='storyDetail'>
                         <h3>Growing fast</h3>
                         <div className='d-flex align-items-center gap-4'>
-                            <img src={process.env.PUBLIC_URL + "/images/growing1.png"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/growing2.png"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/growing3.png"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/growing4.png"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/growing5.png"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/growing1.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/growing2.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/growing3.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/growing4.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/growing5.svg"} alt="" />
                         </div>
                         <p>We grew fast, purchasing a fleet of 10 vans, enabling us to grow our business and win some great new clients.</p>
                         <p className='m-0'>To handle the upturn in orders and improve our overall efficiency, we invested in a new IT system.</p>
@@ -162,7 +162,7 @@ const Ourstory = () => {
                     <div className='storyDetail'>
                         <h3>Where it all began</h3>
                         <div className='d-flex align-items-center gap-4'>
-                            <img src={process.env.PUBLIC_URL + "/images/bjsdistrubution.png"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/bjsdistrubution.svg"} alt="" />
                         </div>
                         <p className='m-0'>We began with a clear vision - to provide the best two-man delivery service in the UK, based upon our great people skills and reliable service that is second-to-none.</p>
                     </div>
