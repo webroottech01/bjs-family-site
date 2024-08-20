@@ -91,57 +91,58 @@ const TeamTestimonial = ({ imgSrc, quote, description, name, title, logo, custom
 
 const OurDifference = () => {
   return (
-    <div className="our-difference">
-      <div className="difference-secfull">
-        <div className="container-xy">
-          <h2 className="about-title">What Makes BJS Different ?</h2>
-          <p>We thought we would let our customers tell you what makes BJS different...</p>
-          <div className="row two-column-sec">
-            {testimonials.map((testimonial, index) => {
-              let columnClass = '';
-              if (index === 0) {
-                columnClass = 'left-column';
-              } else if (index === 1) {
-                columnClass = 'right-column';
-              }
-              return <Testimonial key={index} {...testimonial} columnClass={columnClass} />;
-            })}
+    <>
+      <div className="our-difference">
+        <div className="difference-secfull">
+          <div className="container-xy">
+            <h2 className="about-title">What Makes BJS Different ?</h2>
+            <p>We thought we would let our customers tell you what makes BJS different...</p>
+            <div className="row two-column-sec">
+              {testimonials.map((testimonial, index) => {
+                let columnClass = '';
+                if (index === 0) {
+                  columnClass = 'left-column';
+                } else if (index === 1) {
+                  columnClass = 'right-column';
+                }
+                return <Testimonial key={index} {...testimonial} columnClass={columnClass} />;
+              })}
+            </div>
           </div>
         </div>
-      </div>
 
         <section className="our-team">
-            <div className="container-xy">
-              <div className="row">
-                {teamTestimonials.map((teamTestimonial, index) => {
-                  let teamSecClass = '';
-                  let customClass = '';
-                  if (index === 1) {
-                    teamSecClass = 'mid-column';
-                    customClass = 'xm2';
-                  } else if (index === 2) {
-                    teamSecClass = 'right-column';
-                    customClass = 'xm2';
-                  }
-                  return (
-                    <TeamTestimonial
-                      key={index}
-                      {...teamTestimonial}
-                      teamSecClass={teamSecClass}
-                      customClass={customClass}
-                    />
-                  );
-                })}
-              </div>
+          <div className="container-xy">
+            <div className="row">
+              {teamTestimonials.map((teamTestimonial, index) => {
+                let teamSecClass = '';
+                let customClass = '';
+                if (index === 1) {
+                  teamSecClass = 'mid-column';
+                  customClass = 'xm2';
+                } else if (index === 2) {
+                  teamSecClass = 'right-column';
+                  customClass = 'xm2';
+                }
+                return (
+                  <TeamTestimonial
+                    key={index}
+                    {...teamTestimonial}
+                    teamSecClass={teamSecClass}
+                    customClass={customClass}
+                  />
+                );
+              })}
             </div>
-          </section>
+          </div>
+        </section>
 
         <DifferentTechnology
           layout="layout1"
           title="training academy"
           content="The life size training academy is a unique way for teams to hone their home delivery skills; meaning that when it comes to crossing thresholds for real, they are confident at tight corners and awkward spaces which is why we have a less than .5% damage rate and consistently high client feedback scores upwards of 97%."
           link="/training-academy"
-          imageUrl1="/images/Uplift Feature.jpg" 
+          imageUrl1="/images/Uplift Feature.jpg"
           customClass="blue-bg"
         />
         <div className='partnersMAin'>
@@ -150,8 +151,9 @@ const OurDifference = () => {
             <Partners />
           </div>
         </div>
-      
-    </div>
+
+      </div>
+    </>
   );
 }
 

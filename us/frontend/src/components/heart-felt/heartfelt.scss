@@ -64,7 +64,8 @@
         color: #000;
       }
       .slick-prev {
-        left: 90%;
+        left: auto;
+        right: 42px;    
       }
       .trustpilot {
         display: flex;

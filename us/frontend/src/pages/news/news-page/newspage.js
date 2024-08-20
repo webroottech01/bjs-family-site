@@ -35,7 +35,7 @@ const Newspage = () => {
                   </div>
                   <div className='col-md-3 d-flex justify-content-between article articleMains'>
                     <p><img src={process.env.PUBLIC_URL + "/images/articleIcon.png"} alt="" className='iconMain' /> {newsData[0].article}</p>
-                    <p>{newsData[0].datePosted}</p>
+                    <p className='postedClass'>{newsData[0].datePosted}</p>
                   </div>
                 </div>
                 <p className='description text-start'>{newsData[0].description}</p>
@@ -57,7 +57,7 @@ const Newspage = () => {
                 <Link className='headLink' to={`/article/${news.id}`}><h3 className='text-start'>{newsData[0].heading}</h3></Link>
                   <div className='d-flex justify-content-start gap-3 article'>
                     <p><img src={process.env.PUBLIC_URL + "/images/articleIcon.png"} alt="" className='iconMain' /> {news.article}</p>
-                    <p>{news.datePosted}</p>
+                    <p className='postedClass'>{news.datePosted}</p>
                   </div>
                   <div className='d-flex justify-content-between timeLink'>
                     <p><img src={process.env.PUBLIC_URL + "/images/clock.png"} alt="" className='iconMain' /> {news.time}</p>
@@ -80,7 +80,7 @@ const Newspage = () => {
                 <Link className='headLink' to={`/article/${news.id}`}><h3 className='text-start'>{newsData[0].heading}</h3></Link>
                   <div className='d-flex justify-content-start gap-3 article'>
                     <p><img src={process.env.PUBLIC_URL + "/images/articleIcon.png"} alt="" className='iconMain' /> {news.article}</p>
-                    <p>{news.datePosted}</p>
+                    <p className='postedClass'>{news.datePosted}</p>
                   </div>
                   <div className='d-flex justify-content-between timeLink'>
                     <p><img src={process.env.PUBLIC_URL + "/images/clock.png"} alt="" className='iconMain' /> {news.time}</p>

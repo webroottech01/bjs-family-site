@@ -4,6 +4,9 @@ $redcolor: red;
     .container{
         max-width: 97%;
         width: 100%;    
+        .sec-leftone {
+            border-right: 1px solid var(--BJS-Light-Gray, #C5D1DC) !important;
+        }
     }
     h2 {
         font-family: "Eveleth Dot";

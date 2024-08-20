@@ -46,6 +46,14 @@
                 line-height: 12px; /* 100% */
                 margin: 0;
             }
+            .postedClass {
+                color: var(--BJS-Mid-Gray, #747E87);
+                font-family: "Gotham Book" !important;
+                font-size: 12px;
+                font-style: italic !important;
+                font-weight: 400;
+                line-height: normal;
+            }
         }
         .description {
             color: #24292C;

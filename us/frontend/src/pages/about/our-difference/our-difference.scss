@@ -1,4 +1,9 @@
 .our-difference {
+    background-image: url("/../public/images/Mask Group 1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position: calc(15% - 12px) calc(0% + -30px);
     .container-xy {
         max-width: 1720px;
         margin: 0 auto;
@@ -6,11 +11,6 @@
 
     .difference-secfull {
         padding: 45px 0 0px;
-        background-image: url("/../public/images/Mask Group 1.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: local;
-        background-position: calc(15% - 12px) calc(0% + -30px);
 
         .title-column {
             padding: 40px 35px 40px 55px;
