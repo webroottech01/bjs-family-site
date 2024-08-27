@@ -1,934 +1,886 @@
 .head {
-    font-size: 20px;
+  font-size: 20px;
 }
-.servicePage{
-
-.container {
+.servicePage {
+  .container {
     max-width: 1720px;
     width: 92%;
-}
-.service-banner { 
-    background: linear-gradient(270.31deg, #FAA00E 0%, #FBC22B 100%);
+  }
+  .service-banner {
+    background: linear-gradient(270.31deg, #faa00e 0%, #fbc22b 100%);
     h2 {
-        font-family: 'Brixton_Wood_PERSONAL_USE_ONLY Vector';
-        font-size: 80px;
-        font-weight: 700;
-        line-height: 76.4px;
-        text-align: left;
-        color: #FFFFFF;
-        margin-bottom: 25px;
-        span {
-            color: #73c8ef;
-        }
+      font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
+      font-size: 80px;
+      font-weight: 700;
+      line-height: 76.4px;
+      text-align: left;
+      color: #ffffff;
+      margin-bottom: 25px;
+      span {
+        color: #73c8ef;
+      }
     }
     h3 {
-        font-family: 'Gotham Book';
-        font-size: 18px;
-        font-style: italic;
-        font-weight: normal;
-        line-height: 22px;
-        text-align: left;
-        color: #fff;
-        margin-bottom: 20px;
+      font-family: "Gotham Book";
+      font-size: 18px;
+      font-style: italic;
+      font-weight: normal;
+      line-height: 22px;
+      text-align: left;
+      color: #fff;
+      margin-bottom: 20px;
     }
     p {
-        font-family: 'Gotham Book';
-        font-size: 14px;
-        font-weight: normal;
-        line-height: 18px;
-        text-align: left;
-        color: #fff;
-        margin-bottom: 0;
+      font-family: "Gotham Book";
+      font-size: 14px;
+      font-weight: normal;
+      line-height: 18px;
+      text-align: left;
+      color: #fff;
+      margin-bottom: 0;
     }
     p.first-child {
-        width: 80%; 
+      width: 80%;
     }
     h4 {
-        font-family: 'Eveleth Dot';
-        font-size: 12px;
-        font-weight: 950;
-        line-height: 16.61px;
-        text-align: left;
-        color: #fff;
-        margin-bottom: 0;
+      font-family: "Eveleth Dot";
+      font-size: 12px;
+      font-weight: 950;
+      line-height: 16.61px;
+      text-align: left;
+      color: #fff;
+      margin-bottom: 0;
     }
     .left-sec {
-        width: 62%;
-        padding: 40px 0 42px;
+      width: 62%;
+      padding: 40px 0 42px;
     }
-    .right-sec{
-        img{
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            object-position: bottom;
-            max-width: 480px;
-        }
+    .right-sec {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: bottom;
+        max-width: 480px;
+      }
     }
     .feature {
-        gap: 25px;
-        padding: 20px 0;
-        border: 1px solid #FFFFFF33;
-        border-left: none;
-        border-right: none;
-        margin-top: 40px;
-        .col-md-2 {
-            width: fit-content;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
+      gap: 25px;
+      padding: 20px 0;
+      border: 1px solid #ffffff33;
+      border-left: none;
+      border-right: none;
+      margin-top: 40px;
+      .col-md-2 {
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
     }
-}
+  }
 
-.about-srvc {
+  .about-srvc {
     padding: 55px 0 42px;
     h2 {
-        font-family: "Eveleth Dot"; 
-        font-size: 16px;
-        font-weight: bold;
-        line-height: 22.14px;
-        text-align: left;
-        color: var(--bjs-dark-tone-copy, #24292C);
-        padding-bottom: 15px;
-        position: relative;
+      font-family: "Eveleth Dot";
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 22.14px;
+      text-align: left;
+      color: var(--bjs-dark-tone-copy, #24292c);
+      padding-bottom: 15px;
+      position: relative;
     }
     h2:before {
-        content: '';
-        width: 60px;
-        background: var(--BJS-Yellow, #FEBA30);
-        height: 4px;
-        position: absolute;
-        bottom: 0;
-        border-radius: 5px;
+      content: "";
+      width: 60px;
+      background: var(--BJS-Yellow, #feba30);
+      height: 4px;
+      position: absolute;
+      bottom: 0;
+      border-radius: 5px;
     }
     ul {
-        text-align: left;
-        padding-left: 15px;
-        margin: 30px 0 60px;
-        list-style: disc;
-        li {
-            font-family: 'Gotham Book';
-            font-size: 14px;
-            font-weight: normal;
-            line-height: 18px;
-            text-align: left;
-            color: var(--bjs-dark-tone-copy, #24292C);
-            margin-bottom: 12px;
-        }
-    }
-    p {
-        font-family: 'Gotham Book';
+      text-align: left;
+      padding-left: 15px;
+      margin: 30px 0 60px;
+      list-style: disc;
+      li {
+        font-family: "Gotham Book";
         font-size: 14px;
         font-weight: normal;
         line-height: 18px;
         text-align: left;
-        color: var(--bjs-dark-tone-copy, #24292C);
-        margin-top: 30px;
+        color: var(--bjs-dark-tone-copy, #24292c);
+        margin-bottom: 12px;
+      }
+    }
+    p {
+      font-family: "Gotham Book";
+      font-size: 14px;
+      font-weight: normal;
+      line-height: 18px;
+      text-align: left;
+      color: var(--bjs-dark-tone-copy, #24292c);
+      margin-top: 30px;
     }
     .options {
-        align-items: center;
-        margin-top: 10px;
-        h3 {
-            font-family: Gotham Bold;
-            font-size: 14px;
-            font-weight: 700;
-            line-height: 13.4px;
-            text-align: left;
-            margin-bottom: 10px;
-        }
-        p {
-            margin: 0;
-        }
-        .col-md-3 {
-            text-align: left;
-        }
+      align-items: center;
+      margin-top: 10px;
+      h3 {
+        font-family: Gotham Bold;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 13.4px;
+        text-align: left;
+        margin-bottom: 10px;
+      }
+      p {
+        margin: 0;
+      }
+      .col-md-3 {
+        text-align: left;
+      }
     }
     .bolt-on {
-        padding: 0 60px 0 30px;
+      padding: 0 60px 0 30px;
     }
-}
+  }
 
-.gallery {
+  .gallery {
     .container {
-        max-width: 100%;
+      max-width: 100%;
+      width: 100%;
+      img {
         width: 100%;
-        img {
-            width: 100%;
+      }
+      .col-md-2 {
+        .row {
+          width: 100%;
         }
-        .col-md-2 { 
-            .row {
-                width: 100%;
-            }
-        }
+      }
     }
-}
+  }
 
-.our-partner {
+  .our-partner {
     padding: 60px 0;
     max-width: 1920px;
     width: 100%;
-    background: linear-gradient(180deg, #FFFFFF 0%, #F3F3F3 80%);
+    background: linear-gradient(180deg, #ffffff 0%, #f3f3f3 80%);
     h3 {
-        background: #fff;
-        color: #3498db;
-        font-size: 36px;
-        line-height: 100px;
-        margin: 10px;
-        padding: 2%;
-        position: relative;
-        text-align: center;
+      background: #fff;
+      color: #3498db;
+      font-size: 36px;
+      line-height: 100px;
+      margin: 10px;
+      padding: 2%;
+      position: relative;
+      text-align: center;
     }
-}
+  }
 
-.our-people {
-    background:#73c8ef;
+  .our-people {
+    background: #73c8ef;
     padding: 25px 0 0;
     .container {
-        max-width: 1790px;
-        width: 95%;
+      max-width: 1790px;
+      width: 95%;
     }
-    .textCol{
-        padding-left: 55px;
-    
-    h2 {
-        font-family: 'Brixton_Wood_PERSONAL_USE_ONLY Vector';
+    .textCol {
+      padding-left: 55px;
+
+      h2 {
+        font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
         font-size: 60px;
         font-weight: bold;
         line-height: 57.3px;
         text-align: left;
         color: #fff;
         margin: 20px 0;
-    }
-    p {
+      }
+      p {
         font-family: Gotham Book;
         font-size: 14px;
         font-weight: 400;
         line-height: 18px;
         text-align: left;
-        color: var(--bjs-dark-tone-copy, #24292C);
+        color: var(--bjs-dark-tone-copy, #24292c);
         margin-bottom: 18px;
         span {
-            font-family: 'Gotham Medium';
+          font-family: "Gotham Medium";
         }
+      }
     }
+    .text-end {
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        object-position: bottom;
+        max-width: 455px;
+      }
     }
-    .text-end{
-        img{
-            width: 100%;
-            height: 100%;
-            object-fit: contain;
-            object-position: bottom;
-            max-width: 455px;
-        }
-    } 
-    .valueColm{
-        gap: 30px;
-
+    .valueColm {
+      gap: 30px;
     }
-}
-    .service-main { 
-        margin-top: -212px;
-        padding-bottom: 40px;
-        .srvcSlider{
-            gap: 10px;
-            flex-wrap: nowrap;
-            overflow: hidden;
-            overflow-x: scroll;
-            padding: 0 40px 30px;     
-    
-        }
-        .col-md-2 {
-            padding: 20px 20px 30px 20px;
-            border-radius: 10px;
-            max-width: 330px;
-            width: 100%;
-            background: #fff;
-            box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.08);
-            p {
-                text-align: center;
-                color: var(--bjs-dark-tone-copy, #24292C);
-                font-family: "Gotham Book";
-                font-size: 14px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 18px; 
-                margin: 0;
-            }
-        }
-        img {
-            width: 100%;
-        }
-        .container {
-            max-width: 1920px;
-            width: 100%;
-            h3 {
-                font-size: 14px;
-                font-weight: bold;
-                line-height: 19.38px;
-                text-align: center;
-                font-family: 'Eveleth Dot';
-                color: var(--bjs-dark-tone-copy, #24292C);
-                margin: 20px 0 10px;
-            }
-        }   
+  }
+  .service-main {
+    margin-top: -212px;
+    padding-bottom: 40px;
+    max-width: 100vw;
+    overflow: hidden;
 
-        ::-webkit-scrollbar {
-
-            width: 1840px;
-            height: 4px;
-            scrollbar-width: 1700px;
-        }
-                            
-        ::-webkit-scrollbar-track {
-            background-color: #f4f5f5;
-            border-radius: 10px;
-
-        }
-                            
-        ::-webkit-scrollbar-thumb {
-            border-radius: 10px;
-            background-color: #DEE0E0;
-            width: 1400px;
-        }    
-    
+    .srvcSlider {
+      gap: 10px;
+      flex-wrap: nowrap;
+      overflow: hidden;
+      overflow-x: scroll;
+      padding: 0 40px 30px;
+      justify-content: space-between;
+      cursor: grab;
+      &.active {
+        cursor: grabbing;
+      }
+    }
+    .col-md-2 {
+      padding: 20px 20px 30px 20px;
+      border-radius: 10px;
+      max-width: 330px;
+      width: 100%;
+      background: #fff;
+      box-shadow: 0px 3px 20px 0px rgba(0, 0, 0, 0.08);
+      user-select: none;
+      p {
+        text-align: center;
+        color: var(--bjs-dark-tone-copy, #24292c);
+        font-family: "Gotham Book";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        margin: 0;
+      }
+    }
+    img {
+      width: 100%;
+      pointer-events: none;
+    }
+    .containerdiv {
+      width: 100%;
+      h3 {
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 19.38px;
+        text-align: center;
+        font-family: "Eveleth Dot";
+        color: var(--bjs-dark-tone-copy, #24292c);
+        margin: 20px 0 10px;
+      }
     }
 
+    ::-webkit-scrollbar {
+      width: 90%;
+      height: 4px;
+      scrollbar-width: 90%;
+    }
 
-.partnersMAin {
-    background: linear-gradient(180deg, #FFF 0%, #F3F3F3 80%);
-}
-.newsPartners {
+    ::-webkit-scrollbar-track {
+      background-color: #f4f5f5;
+      border-radius: 10px;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: #dee0e0;
+    }
+  }
+
+  .partnersMAin {
+    background: linear-gradient(180deg, #fff 0%, #f3f3f3 80%);
+  }
+  .newsPartners {
     max-width: 1700px;
     width: 90%;
     margin: 0 auto;
     padding: 55px 0;
 
     h2 {
-        color: #919495;
-        font-family: "Eveleth Dot";
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 950;
-        line-height: normal;
-        position: relative;
-        margin: 0 auto ;
-        &:before {
-            content: "";
-            position: absolute;
-            width: 43%;
-            background: #d1d6d8;
-            height: 1px;
-            left: 0;
-            top: 12px;
-        }
-        &:after {
-            content: "";
-            position: absolute;
-            width: 43%;
-            background: #d1d6d8;
-            height: 1px;
-            right: 0;
-            top: 12px;
-        }
+      color: #919495;
+      font-family: "Eveleth Dot";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 950;
+      line-height: normal;
+      position: relative;
+      margin: 0 auto;
+      &:before {
+        content: "";
+        position: absolute;
+        width: 43%;
+        background: #d1d6d8;
+        height: 1px;
+        left: 0;
+        top: 12px;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        width: 43%;
+        background: #d1d6d8;
+        height: 1px;
+        right: 0;
+        top: 12px;
+      }
     }
-}
-.enquiry{ 
-    .container{
-        max-width: 97%;
-        width: 100%;    
+  }
+  .enquiry {
+    .container {
+      max-width: 97%;
+      width: 100%;
     }
-}
-.caseStudy{
+  }
+  .caseStudy {
     padding: 45px 0 53px;
     overflow: hidden;
-    .container{
-
+    .container {
     }
-    h2{
-        color: var(--bjs-dark-tone-copy, #24292C);
-        font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
-        font-size: 60px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;   
-        border-bottom: 1px solid var(--BJS-Light-Gray, #C5D1DC); 
-        padding-bottom: 18px;
+    h2 {
+      color: var(--bjs-dark-tone-copy, #24292c);
+      font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      border-bottom: 1px solid var(--BJS-Light-Gray, #c5d1dc);
+      padding-bottom: 18px;
     }
+  }
 }
-
-
-}
-
 
 .scroll-wrapper {
-    overflow: hidden;
-    width: 100%;
-    position: relative;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
 }
 
 .scroll-container {
-    display: flex;
-    transition: transform 0.3s ease;
-    cursor: grab;
+  display: flex;
+  transition: transform 0.3s ease;
+  cursor: grab;
 }
 
 .scroll-item {
-    flex: 0 0 auto;
-    width: 200px; // Adjust width as needed
-    margin-right: 16px; // Space between items
-    background: #fff;
-    padding: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  flex: 0 0 auto;
+  width: 200px; // Adjust width as needed
+  margin-right: 16px; // Space between items
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 
-    img {
-        max-width: 100%;
-        height: auto;
-    }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .pagination {
-    text-align: center;
-    margin-top: 10px;
+  text-align: center;
+  margin-top: 10px;
 
-    .dot {
-        height: 10px;
-        width: 10px;
-        margin: 0 5px;
-        background-color: #bbb;
-        border-radius: 50%;
-        display: inline-block;
-        transition: background-color 0.3s ease;
+  .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
 
-        &.active {
-            background-color: #717171;
-        }
+    &.active {
+      background-color: #717171;
     }
+  }
 }
 
-
-
-@media screen and (max-width:1600px) {
-
-    .servicePage{
-        .service-banner {
-            h2 {
-                font-size: 65px;
-                line-height: 65.4px;
-                margin-bottom: 20px;
-            }
-        }
-        .about-srvc {
-            h2 {
-                font-size: 15px;
-                line-height: 18.14px;
-            }
-            ul {
-                margin: 25px 0 45px;
-
-                li{
-                    font-size: 13px;
-                    line-height: 16px;
-                }
-            }
-            p{
-                font-size: 13px;
-                line-height: 16px;
-                margin-top: 25px;
-            }
-            .options {
-                img{
-                    width:75px;
-                }
-                h3 {
-                    font-size: 13px;
-                    margin-bottom: 6px;
-                }
-            }
-        }
-        .caseStudy {
-            h2{
-                font-size: 50px;
-            }
-
-        }
-        .our-people {
-            .textCol {
-                h2 {
-                font-size: 50px;
-                line-height: 50.3px;
-                margin: 15px 0;
-                }
-            }
-        }
-
-
-
-
-        .newsPartners {
-          padding: 45px 0;
-          h2{
-            font-size: 18px;
-            &:before{
-              width: 42%;
-            }
-            &:after{
-              width: 42%;
-            }
-          }
-        
-        }
-    }
-          
-    }
-
-
-    @media screen and (max-width:1450px) {
-        .servicePage {
-            .service-banner {
-                h2 {
-                    font-size: 52px;
-                    line-height: 55.4px;
-                    margin-bottom: 15px;
-                }
-                h3 {
-                    font-size: 16px;
-                    line-height: 18px;
-                    margin-bottom: 12px;
-                }
-                h4 {
-                    font-size: 10px;
-                    line-height: 13.61px;
-                }
-                .left-sec {
-                    padding: 30px 0;
-                }
-            }
-            .about-srvc {
-                padding: 48px 0 30px;
-                h2 {
-                    padding-bottom: 12px;
-                    font-size: 14px;
-                    &:before{
-                        width: 50px;
-                        height: 2.5px;
-                    }
-                }
-                .options {
-                    img {
-                        width: 65px;
-                    }
-                }
-            }
-            .caseStudy {
-                padding: 38px 0 45px;
-                h2 {
-                    font-size: 38px;
-                }
-
-            }
-            .our-people {
-
-                .textCol {
-                    h2 {
-                        font-size: 38px;
-                        line-height: 40.3px;
-                    }
-                    p {
-                        font-size: 12px;
-                        line-height: 16px;
-                        margin-bottom: 10px;
-                    }
-            }
-            }
-            .service-main {
-                margin-top: -195px;
-                .col-md-2 {
-                    padding: 15px 15px 25px 15px;
-                    max-width: 300px;
-                    p{
-                        font-size: 12px;
-                        line-height: 16px;
-                    }
-                }
-                .container {
-                    h3 {
-                        font-size: 13px;
-                        line-height: 15.38px;
-                        margin: 15px 0 8px;
-                    }
-                }
-            }
-        }
-
-
-    }
-
-
-    
-    
-    
-    
-    @media screen and (max-width:1024px) {
-    .servicePage{
-
-        .service-banner {
-            h2 {
-                font-size: 42px;
-                line-height: 45.4px;
-            }
-            .feature {
-                gap: 18px;
-                padding: 15px 0;
-                margin-top: 28px;
-            }
-            .right-sec{
-                width: 35%;
-            }
-            .left-sec {
-                padding: 25px 0;
-            }
-            p {
-                font-size: 13px;
-                line-height: 16px;
-            }
-            h3 {
-                font-size: 15px;
-                line-height: 17px;
-                margin-bottom: 8px;
-            }
-        }
-        .about-srvc {
-            padding: 38px 0 20px;
-            h2 {
-                padding-bottom: 10px;
-                font-size: 13px;
-            }
-            p{
-                margin-top: 20px;
-            }
-            ul {
-                margin: 20px 0 30px;
-                li{
-                    margin-bottom: 10px;
-                }
-            }
-            .options {
-                gap: 15px;
-                flex-wrap: nowrap;
-                img {
-                    width: 100%;
-                }
-            }
-            .bolt-on {
-                padding: 0px 38px 0 28px;
-            }
-        }
-        .our-people {
-            padding: 25px 0 16%;
-        }
-
-
-        .newsPartners {
-            padding: 38px 0;
-            h2{
-            &:after {
-                width: 39%;
-            }
-            &:before {
-                width: 39%;
-            }
-            }
-        }
-    }
-              
-    }
-    
-    
-    @media screen and (max-width:825px) {
-    
-    .servicePage{
-        .service-main {
-            margin-top: -157px;
-            .col-md-2 {
-                padding: 12px 12px 20px 12px;
-                max-width: 245px;
-            }
-            .srvcSlider {
-                gap: 7px;
-                padding: 0 25px 28px;
-            }
-        }
-        .our-people {
-            padding: 10px 0 19%;
-            .textCol {
-                padding-left: 25px;
-            }
-        }
-
-
-
-
-        .newsPartners {
-            padding: 30px 0;
-            h2 {
-            font-size: 16px;
-                &:before {
-                width: 37%;
-                }
-                &:after {
-                width: 37%;
-                }
-            }
-        }
-    }
-          
-    }
-    
-@media screen and (max-width:780px) {
-
-.servicePage {
+@media screen and (max-width: 1600px) {
+  .servicePage {
     .service-banner {
+      h2 {
+        font-size: 65px;
+        line-height: 65.4px;
+        margin-bottom: 20px;
+      }
+    }
+    .about-srvc {
+      h2 {
+        font-size: 15px;
+        line-height: 18.14px;
+      }
+      ul {
+        margin: 25px 0 45px;
+
+        li {
+          font-size: 13px;
+          line-height: 16px;
+        }
+      }
+      p {
+        font-size: 13px;
+        line-height: 16px;
+        margin-top: 25px;
+      }
+      .options {
+        img {
+          width: 75px;
+        }
+        h3 {
+          font-size: 13px;
+          margin-bottom: 6px;
+        }
+      }
+    }
+    .caseStudy {
+      h2 {
+        font-size: 50px;
+      }
+    }
+    .our-people {
+      .textCol {
         h2 {
-            font-size: 38px;
-            line-height: 38.4px;
-            margin-bottom: 12px;
+          font-size: 50px;
+          line-height: 50.3px;
+          margin: 15px 0;
         }
-        .left-sec {
-            padding: 20px 0;
-            width: 100%;
+      }
+    }
+
+    .newsPartners {
+      padding: 45px 0;
+      h2 {
+        font-size: 18px;
+        &:before {
+          width: 42%;
         }
-        .right-sec {
-            width: 335px;
-            margin: 0 auto;
+        &:after {
+          width: 42%;
         }
-        .feature {
-            gap: 18px;
-            padding: 12px 0;
-            margin-top: 22px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  .servicePage {
+    .service-banner {
+      h2 {
+        font-size: 52px;
+        line-height: 55.4px;
+        margin-bottom: 15px;
+      }
+      h3 {
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 12px;
+      }
+      h4 {
+        font-size: 10px;
+        line-height: 13.61px;
+      }
+      .left-sec {
+        padding: 30px 0;
+      }
+    }
+    .about-srvc {
+      padding: 48px 0 30px;
+      h2 {
+        padding-bottom: 12px;
+        font-size: 14px;
+        &:before {
+          width: 50px;
+          height: 2.5px;
         }
+      }
+      .options {
+        img {
+          width: 65px;
+        }
+      }
+    }
+    .caseStudy {
+      padding: 38px 0 45px;
+      h2 {
+        font-size: 38px;
+      }
+    }
+    .our-people {
+      .textCol {
+        h2 {
+          font-size: 38px;
+          line-height: 40.3px;
+        }
+        p {
+          font-size: 12px;
+          line-height: 16px;
+          margin-bottom: 10px;
+        }
+      }
+    }
+    .service-main {
+      margin-top: -195px;
+      .col-md-2 {
+        padding: 15px 15px 25px 15px;
+        max-width: 300px;
+        p {
+          font-size: 12px;
+          line-height: 16px;
+        }
+      }
+      .containerdiv {
+        h3 {
+          font-size: 13px;
+          line-height: 15.38px;
+          margin: 15px 0 8px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .servicePage {
+    .service-banner {
+      h2 {
+        font-size: 42px;
+        line-height: 45.4px;
+      }
+      .feature {
+        gap: 18px;
+        padding: 15px 0;
+        margin-top: 28px;
+      }
+      .right-sec {
+        width: 35%;
+      }
+      .left-sec {
+        padding: 25px 0;
+      }
+      p {
+        font-size: 13px;
+        line-height: 16px;
+      }
+      h3 {
+        font-size: 15px;
+        line-height: 17px;
+        margin-bottom: 8px;
+      }
+    }
+    .about-srvc {
+      padding: 38px 0 20px;
+      h2 {
+        padding-bottom: 10px;
+        font-size: 13px;
+      }
+      p {
+        margin-top: 20px;
+      }
+      ul {
+        margin: 20px 0 30px;
+        li {
+          margin-bottom: 10px;
+        }
+      }
+      .options {
+        gap: 15px;
+        flex-wrap: nowrap;
+        img {
+          width: 100%;
+        }
+      }
+      .bolt-on {
+        padding: 0px 38px 0 28px;
+      }
+    }
+    .our-people {
+      padding: 25px 0 16%;
+    }
+
+    .newsPartners {
+      padding: 38px 0;
+      h2 {
+        &:after {
+          width: 39%;
+        }
+        &:before {
+          width: 39%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 825px) {
+  .servicePage {
+    .service-main {
+      margin-top: -157px;
+      .col-md-2 {
+        padding: 12px 12px 20px 12px;
+        max-width: 245px;
+      }
+      .srvcSlider {
+        gap: 7px;
+        padding: 0 25px 28px;
+      }
+    }
+    .our-people {
+      padding: 10px 0 19%;
+      .textCol {
+        padding-left: 25px;
+      }
+    }
+
+    .newsPartners {
+      padding: 30px 0;
+      h2 {
+        font-size: 16px;
+        &:before {
+          width: 37%;
+        }
+        &:after {
+          width: 37%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .servicePage {
+    .service-banner {
+      h2 {
+        font-size: 38px;
+        line-height: 38.4px;
+        margin-bottom: 12px;
+      }
+      .left-sec {
+        padding: 20px 0;
+        width: 100%;
+      }
+      .right-sec {
+        width: 335px;
+        margin: 0 auto;
+      }
+      .feature {
+        gap: 18px;
+        padding: 12px 0;
+        margin-top: 22px;
+      }
     }
 
     .about-srvc {
-        padding: 35px 0 15px;
-        h2 {
-            font-size: 14px;
+      padding: 35px 0 15px;
+      h2 {
+        font-size: 14px;
+      }
+      p {
+        margin-top: 15px;
+        font-size: 14px;
+        line-height: 18px;
+      }
+      ul {
+        margin: 18px 0 28px;
+        li {
+          margin-bottom: 8px;
+          font-size: 14px;
         }
-        p {
-            margin-top: 15px;
-            font-size: 14px;
-            line-height: 18px;
+      }
+      .bolt-on {
+        padding: 5px 0 30px;
+      }
+      .options {
+        .col-sm-2 {
+          width: 75px;
         }
-        ul {
-            margin: 18px 0 28px;    
-            li {
-                margin-bottom: 8px;
-                font-size: 14px;
-            }
+        h3 {
+          font-size: 14px;
+          margin-bottom: 5px;
         }
-        .bolt-on {
-            padding: 5px 0 30px;
+        .col-sm-10 {
+          width: 83%;
         }
-        .options {
-            .col-sm-2 {
-                width: 75px;
-            }
-            h3 {
-                font-size: 14px;
-                margin-bottom: 5px;
-            }
-            .col-sm-10 {
-                width: 83%;
-            }
-        }
+      }
     }
     .caseStudy {
-        padding: 28px 0 20px;
-        h2 {
-            font-size: 32px;
-            padding-bottom: 13px;
-        }
-
+      padding: 28px 0 20px;
+      h2 {
+        font-size: 32px;
+        padding-bottom: 13px;
+      }
     }
 
     .our-people {
-        padding: 10px 0 0;
-        .textCol {
-            h2 {
-                font-size: 32px;
-                line-height: 35.3px;
-                margin: 12px 0;
-            }
-            p {
-                font-size: 13px;
-                line-height: 18px;
-                margin-bottom: 8px;
-            }
+      padding: 10px 0 0;
+      .textCol {
+        h2 {
+          font-size: 32px;
+          line-height: 35.3px;
+          margin: 12px 0;
         }
-        .valueColm {
-            gap: 10px;
+        p {
+          font-size: 13px;
+          line-height: 18px;
+          margin-bottom: 8px;
         }
-        .text-end {
-            img {
-                width: 350px;
-            }
+      }
+      .valueColm {
+        gap: 10px;
+      }
+      .text-end {
+        img {
+          width: 350px;
         }
+      }
     }
     .service-main {
-        margin-top: -152px;
-        .col-md-2 {
-            padding: 10px 10px 18px 10px;
-            max-width: 235px;
-        }
+      margin-top: -152px;
+      .col-md-2 {
+        padding: 10px 10px 18px 10px;
+        max-width: 235px;
+      }
     }
     .gallery {
-        .container{
-            padding: 0;
-            img{
-                height: 99% !important;
-            }
+      .container {
+        padding: 0;
+        img {
+          height: 99% !important;
         }
-        .row {
-            width: 100%;
-            margin: 0 auto;
-            flex-flow: wrap;
-            justify-content: center;
-            .col-sm-2 {
-                width: 33%;
-                padding: 5px !important;
-            }
-            .col-sm-4 {
-                padding: 5px !important;
-                width: 66%;
-            }
+      }
+      .row {
+        width: 100%;
+        margin: 0 auto;
+        flex-flow: wrap;
+        justify-content: center;
+        .col-sm-2 {
+          width: 33%;
+          padding: 5px !important;
         }
+        .col-sm-4 {
+          padding: 5px !important;
+          width: 66%;
+        }
+      }
     }
-
+  }
 }
 
-    
+@media screen and (max-width: 500px) {
+  .servicePage {
+    .newsPartners {
+      padding: 25px 0;
+      h2 {
+        font-size: 15px;
+        &:before {
+          width: 30%;
+        }
+        &:after {
+          width: 30%;
+        }
+      }
+    }
+    .service-banner {
+      h2 {
+        font-size: 32px;
+        margin-bottom: 10px;
+      }
+      .right-sec {
+        width: 300px;
+      }
+      .feature {
+        gap: 15px;
+        padding: 10px 0;
+        margin-top: 20px;
+        .col-md-2 {
+          width: 48%;
+        }
+      }
+      p.first-child {
+        width: 100%;
+      }
+    }
+    .about-srvc {
+      .options {
+        width: 100%;
+        .col-sm-10 {
+          width: 80%;
+        }
+        .col-sm-2 {
+          width: 65px;
+        }
+      }
+      h2 {
+        font-size: 12px;
+      }
+      ul {
+        margin: 15px 0 25px;
+        li {
+          margin-bottom: 8px;
+          font-size: 12px;
+        }
+      }
+      p {
+        margin-top: 12px;
+        font-size: 12px;
+      }
+      .options {
+        h3 {
+          font-size: 13px;
+        }
+      }
+    }
+    .service-main {
+      .srvcSlider {
+        gap: 7px;
+        padding: 0 18px 22px;
+      }
+    }
+    .caseStudy {
+      h2 {
+        font-size: 28px;
+        padding-bottom: 13px;
+      }
+    }
+    .our-people {
+      .textCol {
+        padding-left: 18px;
+        h2 {
+          font-size: 28px;
+          line-height: 32.3px;
+          margin: 10px 0;
+        }
+      }
+      .text-end {
+        img {
+          width: 300px;
+        }
+      }
+      .valueColm {
+        width: 100%;
+      }
+    }
+    .gallery {
+      .container {
+        img {
+          height: 100% !important;
+        }
+      }
+      .row {
+        .col-sm-4 {
+          padding: 3px !important;
+        }
+        .col-sm-2 {
+          padding: 3px !important;
+        }
+      }
+    }
+  }
 }
-
-
-    
-    
-    @media screen and (max-width:500px) {
-    .servicePage{
-        .newsPartners {
-            padding: 25px 0;
-            h2{
-              font-size: 15px;
-              &:before {
-                width: 30%;
-              }
-              &:after {
-                width: 30%;
-              }
-            }
-        }
-        .service-banner {
-            h2 {
-                font-size: 32px;
-                margin-bottom: 10px;
-            }
-            .right-sec {
-                width: 300px;
-            }
-            .feature {
-                
-                gap: 15px;
-                padding: 10px 0;
-                margin-top: 20px;
-                .col-md-2 {
-                    width: 48%;
-                }
-            }
-            p.first-child {
-                width: 100%;
-            }
-        }
-        .about-srvc {
-            .options {
-                width: 100%;
-                .col-sm-10 {
-                    width: 80%;
-                }
-                .col-sm-2 {
-                    width: 65px;
-                }
-            }
-            h2 {
-                font-size: 12px;
-            }
-            ul {
-                margin: 15px 0 25px;
-                li {
-                margin-bottom: 8px;
-                font-size: 12px;
-                }
-            }
-            p {
-                margin-top: 12px;
-                font-size: 12px;
-            }
-            .options {
-                h3 {
-                font-size: 13px;
-                }
-            }
-        }
-        .service-main {
-            .srvcSlider {
-                gap: 7px;
-                padding: 0 18px 22px;
-            }
-        }
-        .caseStudy {
-            h2 {
-                font-size: 28px;
-                padding-bottom: 13px;
-            }
-        }
-        .our-people {
-            .textCol {
-                padding-left: 18px;
-                h2 {
-                    font-size: 28px;
-                    line-height: 32.3px;
-                    margin: 10px 0;
-                }
-            }
-            .text-end {
-                img {
-                    width: 300px;
-                }
-            }
-            .valueColm {
-                width: 100%;
-            }
-        }
-        .gallery {
-            .container {
-                img {
-                    height: 100% !important;
-                }
-            }
-            .row {
-                .col-sm-4 {
-                    padding: 3px !important;
-                }
-                .col-sm-2 {
-                    padding: 3px !important;
-                }
-            
-
-            }
-
-        
-        }
-
-
-
-    }
-        
-    }
