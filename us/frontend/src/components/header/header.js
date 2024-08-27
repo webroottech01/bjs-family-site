@@ -96,7 +96,7 @@ const Header = () => {
       <div className="container">
         <Navbar expand="lg" className="bg-body-tertiary" expanded={expanded} onToggle={navToggle}>
           <Navbar.Brand> 
-            <LinkContainer to="/">
+            <LinkContainer to="/" active={false}>
               <img
                 src={process.env.PUBLIC_URL + "/FamilyLogo.svg"}
                 alt="Family Logo"
@@ -122,7 +122,7 @@ const Header = () => {
                     <div className="dropdown-menu-container">
                       <div className="dropdown-items">
                         {item.subMenu.map((subItem, subIndex) => (
-                          <LinkContainer to={subItem.link} key={subIndex} onClick={closeNavbar}>
+                          <LinkContainer to={subItem.link} key={subIndex} onClick={closeNavbar} active={false}>
                             <NavDropdown.Item
                               onMouseEnter={() =>
                                 handleMouseEnter(item.name, subItem.image)
@@ -155,7 +155,7 @@ const Header = () => {
 
 
                 ) : (
-                  <LinkContainer to={item.link} key={index} onClick={closeNavbar}>
+                  <LinkContainer to={item.link} key={index} onClick={closeNavbar} active={false}>
                     <Nav.Link>{item.name}</Nav.Link>
                   </LinkContainer>
                 );

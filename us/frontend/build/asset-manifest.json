@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/us/frontend/build/static/css/main.cfac28a3.css",
-    "main.js": "/us/frontend/build/static/js/main.1606bbe9.js",
+    "main.css": "/us/frontend/build/static/css/main.dbfa873b.css",
+    "main.js": "/us/frontend/build/static/js/main.b4b2d8dc.js",
     "static/js/453.5d962359.chunk.js": "/us/frontend/build/static/js/453.5d962359.chunk.js",
     "static/media/banner.jpg": "/us/frontend/build/static/media/banner.611a5047949ff3a9f166.jpg",
     "static/media/mediaBg.jpg": "/us/frontend/build/static/media/mediaBg.2db54fdeeb85bbbb2f1f.jpg",
@@ -31,16 +31,16 @@
     "static/media/slick.svg": "/us/frontend/build/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/us/frontend/build/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/us/frontend/build/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/phone-yellow.svg": "/us/frontend/build/static/media/phone-yellow.0cda97302fa2e9a92250.svg",
-    "static/media/phone-blk.svg": "/us/frontend/build/static/media/phone-blk.9c06c4f9278083a60415.svg",
+    "static/media/phone-yellow.svg": "/us/frontend/build/static/media/phone-yellow.21ce542450c7e9c391a7.svg",
+    "static/media/phone-blk.svg": "/us/frontend/build/static/media/phone-blk.85febe3c538eecf3bb61.svg",
     "static/media/slick.woff": "/us/frontend/build/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/us/frontend/build/index.html",
-    "main.cfac28a3.css.map": "/us/frontend/build/static/css/main.cfac28a3.css.map",
-    "main.1606bbe9.js.map": "/us/frontend/build/static/js/main.1606bbe9.js.map",
+    "main.dbfa873b.css.map": "/us/frontend/build/static/css/main.dbfa873b.css.map",
+    "main.b4b2d8dc.js.map": "/us/frontend/build/static/js/main.b4b2d8dc.js.map",
     "453.5d962359.chunk.js.map": "/us/frontend/build/static/js/453.5d962359.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfac28a3.css",
-    "static/js/main.1606bbe9.js"
+    "static/css/main.dbfa873b.css",
+    "static/js/main.b4b2d8dc.js"
   ]
 }
