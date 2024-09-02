@@ -214,6 +214,14 @@
       }
     }
   }
+  .switcherOverlay .modal-xl {
+    margin: 0 auto; 
+    align-items: flex-start;
+    padding: 15px 0px;
+    #basic-nav-dropdown {
+      background: #fff;
+  }
+  }
 }
 
 @media screen and (max-width: 500px) {

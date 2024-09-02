@@ -1,4 +1,3 @@
-// Newspage.js
 import React, { useState, useEffect } from 'react';
 import './newspage.scss';
 import { Link } from 'react-router-dom';
@@ -12,11 +11,10 @@ const Newspage = () => {
   const [news, setNews] = useState([]);
 
   useEffect(() => {
-    // Simulate fetching data from news.json
     setNews(newsData);
   }, []);
 
-  const viewedStories = 5; // Static value for viewed stories
+  const viewedStories = 5;
   const totalStories = news.length;
   const percentage = (viewedStories / totalStories) * 100;
 

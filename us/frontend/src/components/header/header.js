@@ -7,7 +7,6 @@ import { LinkContainer } from "react-router-bootstrap";
 import CounteriesSwitcher from "../countries-switcher/counteries";
 import Talktous from "../talktous/talktous";
 
-// import NavDropdown from 'react-bootstrap';
 
 const Header = () => {
   const [expanded, setExpanded] = useState(false);
@@ -68,10 +67,6 @@ const Header = () => {
     },
   ];
 
-  // const usMenuItems = [
-  //   { name: 'Uk', link: '/our-values', image: process.env.PUBLIC_URL + 'images/about-delivery.png' },
-  //   { name: 'Us', link: '/our-values', image: process.env.PUBLIC_URL + 'images/angle-right.png' },
-  // ];
 
   const handleMouseEnter = (dropdownName, image) => {
     setHoveredImages((prevState) => ({
@@ -86,7 +81,6 @@ const Header = () => {
       [dropdownName]: defaultImage,
     }));
   };
-
 
   const navToggle = () => setExpanded(!expanded);
   const closeNavbar = () => setExpanded(false);
@@ -145,14 +139,6 @@ const Header = () => {
                     </div>
                   </NavDropdown>
 
-              //     <NavDropdown title="Dropdown" id="basic-nav-dropdown" alignRight>
-              //     <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              //     <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-              //     <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              //     <NavDropdown.Divider />
-              //     <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-              // </NavDropdown>
-
 
                 ) : (
                   <LinkContainer to={item.link} key={index} onClick={closeNavbar} active={false}>
@@ -167,6 +153,7 @@ const Header = () => {
         </Navbar>
       </div>
     </div>
+
   );
 };
 

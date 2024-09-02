@@ -1,0 +1,70 @@
+.ttus-cards {
+  .ttus-card {
+    padding: 40px 98px;
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    width: 25%;
+    border-right: 1px solid #eee;
+    a {
+      color: #24292c;
+      font-family: "Gotham Book";
+      display: block;
+      line-height: 1;
+    }
+    button {
+      background: #747e87;
+      padding: 16px 40px;
+      border: none;
+      color: #fff;
+      font-family: "Eveleth Dot";
+      width: fit-content;
+      border-radius: 30px;
+      transition: all 0.5s linear;
+      font-size: 12px;
+      &:hover{
+        color: #000;
+        background: #faa00e;
+      }
+    }
+    .ttcard-phone {
+      gap: 10px;
+      margin-top: -18px;
+      a {
+        font-size: 18px;
+      }
+    }
+    .ttcard-email {
+      gap: 23px;
+      a {
+        font-size: 14px;
+      }
+    }
+    .ttcard-location {
+      gap: 23px;
+      align-items: flex-start;
+      div {
+        font-size: 12px;
+        color: #24292c;
+        font-family: "Gotham Book";
+      }
+    }
+    a.ttus-map {
+      gap: 10px;
+      display: flex;
+      color: #747e87;
+      padding: 10px 20px;
+      border: 1px solid #c5d1dc;
+      border-radius: 25px;
+      text-decoration: none;
+      align-items: center;
+      width: fit-content;
+      font-size: 12px;
+      &:hover {
+        color: #24292c;
+        border: 1px solid #24292c;
+      }
+    }
+  }
+}
+

@@ -12,13 +12,13 @@
     max-width: 1860px;
     nav.navbar {
       padding: 4px 0;
-      .navbar-brand{
-        img{
+      .navbar-brand {
+        img {
           display: block;
         }
       }
-      .talktousfull{
-        margin:0 15px 0 10px;
+      .talktousfull {
+        margin: 0 15px 0 10px;
       }
     }
     .bg-body-tertiary {
@@ -28,8 +28,6 @@
     .mainNavigation {
       margin-right: 8px;
     }
-
-    
 
     .mainNavigation {
       .custom-dropdown.dropdown {
@@ -105,10 +103,6 @@
         }
       }
     }
-
-    
-
-    
   }
   .dropdown-toggle::after {
     content: "┏";
@@ -145,7 +139,6 @@
           font-size: 14px;
         }
       }
-      
     }
   }
 }
@@ -165,7 +158,6 @@
           line-height: 11.36px;
         }
       }
-     
     }
   }
 }
@@ -188,7 +180,6 @@
           }
         }
       }
-      
     }
   }
 }
@@ -199,12 +190,15 @@
       .navbar-brand {
         order: 1;
       }
-      
+
       button.navbar-toggler {
         order: 4;
       }
-      #basic-navbar-nav {
+      .talktousfull {
         order: 2;
+      }
+      .cswitcher {
+        order: 3;
       }
     }
   }
@@ -216,7 +210,7 @@
       #basic-navbar-nav {
         order: 5;
       }
-      
+
       .mainNavigation {
         a.nav-link {
           font-size: 15px;
@@ -255,11 +249,7 @@
 }
 
 @media screen and (max-width: 780px) {
-  .header {
-    .container {
-     
-    }
-  }
+  
 }
 
 @media screen and (max-width: 500px) {
@@ -274,7 +264,7 @@
           width: 150px;
         }
       }
-      
+
       button.navbar-toggler {
         padding: 2px 3px;
       }
@@ -338,7 +328,6 @@
           width: 125px;
         }
       }
-    
     }
   }
 }
