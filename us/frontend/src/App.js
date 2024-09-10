@@ -22,7 +22,7 @@ import ScrollToTop from "./scrolltop";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/us">
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Header />
         <ScrollToTop />
         <Routes>

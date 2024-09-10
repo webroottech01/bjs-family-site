@@ -38,7 +38,7 @@ const Footer = () => {
                   </Nav>
                   <div className="fotrSocial">
                     <div>
-                      <a href="#">
+                      <a href="https://uk.trustpilot.com/review/bjshomedelivery.com" target="blank">
                         <img
                           src={process.env.PUBLIC_URL + "/images/Star-fotr.png"}
                           alt=""
@@ -46,7 +46,7 @@ const Footer = () => {
                       </a>
                     </div>
                     <div>
-                      <a href="#">
+                      <a href="https://www.instagram.com/bjsdelivery" target="blank">
                         <img
                           src={
                             process.env.PUBLIC_URL + "/images/Insta-fotr.png"
@@ -56,7 +56,7 @@ const Footer = () => {
                       </a>
                     </div>
                     <div>
-                      <a href="#">
+                      <a href="https://www.linkedin.com/company/bjs-distribution" target="blank">
                         <img
                           src={
                             process.env.PUBLIC_URL + "/images/Linkdin-fotr.png"
@@ -88,15 +88,15 @@ const Footer = () => {
             </div>
             <div className="col-md-4 col-sm-4 rightColm text-end">
               <p>
-                <a href="mailto:hello@bjsfamily.com">hello@bjsfamily.com</a>
+                <a href="mailto:cali@bjshomedelivery.com">cali@bjshomedelivery.com</a>
               </p>
-              <a href="#">
+              <a href="https://maps.app.goo.gl/vNLHm4qGTxHHeiua6" target="_blank">
                 <button className="headOffice">BJS head office</button>
               </a>
-              <h4>retire.grow.empire</h4>
-              <a href="#">
+              <h4>gosh.pieced.exam</h4>
+              <a href="https://maps.app.goo.gl/vNLHm4qGTxHHeiua6" target="_blank">
                 <button className="view-map">View on Google Maps</button>
-              </a>
+              </a> 
             </div>
           </div>
         </div>
