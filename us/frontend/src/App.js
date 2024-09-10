@@ -45,7 +45,6 @@ function App() {
           <Route path="/gallery-page1" element={<GalleryPage1 />} />
           <Route path="/talktous" element={<Talktous />} />
         </Routes>
-
         <Footer />
       </BrowserRouter>
     </div>

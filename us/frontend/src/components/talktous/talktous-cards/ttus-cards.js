@@ -9,8 +9,7 @@ const TTusCards = () => {
           <div className="ttus-card">
             <div>
               <img
-                src={process.env.PUBLIC_URL + "/images/homedelivery.png"} alt=""
-              />  
+                src={process.env.PUBLIC_URL + "/images/homedelivery.png"} alt="" />  
             </div>
             <div className="ttcard-phone d-flex">
                 <img src={process.env.PUBLIC_URL + '/images/phonebjs.png'} alt="" />
