@@ -1,16 +1,14 @@
 import React, { useRef } from 'react';
 import Enquiries from "../../components/enquiries/enquiries";
 import "./servicepage.scss";
-import { Link } from "react-router-dom";
 import Partners from "../../components/partners-slider/partners";
-import Testimonials from "../../components/testimonial-slider/testimonials";
 import CaseStudy from "../../components/case-study/case-study";
 import HeartFelt from "../../components/heart-felt/heartfelt";
 
-const serviceData = {
-  imageUrl: "", // Replace with your image URL
-  articleLink: "https://example.com/article", // Replace with your article link
-};
+// const serviceData = {
+//   imageUrl: "", // Replace with your image URL
+//   articleLink: "https://example.com/article", // Replace with your article link
+// };
 
 const Servicepage = () => {
   const sliderRef = useRef(null);

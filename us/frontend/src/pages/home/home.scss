@@ -823,6 +823,10 @@
 @media only screen and (max-width: 668px) {
   .homepage{
   .bannerSection {
+    .container p {
+      display: inline;
+      margin-right: 5px;
+    }
     .container h5 {
 
     }
@@ -862,6 +866,10 @@
       margin-top: 30%;
       a {
         width: 75%;
+        max-width: 100%;
+        &.bjsServices {
+          max-width: 100%;
+      }
       }
     }
   }

@@ -11,7 +11,7 @@
       align-items: baseline;
       gap: 10px;
 
-      .col-md-6 {
+      .col {
         .gallery-out {
           display: flex;
           gap: 10px;
@@ -24,7 +24,8 @@
 
             img {
               width: 100%;
-              height: auto;
+              height: 100%;
+              object-fit: cover;
             }
           }
         }
@@ -100,5 +101,17 @@
   .gallery-out {
     display: flex;
     gap: 10px;
+  }
+}
+
+
+@media screen and (max-width:880px) {
+  .image-gallery{
+    .row {
+      flex-direction: column;
+    .col{
+      width: 100%;
+    }
+  }
   }
 }

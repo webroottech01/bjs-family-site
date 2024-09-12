@@ -256,8 +256,14 @@
   .header {
     .container {
       #basic-navbar-nav {
-        height: 100vh;
-        padding: 15px 0;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 55px;
+        background: #fff;
+        padding: 20px 0 15px 10px;
+        overflow: scroll;
+        height: calc(100vh - 55px);
       }
       .navbar-brand {
         img {

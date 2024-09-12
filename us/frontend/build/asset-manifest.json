@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "https://bjs.deyofo.com/us/frontend/build/static/css/main.3e641c53.css",
-    "main.js": "https://bjs.deyofo.com/us/frontend/build/static/js/main.532fb128.js",
+    "main.css": "https://bjs.deyofo.com/us/frontend/build/static/css/main.66100d5a.css",
+    "main.js": "https://bjs.deyofo.com/us/frontend/build/static/js/main.e37ff141.js",
     "static/js/453.5d962359.chunk.js": "https://bjs.deyofo.com/us/frontend/build/static/js/453.5d962359.chunk.js",
     "static/media/banner.jpg": "https://bjs.deyofo.com/us/frontend/build/static/media/banner.611a5047949ff3a9f166.jpg",
     "static/media/mediaBg.jpg": "https://bjs.deyofo.com/us/frontend/build/static/media/mediaBg.2db54fdeeb85bbbb2f1f.jpg",
@@ -35,12 +35,12 @@
     "static/media/phone-blk.svg": "https://bjs.deyofo.com/us/frontend/build/static/media/phone-blk.85febe3c538eecf3bb61.svg",
     "static/media/slick.woff": "https://bjs.deyofo.com/us/frontend/build/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "https://bjs.deyofo.com/us/frontend/build/index.html",
-    "main.3e641c53.css.map": "https://bjs.deyofo.com/us/frontend/build/static/css/main.3e641c53.css.map",
-    "main.532fb128.js.map": "https://bjs.deyofo.com/us/frontend/build/static/js/main.532fb128.js.map",
+    "main.66100d5a.css.map": "https://bjs.deyofo.com/us/frontend/build/static/css/main.66100d5a.css.map",
+    "main.e37ff141.js.map": "https://bjs.deyofo.com/us/frontend/build/static/js/main.e37ff141.js.map",
     "453.5d962359.chunk.js.map": "https://bjs.deyofo.com/us/frontend/build/static/js/453.5d962359.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e641c53.css",
-    "static/js/main.532fb128.js"
+    "static/css/main.66100d5a.css",
+    "static/js/main.e37ff141.js"
   ]
 }

@@ -1,249 +1,285 @@
 .our-difference {
-    background-image: url("/../public/images/Mask Group 1.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: local;
-    background-position: calc(15% - 12px) calc(0% + -30px);
-    .container-xy {
-        max-width: 1720px;
-        margin: 0 auto;
+  background-image: url("/../public/images/Mask Group 1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-position: calc(15% - 12px) calc(0% + -30px);
+  .container-xy {
+    max-width: 1720px;
+    margin: 0 auto;
+  }
+
+  .difference-secfull {
+    padding: 45px 0 0px;
+
+    .title-column {
+      padding: 40px 35px 40px 55px;
     }
 
-    .difference-secfull {
-        padding: 45px 0 0px;
-
-        .title-column {
-            padding: 40px 35px 40px 55px;
-        }
-
-        .about-title {
-            color: #2C3033;
-            font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
-            font-size: 60px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: normal;
-            margin-bottom: 20px;
-        }
-
-        .newsPartners h2.text-center {
-            margin: 0 auto;
-        }
+    .about-title {
+      color: #2c3033;
+      font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: 20px;
     }
 
     .newsPartners h2.text-center {
-        margin-bottom: 0;
+      margin: 0 auto;
+    }
+  }
+
+  .newsPartners h2.text-center {
+    margin-bottom: 0;
+  }
+
+  .two-column-sec {
+    .profile-image {
+      border-radius: 50%;
+      width: 200px;
+      min-height: 200px;
     }
 
-    .two-column-sec {
-        .profile-image {
-            border-radius: 50%;
-            width: 200px;
-            min-height: 200px;
-        }
-
-        .partenrs-logo {
-            margin-top: 20px;
-        }
-
-        .differ-colum-two {
-            display: flex;
-            gap: 40px;
-        }
+    .partenrs-logo {
+      margin-top: 20px;
     }
 
-    .sec-content {
-        padding-top: 20px;
+    .differ-colum-two {
+      display: flex;
+      gap: 40px;
+    }
+  }
 
-        h3 {
-            color: var(--BJS-Mid-Gray, #747E87);
-            font-family: "Gotham Medium";
-            font-size: 22px;
-            font-style: italic;
-            font-weight: 500;
-            line-height: 30px;
-            padding-left: 68px;
-            position: relative;
-            text-align: left;
-        }
+  .sec-content {
+    padding-top: 20px;
 
-        h3:before {
-            content: '';
-            background-image: url("/../public/images/Path 741.png");
-            width: 49.6px;
-            height: 31.9px;
-            display: block;
-            background-size: contain;
-            background-repeat: no-repeat;
-            position: absolute;
-            left: 0;
-            top: 2px;
-        }
-
-        p {
-            color: var(--bjs-dark-tone-copy, #24292C);
-            font-family: "Gotham Book";
-            font-size: 12px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 16px;
-            text-align: left;
-            margin-bottom: 26px;
-            padding-right: 20px;
-            padding-top: 15px;
-        }
-
-        h5 b {
-            color: var(--bjs-dark-tone-copy, #24292C);
-            font-family: "Gotham Medium";
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: normal;
-            text-align: left;
-            width: 100%;
-            float: left;
-            margin-bottom: 7px;
-        }
-
-        h5 {
-            color: var(--BJS-Mid-Gray, #747E87);
-            font-family: "Gotham Book";
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            text-align: left;
-        }
+    h3 {
+      color: var(--BJS-Mid-Gray, #747e87);
+      font-family: "Gotham Medium";
+      font-size: 22px;
+      font-style: italic;
+      font-weight: 500;
+      line-height: 30px;
+      padding-left: 68px;
+      position: relative;
+      text-align: left;
     }
 
-    .two-column-sec {
-        padding-top: 40px;
-        padding-left: 10px;
+    h3:before {
+      content: "";
+      background-image: url("/../public/images/Path 741.png");
+      width: 49.6px;
+      height: 31.9px;
+      display: block;
+      background-size: contain;
+      background-repeat: no-repeat;
+      position: absolute;
+      left: 0;
+      top: 2px;
+    }
+
+    p {
+      color: var(--bjs-dark-tone-copy, #24292c);
+      font-family: "Gotham Book";
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 16px;
+      text-align: left;
+      margin-bottom: 26px;
+      padding-right: 20px;
+      padding-top: 15px;
+    }
+
+    h5 b {
+      color: var(--bjs-dark-tone-copy, #24292c);
+      font-family: "Gotham Medium";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      text-align: left;
+      width: 100%;
+      float: left;
+      margin-bottom: 7px;
+    }
+
+    h5 {
+      color: var(--BJS-Mid-Gray, #747e87);
+      font-family: "Gotham Book";
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-align: left;
+    }
+  }
+
+  .two-column-sec {
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    .right-column {
+      padding-left: 3.4rem;
+      padding-right: 0;
+    }
+  }
+
+  section.our-team {
+    margin-top: 40px;
+    padding-bottom: 60px;
+
+    .team-sec {
+      padding: 0 25px;
+    }
+
+    .team-quote {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      .profile-image {
+        border-radius: 50%;
+      }
+
+      h3 {
+        color: var(--BJS-Mid-Gray, #747e87);
+        font-family: "Gotham Medium";
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: left;
+        margin: 0;
+        padding-left: 40px;
         padding-right: 10px;
+        position: relative;
+        padding-top: 20px;
+      }
 
-        .right-column {
-            padding-left: 3.4rem;
-            padding-right: 0;
-        }
+      h3:before {
+        content: "";
+        background-image: url("/../public/images/Path 741.png");
+        width: 30px;
+        height: 19.294px;
+        display: block;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        left: 0;
+      }
+    }
+
+    p {
+      color: var(--bjs-dark-tone-copy, #24292c);
+      font-family: "Gotham Book";
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 16px;
+      text-align: left;
+      margin-top: 20px;
+      padding-right: 14px;
+    }
+
+    .team-sec.left-column p {
+      padding-right: 20px;
+    }
+
+    .profile-xmlogo.x2m {
+      padding-top: 1.5rem;
+      padding-right: 1.8rem;
+    }
+
+    .team-sec.mid-column {
+      padding: 0px 0px 0px 40px;
+    }
+
+    .team-sec.right-column {
+      padding: 0px 0px 0px 40px;
+    }
+
+    .team-sec.right-column .profile-xmlogo.xm2,
+    .team-sec.mid-column .profile-xmlogo.xm2 {
+      align-items: end;
+    }
+
+    .team-sec.left-column .profile-xmlogo {
+      padding-right: 15px;
+    }
+
+    .profile-xmlogo {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      h5 b {
+        color: var(--bjs-dark-tone-copy, #24292c);
+        font-family: "Gotham Medium";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-align: left;
+        width: 100%;
+        float: left;
+        margin-bottom: 7px;
+      }
+
+      h5 {
+        color: var(--BJS-Mid-Gray, #747e87);
+        font-family: "Gotham Book";
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: left;
+        margin: 0;
+      }
+    }
+  }
+
+  .blue-bg .section-content {
+    background: #70c6f0;
+  }
+}
+
+@media screen and (max-width: 880px) {
+  .our-difference {
+    background-position: calc(15% - 0px) calc(0% - 30px);
+    .difference-secfull {
+      padding: 45px 10px 0px;
+    }
+    .two-column-sec {
+      margin: 0;
+      .profile-image {
+        width: 130px;
+        min-height: 130px;
+        display: block;
+      }
+      .right-column {
+        padding: 0 12px;
+      }
+      .differ-colum-two {
+        flex-direction: column;
+        gap: 20px;
+      }
     }
 
     section.our-team {
-        margin-top: 40px;
-        padding-bottom: 60px;
-
-        .team-sec {
-            padding: 0 25px;
-        }
-
-        .team-quote {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-
-            .profile-image {
-                border-radius: 50%;
-            }
-
-            h3 {
-                color: var(--BJS-Mid-Gray, #747E87);
-                font-family: "Gotham Medium";
-                font-size: 18px;
-                font-style: italic;
-                font-weight: 500;
-                line-height: 22px;
-                text-align: left;
-                margin: 0;
-                padding-left: 40px;
-                padding-right: 10px;
-                position: relative;
-                padding-top: 20px;
-            }
-
-            h3:before {
-                content: '';
-                background-image: url("/../public/images/Path 741.png");
-                width: 30px;
-                height: 19.294px;
-                display: block;
-                background-size: contain;
-                background-repeat: no-repeat;
-                position: absolute;
-                left: 0;
-            }
-        }
-
-        p {
-            color: var(--bjs-dark-tone-copy, #24292C);
-            font-family: "Gotham Book";
-            font-size: 12px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 16px;
-            text-align: left;
-            margin-top: 20px;
-            padding-right: 14px;
-        }
-
-        .team-sec.left-column p {
-            padding-right: 20px;
-        }
-
-        .profile-xmlogo.x2m {
-            padding-top: 1.5rem;
-            padding-right: 1.8rem;
-        }
-
-        .team-sec.mid-column {
-            padding: 0px 0px 0px 40px;
-        }
-
+      .team-sec.mid-column,
         .team-sec.right-column {
-            padding: 0px 0px 0px 40px;
-        }
-
-        .team-sec.right-column .profile-xmlogo.xm2,
-        .team-sec.mid-column .profile-xmlogo.xm2 {
-            align-items: end;
-        }
-
-        .team-sec.left-column .profile-xmlogo {
-            padding-right: 15px;
-        }
-
-        .profile-xmlogo {
-            margin-top: 30px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-            h5 b {
-                color: var(--bjs-dark-tone-copy, #24292C);
-                font-family: "Gotham Medium";
-                font-size: 14px;
-                font-style: normal;
-                font-weight: 500;
-                line-height: normal;
-                text-align: left;
-                width: 100%;
-                float: left;
-                margin-bottom: 7px;
-            }
-
-            h5 {
-                color: var(--BJS-Mid-Gray, #747E87);
-                font-family: "Gotham Book";
-                font-size: 14px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: normal;
-                text-align: left;
-                margin: 0;
-            }
-        }
+          padding: 0 25px;
+        
+      }
+      .row {
+        margin: 0;
+        gap: 25px;
+      }
     }
-
-    .blue-bg .section-content {
-        background: #70C6F0;
-    }
+  }
 }

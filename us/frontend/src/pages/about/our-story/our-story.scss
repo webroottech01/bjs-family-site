@@ -61,3 +61,22 @@
     }
   }
 }
+@media screen and (max-width:880px) {
+  .ourStoryMain .ourStoryInner{
+    padding: 0 15px;
+    .storyContent {
+      gap: 20px;
+      .storyYear {
+        padding: 7px 10px;
+        font-size: 14px;
+    }
+    .storyDetail p{
+      margin-bottom: 10px;
+    }
+      .align-items-center {
+        flex-wrap: wrap;
+        gap: 10px !important;
+    }
+    }
+  }
+}
