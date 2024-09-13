@@ -40,9 +40,7 @@ const CounteriesSwitcher = () => {
                     />
                     <p className="region-title">United States</p>
                     <p>
-                      Proident kale chips vegan, succulents shaman ennui unicorn
-                      bespoke forage jean shorts blackbird spyplane helvetica
-                      edison bulb eiusmod scenester.
+                    For all things BJS in the US
                     </p>
                     <button className="currentregion" disabled>
                       Currently viewing
@@ -55,9 +53,7 @@ const CounteriesSwitcher = () => {
                     />
                     <p className="region-title">United Kingdom</p>
                     <p>
-                      Proident kale chips vegan, succulents shaman ennui unicorn
-                      bespoke forage jean shorts blackbird spyplane helvetica
-                      edison bulb eiusmod scenester.
+                    For all things BJS in the UK
                     </p>
                     <a href="https://bjsfamily.com/" className="otherregion">
                       Switch to UK Site
