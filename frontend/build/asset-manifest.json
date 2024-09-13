@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "https://bjshomedelivery.us/frontend/build/static/css/main.5315fba7.css",
-    "main.js": "https://bjshomedelivery.us/frontend/build/static/js/main.901bb1e3.js",
+    "main.css": "https://bjshomedelivery.us/frontend/build/static/css/main.454b3615.css",
+    "main.js": "https://bjshomedelivery.us/frontend/build/static/js/main.72659fa4.js",
     "static/js/453.5d962359.chunk.js": "https://bjshomedelivery.us/frontend/build/static/js/453.5d962359.chunk.js",
     "static/media/banner.jpg": "https://bjshomedelivery.us/frontend/build/static/media/banner.611a5047949ff3a9f166.jpg",
     "static/media/mediaBg.jpg": "https://bjshomedelivery.us/frontend/build/static/media/mediaBg.2db54fdeeb85bbbb2f1f.jpg",
@@ -35,12 +35,12 @@
     "static/media/phone-yellow.svg": "https://bjshomedelivery.us/frontend/build/static/media/phone-yellow.21ce542450c7e9c391a7.svg",
     "static/media/phone-blk.svg": "https://bjshomedelivery.us/frontend/build/static/media/phone-blk.85febe3c538eecf3bb61.svg",
     "static/media/slick.woff": "https://bjshomedelivery.us/frontend/build/static/media/slick.295183786cd8a1389865.woff",
-    "main.5315fba7.css.map": "https://bjshomedelivery.us/frontend/build/static/css/main.5315fba7.css.map",
-    "main.901bb1e3.js.map": "https://bjshomedelivery.us/frontend/build/static/js/main.901bb1e3.js.map",
+    "main.454b3615.css.map": "https://bjshomedelivery.us/frontend/build/static/css/main.454b3615.css.map",
+    "main.72659fa4.js.map": "https://bjshomedelivery.us/frontend/build/static/js/main.72659fa4.js.map",
     "453.5d962359.chunk.js.map": "https://bjshomedelivery.us/frontend/build/static/js/453.5d962359.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5315fba7.css",
-    "static/js/main.901bb1e3.js"
+    "static/css/main.454b3615.css",
+    "static/js/main.72659fa4.js"
   ]
 }

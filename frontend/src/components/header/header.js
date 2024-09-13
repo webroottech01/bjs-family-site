@@ -146,7 +146,7 @@ const Header = () => {
                   </LinkContainer>
                 );
               })}
-              <a target="blank" href="https://track.bjshomedelivery.com/" class="nav-link">Track</a>
+              <a target="blank" href="https://track.bjshomedelivery.com/" className="nav-link">Track</a>
             </Nav>
           </Navbar.Collapse>
           <Talktous />

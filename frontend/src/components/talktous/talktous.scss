@@ -249,12 +249,14 @@
     background-image: url(../../../public/images/phone-blk.svg);
     background-repeat: no-repeat;
     background-position: left 12px top 10px;
+    background-size: 15px;
   }
 }
 .talktousmodal {
   background: rgba(249, 249, 249, 0.9019607843);
   .modal-dialog {
     max-width: 1620px;
+    width: 95%;
     .modal-content {
       border-radius: 10px;
       overflow: hidden;

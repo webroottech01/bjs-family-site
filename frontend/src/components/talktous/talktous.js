@@ -142,7 +142,7 @@ const Talktous = () => {
                           />
                         </div>
                         <div className="col-md-4 code">
-                          <label>Post Code</label>
+                          <label>Zip Code</label>
                           <input
                             type="text"
                             pattern="[0-9]{5}"
@@ -188,7 +188,7 @@ const Talktous = () => {
                         </div>
                         <div className="col-md-4">
                       <label>Expected weekly volume*</label>
-                      <input name="expected weekly volume" label="expected weekly volume" type="number" min="0" required="" value="0" aria-labelledby="expected weekly volume" class="sc-cxpRKc Cyisf" />
+                      <input name="expected weekly volume" label="expected weekly volume" type="number" min="0" required="" value="0" aria-labelledby="expected weekly volume" className="sc-cxpRKc Cyisf" />
                         </div>
                       </div>
 
@@ -207,7 +207,7 @@ const Talktous = () => {
                           </label>
                         </div>
                         <div className="col-lg-6 text-lg-right submit-btn">
-                          <input type="submit" value="Submit Quote" />
+                          <input type="submit" value="Submit request" />
                         </div>
                       </div>
                     </form>
