@@ -23,7 +23,7 @@ const CounteriesSwitcher = () => {
         <Modal
           show={show}
           onHide={overlayClose}
-          size="xl"
+          size="lg"
           aria-labelledby="contained-modal-title-vcenter"
           centered
           className="switcherOverlay"

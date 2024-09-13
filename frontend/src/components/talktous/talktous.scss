@@ -249,7 +249,6 @@
     background-image: url(../../../public/images/phone-blk.svg);
     background-repeat: no-repeat;
     background-position: left 12px top 10px;
-    background-size: 15px;
   }
 }
 .talktousmodal {
@@ -400,6 +399,10 @@
     background-size: 15px;
     background-position: 12px 10px;
     padding: 0 0 0 15px;
+    &:hover {
+      
+     background-size: 15px; 
+    }
   }
 }
 @media screen and (max-width: 780px) {
