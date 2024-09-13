@@ -245,9 +245,10 @@
   transition: all 0.5s linear;
 
   &:hover {
-    background: #feba30 url(../../../public/images/phone-blk.svg) no-repeat
-      scroll left 12px top 11px;
-    color: #000;
+    background-color: #feba30;
+    background-image: url(../../../public/images/phone-blk.svg);
+    background-repeat: no-repeat;
+    background-position: left 12px top 10px;
   }
 }
 .talktousmodal {
