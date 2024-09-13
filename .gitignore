@@ -4,20 +4,9 @@
 #     https://www.atlassian.com/git/tutorials/saving-changes/gitignore
 
 # Node artifact files
-node_modules/
-components/
-!/us/frontend/src/components
-docker/
-pages/
-!/us/frontend/src/pages
-public/
-!/us/frontend/public
-subsidiary-config/
-dist/
-bitbucket-pipelines.yml
+
 imageloader.js
 next-env.d.ts
-next-config.jsold.babelrc
 post.config.json
 react-recaptcha-v3.d.ts
 tsconfig.json
@@ -34,13 +23,6 @@ yarn.lock
 
 # Package files
 *.jar
-
-# Maven
-target/
-dist/
-
-# JetBrains IDE
-.idea/
 
 # Unit test reports
 TEST*.xml
@@ -73,6 +55,6 @@ Thumbs.db
 .env.local
 public/sitemap.xml
 
-us/frontend/node_modules/
-us/frontend/package-lock.json 
-us/frontend/.env
+frontend/node_modules/
+frontend/package-lock.json 
+frontend/.env
