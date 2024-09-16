@@ -70,7 +70,9 @@ const Footer = () => {
                 <div className="fotrServices">
                   <h3>Our Services</h3>
                   <Nav className="d-block">
-                    <Nav.Link href="#">Two-Person Home Delivery</Nav.Link>
+                  <LinkContainer to="/services">
+                    <Nav.Link>Two-Person Home Delivery</Nav.Link>
+                    </LinkContainer>
                   </Nav>
                 </div>
                 <div className="fotrInfo">
@@ -78,10 +80,9 @@ const Footer = () => {
                   <Nav className="d-block">
                   <LinkContainer to="/careers">
                       <Nav.Link>Careers</Nav.Link>
-                    </LinkContainer>
+                      </LinkContainer>
                     
-                    <Nav.Link href="#">Privacy Policy</Nav.Link>
-                    <Nav.Link href="#">CCTV Policy</Nav.Link>
+                    <Nav.Link href="https://bjs-static.s3.eu-west-2.amazonaws.com/privacy+policy.pdf" target="blank" className="nav-link">Privacy Policy</Nav.Link>
                   </Nav>
                 </div>
               </div>

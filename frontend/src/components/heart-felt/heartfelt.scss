@@ -4,10 +4,10 @@
   }
   .heartFeltContent {
     padding: 94px 60px 100px;
-    background-image: url("/../public/images/heartfeltBg.jpg");
+    background-image: url("/../public/images/heartflethand.webp");
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-repeat: no-repeat;   
+    background-position: center; 
     h2 {
       color: #fff;
       text-align: center;
@@ -28,7 +28,7 @@
       font-weight: 400;
       line-height: 26px;
       margin: 40px auto 0;
-      width: 84%;
+      width: 40%;
     }
     a {
       color: #faa00e;
@@ -113,7 +113,7 @@
       p {
         font-size: 17px;
         line-height: 24px;
-        width: 90%;
+        width: 50%;
       }
       a {
         font-size: 15px;
@@ -188,7 +188,7 @@
       p {
         font-size: 15px;
         line-height: 19px;
-        width: 95%;
+        width: 60%;
       }
     }
   }
@@ -205,6 +205,9 @@
         padding: 14px 34px;
         margin-top: 50px;
       }
+      p {
+        width: 80%;
+    }
     }
   }
 }
@@ -212,6 +215,7 @@
 @media only screen and (max-width: 768px) {
   .heartFelt {
     .heartFeltContent {
+      background-position: left;
       h2 {
         font-size: 86px;
       }
@@ -241,6 +245,7 @@
     }
     .heartFeltContent {
       padding: 40px 20px 35px;
+      background-position: 10%;
       h2 {
         font-size: 62px;
       }

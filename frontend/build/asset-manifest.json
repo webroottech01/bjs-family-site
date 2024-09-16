@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "https://bjshomedelivery.us/frontend/build/static/css/main.7c0b003b.css",
-    "main.js": "https://bjshomedelivery.us/frontend/build/static/js/main.44e2f79c.js",
+    "main.css": "https://bjshomedelivery.us/frontend/build/static/css/main.04fbafbb.css",
+    "main.js": "https://bjshomedelivery.us/frontend/build/static/js/main.de9a6ec2.js",
     "static/js/453.5d962359.chunk.js": "https://bjshomedelivery.us/frontend/build/static/js/453.5d962359.chunk.js",
+    "static/media/brixton-wood-svg.otf": "https://bjshomedelivery.us/frontend/build/static/media/brixton-wood-svg.4f924d52728f3bbb72bd.otf",
     "static/media/banner.jpg": "https://bjshomedelivery.us/frontend/build/static/media/banner.611a5047949ff3a9f166.jpg",
     "static/media/mediaBg.jpg": "https://bjshomedelivery.us/frontend/build/static/media/mediaBg.2db54fdeeb85bbbb2f1f.jpg",
     "static/media/Mask Group 1.png": "https://bjshomedelivery.us/frontend/build/static/media/Mask Group 1.21cdc94e137b87c4334c.png",
@@ -14,7 +15,6 @@
     "static/media/Brixton_Wood_PERSONAL_USE_ONLY-Vector.woff": "https://bjshomedelivery.us/frontend/build/static/media/Brixton_Wood_PERSONAL_USE_ONLY-Vector.4a093f6b8fd31b8995dc.woff",
     "static/media/Brixton_Wood_PERSONAL_USE_ONLY-Vector.woff2": "https://bjshomedelivery.us/frontend/build/static/media/Brixton_Wood_PERSONAL_USE_ONLY-Vector.fa60630975e7aff2a837.woff2",
     "static/media/educateBG1.jpg": "https://bjshomedelivery.us/frontend/build/static/media/educateBG1.0114f6ff2aac625a72a2.jpg",
-    "static/media/heartfeltBg.jpg": "https://bjshomedelivery.us/frontend/build/static/media/heartfeltBg.c207bce15f61902e9ac0.jpg",
     "static/media/charityBg.png": "https://bjshomedelivery.us/frontend/build/static/media/charityBg.31fc8dc743d47ad739e6.png",
     "static/media/Gotham-Black.woff": "https://bjshomedelivery.us/frontend/build/static/media/Gotham-Black.6e0421029cbf7dda53be.woff",
     "static/media/Gotham-Book.woff": "https://bjshomedelivery.us/frontend/build/static/media/Gotham-Book.f8be747d2aa5304e910c.woff",
@@ -26,6 +26,7 @@
     "static/media/Gotham-Medium.woff2": "https://bjshomedelivery.us/frontend/build/static/media/Gotham-Medium.74298c40c25d8c125e5b.woff2",
     "static/media/Gotham-Light.woff2": "https://bjshomedelivery.us/frontend/build/static/media/Gotham-Light.996756613b4f0b49b9ab.woff2",
     "static/media/Gotham-Bold.woff2": "https://bjshomedelivery.us/frontend/build/static/media/Gotham-Bold.4255774a22bf09f67fdc.woff2",
+    "static/media/heartflethand.webp": "https://bjshomedelivery.us/frontend/build/static/media/heartflethand.f141723cdd61f3205363.webp",
     "static/media/footer-BG.jpg": "https://bjshomedelivery.us/frontend/build/static/media/footer-BG.26d600aef50ff39d9683.jpg",
     "static/media/about-namedBG.jpg": "https://bjshomedelivery.us/frontend/build/static/media/about-namedBG.836631c3a2108c5f4724.jpg",
     "static/media/slick.svg": "https://bjshomedelivery.us/frontend/build/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -35,12 +36,12 @@
     "static/media/phone-yellow.svg": "https://bjshomedelivery.us/frontend/build/static/media/phone-yellow.21ce542450c7e9c391a7.svg",
     "static/media/phone-blk.svg": "https://bjshomedelivery.us/frontend/build/static/media/phone-blk.85febe3c538eecf3bb61.svg",
     "static/media/slick.woff": "https://bjshomedelivery.us/frontend/build/static/media/slick.295183786cd8a1389865.woff",
-    "main.7c0b003b.css.map": "https://bjshomedelivery.us/frontend/build/static/css/main.7c0b003b.css.map",
-    "main.44e2f79c.js.map": "https://bjshomedelivery.us/frontend/build/static/js/main.44e2f79c.js.map",
+    "main.04fbafbb.css.map": "https://bjshomedelivery.us/frontend/build/static/css/main.04fbafbb.css.map",
+    "main.de9a6ec2.js.map": "https://bjshomedelivery.us/frontend/build/static/js/main.de9a6ec2.js.map",
     "453.5d962359.chunk.js.map": "https://bjshomedelivery.us/frontend/build/static/js/453.5d962359.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c0b003b.css",
-    "static/js/main.44e2f79c.js"
+    "static/css/main.04fbafbb.css",
+    "static/js/main.de9a6ec2.js"
   ]
 }

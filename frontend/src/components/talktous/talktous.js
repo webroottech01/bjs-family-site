@@ -152,7 +152,6 @@ const Talktous = () => {
                         </div>
                       </div>
                       <div className="row">
-                    
                         <div className="serviceselect col-md-4">
                           <label>service *</label>
                           <select>
@@ -166,7 +165,9 @@ const Talktous = () => {
                             <option value="assembly">Assembly</option>
                             <option value="recycle">Recycle</option>
                             <option value="unpack">Unpack</option>
-                            <option value="packagingdisposal">Packaging disposal</option>
+                            <option value="packagingdisposal">
+                              Packaging disposal
+                            </option>
                             <option value="chatfirst">Let's chat first</option>
                           </select>
                         </div>
@@ -176,24 +177,42 @@ const Talktous = () => {
                             <option value="oneman" defaultChecked>
                               Select All
                             </option>
-                            <option value="homefurniture">Home Furniture</option>
-                            <option value="entertainment&electronics">Home entertainment & electronics</option>
-                            <option value="gardenfurniture">Garden furniture</option>
+                            <option value="homefurniture">
+                              Home Furniture
+                            </option>
+                            <option value="entertainment&electronics">
+                              Home entertainment & electronics
+                            </option>
+                            <option value="gardenfurniture">
+                              Garden furniture
+                            </option>
                             <option value="whitegoods">White goods</option>
                             <option value="lighting">Lighting</option>
                             <option value="mirrors">Mirrors</option>
-                            <option value="gymequiptment">Gym equiptment</option>
+                            <option value="gymequiptment">
+                              Gym equiptment
+                            </option>
                             <option value="Other">Other</option>
                           </select>
                         </div>
                         <div className="col-md-4">
-                      <label>Expected weekly volume*</label>
-                      <input name="expected weekly volume" label="expected weekly volume" type="number" min="0" required="" value="0" aria-labelledby="expected weekly volume" className="sc-cxpRKc Cyisf" />
+                          
+                          <label htmlFor="expected_weekly_volume">
+                            Expected Weekly Volume*
+                          </label>
+                          <input
+                            name="expected_weekly_volume"
+                            id="expected_weekly_volume"
+                            type="number"
+                            min="0"
+                            required
+                            aria-labelledby="expected_weekly_volume"
+                            className="sc-cxpRKc Cyisf"
+                          />
                         </div>
                       </div>
 
                       <div className="row">
-                      
                         <div className="col-lg-6 agree">
                           <input
                             type="checkbox"

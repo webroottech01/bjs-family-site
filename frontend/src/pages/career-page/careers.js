@@ -16,7 +16,7 @@ const Careers = () => {
                             <p>We are growing fast and have lots of exciting opportunities across varied departments so do keep an eye out for current vacancies, also please do let us know about you and what you could bring to us. </p>
                             <div className='careerButtons d-flex gap-5'>
                             <Link to="/#">See our current vacancies <img src={process.env.PUBLIC_URL + "/images/nextArrow.png"} alt="" className='iconMain' /></Link>
-                            <Link to="/#">Send us your CV <img src={process.env.PUBLIC_URL + "/images/nextArrow.png"} alt="" className='iconMain' /></Link>
+                            <a href="mailto:cali@bjshomedelivery.com">Send us your CV <img src={process.env.PUBLIC_URL + "/images/nextArrow.png"} alt="" className='iconMain' /></a>
                             </div>
                         </div>
                         <div className='careerImage'></div>

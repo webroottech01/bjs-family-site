@@ -9,8 +9,8 @@ const testimonials = [
     partnerLogo: "/images/partnerLogos_SVG_CotswoldCo 1.svg",
     quote: "Flexible approach and strong relationship we have built together",
     description: "As an online retailer the final mile is perhaps the most crucial event in our customer journey and we have full confidence in BJS to always deliver the service our customers expect from us providing clear and regular communication to both us and our customers all the way through the process. As a business partner over many years we have particularly valued the flexible approach and strong relationship we have built together.",
-    name: "Philippe Chainieux",
-    title: "CEO"
+    name: "Alan Joseph",
+    title: "Operations Director"
   },
   {
     imgSrc: "/images/Image 25 (1).svg",
@@ -95,7 +95,7 @@ const OurDifference = () => {
       <div className="our-difference">
         <div className="difference-secfull">
           <div className="container-xy">
-            <h2 className="about-title">What Makes BJS Different ?</h2>
+            <h2 className="about-title">What Makes BJS Different</h2>
             <p>We thought we would let our customers tell you what makes BJS different...</p>
             <div className="row two-column-sec">
               {testimonials.map((testimonial, index) => {

@@ -8,13 +8,13 @@ const HeartFelt = (props) => {
     <>
       <div className="heartFelt">
         <div className="row mx-0">
-          <div className="col-lg-6 col-md-12 col-sm-12 heartFeltCustomer">
+          {/* <div className="col-lg-6 col-md-12 col-sm-12 heartFeltCustomer">
             <h2 className="text-start">what our customers think</h2>
 
             <Testimonials />
-          </div>
+          </div> */}
 
-          <div className="col-lg-6 col-md-12 col-sm-12 heartFeltContent">
+          <div className="col-12 col-md-12 col-sm-12 heartFeltContent">
             <h2>Heart Felt</h2>
             <p>
               BJS is a corporate built on compassionate values; named after Baba
