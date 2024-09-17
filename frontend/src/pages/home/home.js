@@ -98,7 +98,7 @@ const Home = () => {
               </div>
               <div className="col-lg-5 col-md-12 col-sm-12 img-sec">
                 <img
-                  src={process.env.PUBLIC_URL + "/images/sofaimage.jpg"}
+                  src={process.env.PUBLIC_URL + "/images/sofaimage.webp"}
                   alt=""
                   width="100%"
                 />

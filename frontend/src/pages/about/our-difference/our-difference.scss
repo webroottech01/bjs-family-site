@@ -1,9 +1,9 @@
 .our-difference {
-  background-image: url("/../public/images/Mask Group 1.png");
+  background-image: url("/../public/images/ourdiffbg.webp");
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: local;
-  background-position: calc(15% - 12px) calc(0% + -30px);
+  // background-position: calc(15% - 12px) calc(0% + -30px);
   .container-xy {
     max-width: 1720px;
     margin: 0 auto;
@@ -143,6 +143,7 @@
 
       .profile-image {
         border-radius: 50%;
+        max-width: 100px;
       }
 
       h3 {

@@ -97,7 +97,7 @@ const OurDifference = () => {
           <div className="container-xy">
             <h2 className="about-title">What Makes BJS Different</h2>
             <p>We thought we would let our customers tell you what makes BJS different...</p>
-            <div className="row two-column-sec">
+            <div className="row two-column-sec mx-0">
               {testimonials.map((testimonial, index) => {
                 let columnClass = '';
                 if (index === 0) {
@@ -113,7 +113,7 @@ const OurDifference = () => {
 
         <section className="our-team">
           <div className="container-xy">
-            <div className="row">
+            <div className="row mx-0">
               {teamTestimonials.map((teamTestimonial, index) => {
                 let teamSecClass = '';
                 let customClass = '';
