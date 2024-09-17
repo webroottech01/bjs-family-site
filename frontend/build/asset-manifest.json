@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "https://bjshomedelivery.us/frontend/build/static/css/main.55c2fbe7.css",
+    "main.css": "https://bjshomedelivery.us/frontend/build/static/css/main.1af93b36.css",
     "main.js": "https://bjshomedelivery.us/frontend/build/static/js/main.3904ca51.js",
     "static/js/453.5d962359.chunk.js": "https://bjshomedelivery.us/frontend/build/static/js/453.5d962359.chunk.js",
     "static/media/brixton-wood-svg.otf": "https://bjshomedelivery.us/frontend/build/static/media/brixton-wood-svg.4f924d52728f3bbb72bd.otf",
@@ -21,9 +21,9 @@
     "static/media/Gotham-Medium.woff2": "https://bjshomedelivery.us/frontend/build/static/media/Gotham-Medium.74298c40c25d8c125e5b.woff2",
     "static/media/Gotham-Light.woff2": "https://bjshomedelivery.us/frontend/build/static/media/Gotham-Light.996756613b4f0b49b9ab.woff2",
     "static/media/Gotham-Bold.woff2": "https://bjshomedelivery.us/frontend/build/static/media/Gotham-Bold.4255774a22bf09f67fdc.woff2",
+    "static/media/footer-BG.jpg": "https://bjshomedelivery.us/frontend/build/static/media/footer-BG.ffafcca8d7c37f4a92f3.jpg",
     "static/media/heartflethand.webp": "https://bjshomedelivery.us/frontend/build/static/media/heartflethand.f141723cdd61f3205363.webp",
     "static/media/ourdiffbg.webp": "https://bjshomedelivery.us/frontend/build/static/media/ourdiffbg.008b5fafbf894044c2c9.webp",
-    "static/media/footer-BG.jpg": "https://bjshomedelivery.us/frontend/build/static/media/footer-BG.26d600aef50ff39d9683.jpg",
     "static/media/ourtechwebp.webp": "https://bjshomedelivery.us/frontend/build/static/media/ourtechwebp.2327a22645be9ea49fdf.webp",
     "static/media/ourstory.webp": "https://bjshomedelivery.us/frontend/build/static/media/ourstory.cdd14d507e4a1c15e918.webp",
     "static/media/trainingacadmy.webp": "https://bjshomedelivery.us/frontend/build/static/media/trainingacadmy.adbdac8815f1c92b0c40.webp",
@@ -36,12 +36,12 @@
     "static/media/phone-yellow.svg": "https://bjshomedelivery.us/frontend/build/static/media/phone-yellow.21ce542450c7e9c391a7.svg",
     "static/media/phone-blk.svg": "https://bjshomedelivery.us/frontend/build/static/media/phone-blk.85febe3c538eecf3bb61.svg",
     "static/media/slick.woff": "https://bjshomedelivery.us/frontend/build/static/media/slick.295183786cd8a1389865.woff",
-    "main.55c2fbe7.css.map": "https://bjshomedelivery.us/frontend/build/static/css/main.55c2fbe7.css.map",
+    "main.1af93b36.css.map": "https://bjshomedelivery.us/frontend/build/static/css/main.1af93b36.css.map",
     "main.3904ca51.js.map": "https://bjshomedelivery.us/frontend/build/static/js/main.3904ca51.js.map",
     "453.5d962359.chunk.js.map": "https://bjshomedelivery.us/frontend/build/static/js/453.5d962359.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.55c2fbe7.css",
+    "static/css/main.1af93b36.css",
     "static/js/main.3904ca51.js"
   ]
 }
