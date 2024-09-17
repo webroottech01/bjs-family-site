@@ -2,5 +2,5 @@
 Options -MultiViews
     RewriteEngine On
     RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^ /us/frontend/build/index.html [QSA,L]
+    RewriteRule ^ /frontend/build/index.html [QSA,L]
 </IfModule>     
