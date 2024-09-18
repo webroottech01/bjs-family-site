@@ -65,25 +65,28 @@
   font-display: swap;
 }
 @font-face {
-  font-family: 'Brixton_Wood_svg';
-  src: url('fonts/brixton-wood-svg.otf') format('opentype');
+  font-family: "Brixton_Wood_svg";
+  src: url("fonts/brixton-wood-svg.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
+}
+body.modal-open {
+  padding-right: 0 !important;
 }
 span.navbar-brand {
   cursor: pointer;
 }
 
 /* Common used css */
-html{
+html {
   width: 100%;
   overflow-x: hidden;
-} 
+}
 body {
   width: 100%;
   overflow-x: hidden;
 }
-
 
 .newsPartners {
   max-width: 1700px;
@@ -182,6 +185,12 @@ body {
     h2:after {
       width: 22%;
     }
+  }
+  .switcherOverlay.modal.show {
+    padding-left: 0 !important;
+  }
+  .talktousmodal {
+    padding-left: 0 !important;
   }
 }
 @media only screen and (max-width: 350px) {
