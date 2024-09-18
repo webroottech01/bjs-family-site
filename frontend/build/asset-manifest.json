@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "https://bjshomedelivery.us/frontend/build/static/css/main.cf1bdb61.css",
-    "main.js": "https://bjshomedelivery.us/frontend/build/static/js/main.3904ca51.js",
+    "main.css": "https://bjshomedelivery.us/frontend/build/static/css/main.e54b86a0.css",
+    "main.js": "https://bjshomedelivery.us/frontend/build/static/js/main.20ce58fd.js",
     "static/js/453.5d962359.chunk.js": "https://bjshomedelivery.us/frontend/build/static/js/453.5d962359.chunk.js",
     "static/media/brixton-wood-svg.otf": "https://bjshomedelivery.us/frontend/build/static/media/brixton-wood-svg.4f924d52728f3bbb72bd.otf",
     "static/media/mediaBg.jpg": "https://bjshomedelivery.us/frontend/build/static/media/mediaBg.2db54fdeeb85bbbb2f1f.jpg",
@@ -36,12 +36,13 @@
     "static/media/phone-yellow.svg": "https://bjshomedelivery.us/frontend/build/static/media/phone-yellow.21ce542450c7e9c391a7.svg",
     "static/media/phone-blk.svg": "https://bjshomedelivery.us/frontend/build/static/media/phone-blk.85febe3c538eecf3bb61.svg",
     "static/media/slick.woff": "https://bjshomedelivery.us/frontend/build/static/media/slick.295183786cd8a1389865.woff",
-    "main.cf1bdb61.css.map": "https://bjshomedelivery.us/frontend/build/static/css/main.cf1bdb61.css.map",
-    "main.3904ca51.js.map": "https://bjshomedelivery.us/frontend/build/static/js/main.3904ca51.js.map",
+    "static/media/chevrondown.svg": "https://bjshomedelivery.us/frontend/build/static/media/chevrondown.319cb2fd91f9c9361410.svg",
+    "main.e54b86a0.css.map": "https://bjshomedelivery.us/frontend/build/static/css/main.e54b86a0.css.map",
+    "main.20ce58fd.js.map": "https://bjshomedelivery.us/frontend/build/static/js/main.20ce58fd.js.map",
     "453.5d962359.chunk.js.map": "https://bjshomedelivery.us/frontend/build/static/js/453.5d962359.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf1bdb61.css",
-    "static/js/main.3904ca51.js"
+    "static/css/main.e54b86a0.css",
+    "static/js/main.20ce58fd.js"
   ]
 }

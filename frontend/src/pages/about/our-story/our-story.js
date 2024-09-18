@@ -100,14 +100,14 @@ const Ourstory = () => {
                     <div className='storyDetail'>
                         <h3>Recalibration</h3>
                         <div className='d-flex align-items-center gap-4'>
-                            <img src={process.env.PUBLIC_URL + "/images/recalibration1.svg"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/recalibration2.svg"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/recalibration3.svg"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/recalibration4.svg"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/recalibration5.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/recalibration1-svg.webp"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/recalibration2-svg.webp"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/recalibration3-svg.webp"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/recalibration4-svg.webp"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/recalibration5-svg.webp"} alt="" />
                         </div>
                         <p className='m-0'>As well as improving processes and systems to increase and improve our services, we recalibrated our business to ensure that our rapid growth would not affect our overall performance.</p>
-                    </div>
+                    </div> 
                 </div>
 
 
@@ -143,13 +143,13 @@ const Ourstory = () => {
                 <div className='storyContent d-flex align-items-start'>
                     <p className='storyYear'>2010</p>
                     <div className='storyDetail'>
-                        <h3>Growing fast</h3>
+                        <h3>Growing fast</h3> 
                         <div className='d-flex align-items-center gap-4'>
-                            <img src={process.env.PUBLIC_URL + "/images/growing1.svg"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/growing2.svg"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/growing3.svg"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/growing4.svg"} alt="" />
-                            <img src={process.env.PUBLIC_URL + "/images/growing5.svg"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/growing1-svg.webp"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/growing2-svg.webp"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/growing3-svg.webp"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/growing4-svg.webp"} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/images/growing5-svg.webp"} alt="" />
                         </div>
                         <p>We grew fast, purchasing a fleet of 10 vans, enabling us to grow our business and win some great new clients.</p>
                         <p className='m-0'>To handle the upturn in orders and improve our overall efficiency, we invested in a new IT system.</p>

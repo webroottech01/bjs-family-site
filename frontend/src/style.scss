@@ -10,7 +10,21 @@
   font-style: normal;
   font-display: swap;
 }
-
+@font-face {
+  font-family: "Brixton_Wood_svg";
+  src: url("fonts/brixton-wood-svg.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
+  src: url("fonts/Brixton_Wood_PERSONAL_USE_ONLY-Vector.woff2") format("woff2"),
+    url("fonts/Brixton_Wood_PERSONAL_USE_ONLY-Vector.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
 @font-face {
   font-family: "Gotham Light";
   src: url("fonts/Gotham-Light.woff2") format("woff2"),
@@ -56,21 +70,8 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
-  src: url("fonts/Brixton_Wood_PERSONAL_USE_ONLY-Vector.woff2") format("woff2"),
-    url("fonts/Brixton_Wood_PERSONAL_USE_ONLY-Vector.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Brixton_Wood_svg";
-  src: url("fonts/brixton-wood-svg.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+
+
 body.modal-open {
   padding-right: 0 !important;
 }
@@ -85,7 +86,7 @@ html {
 }
 body {
   width: 100%;
-  overflow-x: hidden;
+  // overflow-x: hidden;
 }
 
 .newsPartners {

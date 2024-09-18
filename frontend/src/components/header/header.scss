@@ -105,14 +105,23 @@
       }
     }
   }
-  .dropdown-toggle::after {
-    content: "┏";
+  .dropdown-toggle{
+    &:after {
+    content: url('/../public/images/chevrondown.svg'); 
     border: none;
-    transform: rotate(224deg);
-    padding-bottom: 2px;
-    padding-right: 2px;
-    vertical-align: baseline;
+    width: 10px;
+    height: auto;
+    margin-left: 0.4rem;
+    vertical-align: text-top;
+    display: inline-block;
+    filter: opacity(0.5);
   }
+  &:hover{
+    &:after{
+      filter: opacity(1);
+    }
+  }
+}
 }
 
 @media screen and (min-width: 990px) {

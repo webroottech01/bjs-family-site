@@ -20,7 +20,7 @@ const Careers = () => {
                             </div>
                         </div>
                         <div className='careerImage'></div>
-                        <img src={process.env.PUBLIC_URL + "/images/sofacutout.png"} alt="" className='careerImage' width="100%" />
+                        <img src={process.env.PUBLIC_URL + "/images/sofacutout.webp"} alt="" className='careerImage' width="100%" />
                     </div>
                 </div>
 
