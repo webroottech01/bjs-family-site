@@ -6,6 +6,8 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use App\Models\Contact;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\ContactUs;
 
 class ContactController extends Controller
 {
@@ -36,6 +38,7 @@ class ContactController extends Controller
         $contact->weekly_volume = $request->input('weekly_volume');
 
         if($contact->save()){
+            Mail::to("info@bjs-beyond.com")->send(new ContactUs($request));
             return response()->json([
                 'message' => 'Form Submitted successfully'
             ], 200);
