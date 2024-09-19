@@ -10,10 +10,12 @@
   font-style: normal;
   font-display: swap;
 }
+
 @font-face {
-  font-family: "Brixton_Wood_svg";
-  src: url("fonts/brixton-wood-svg.otf") format("opentype");
-  font-weight: normal;
+  font-family: 'Brixton_Wood SVG';
+  src: url('fonts/Brixton_Wood-SVG.woff2') format('woff2'),
+      url('fonts/Brixton_Wood-SVG.woff') format('woff');
+  font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
@@ -70,7 +72,7 @@
   font-display: swap;
 }
 
-
+ 
 
 body.modal-open {
   padding-right: 0 !important;
