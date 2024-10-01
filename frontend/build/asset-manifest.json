@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "https://bjshomedelivery.us/frontend/build/static/css/main.50ee952d.css",
-    "main.js": "https://bjshomedelivery.us/frontend/build/static/js/main.20ce58fd.js",
+    "main.css": "https://bjshomedelivery.us/frontend/build/static/css/main.88b0521e.css",
+    "main.js": "https://bjshomedelivery.us/frontend/build/static/js/main.576dc16a.js",
     "static/js/453.5d962359.chunk.js": "https://bjshomedelivery.us/frontend/build/static/js/453.5d962359.chunk.js",
     "static/media/mediaBg.jpg": "https://bjshomedelivery.us/frontend/build/static/media/mediaBg.2db54fdeeb85bbbb2f1f.jpg",
     "static/media/Brixton_Wood-SVG.woff": "https://bjshomedelivery.us/frontend/build/static/media/Brixton_Wood-SVG.b9f505dff0e571d22fd6.woff",
@@ -38,12 +38,12 @@
     "static/media/phone-blk.svg": "https://bjshomedelivery.us/frontend/build/static/media/phone-blk.85febe3c538eecf3bb61.svg",
     "static/media/slick.woff": "https://bjshomedelivery.us/frontend/build/static/media/slick.295183786cd8a1389865.woff",
     "static/media/chevrondown.svg": "https://bjshomedelivery.us/frontend/build/static/media/chevrondown.319cb2fd91f9c9361410.svg",
-    "main.50ee952d.css.map": "https://bjshomedelivery.us/frontend/build/static/css/main.50ee952d.css.map",
-    "main.20ce58fd.js.map": "https://bjshomedelivery.us/frontend/build/static/js/main.20ce58fd.js.map",
+    "main.88b0521e.css.map": "https://bjshomedelivery.us/frontend/build/static/css/main.88b0521e.css.map",
+    "main.576dc16a.js.map": "https://bjshomedelivery.us/frontend/build/static/js/main.576dc16a.js.map",
     "453.5d962359.chunk.js.map": "https://bjshomedelivery.us/frontend/build/static/js/453.5d962359.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50ee952d.css",
-    "static/js/main.20ce58fd.js"
+    "static/css/main.88b0521e.css",
+    "static/js/main.576dc16a.js"
   ]
 }

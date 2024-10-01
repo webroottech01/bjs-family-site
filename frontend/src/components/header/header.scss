@@ -199,6 +199,7 @@
     .container {
       .navbar-brand {
         order: 1;
+        margin-right: 5px;
       }
 
       button.navbar-toggler {
@@ -209,6 +210,9 @@
       }
       .cswitcher {
         order: 3;
+        #switcherbtn{
+          padding: 0 0 0 20px;
+        }
       }
     }
   }
@@ -265,6 +269,7 @@
 @media screen and (max-width: 500px) {
   .header {
     .container {
+      max-width: 100% !important;
       #basic-navbar-nav {
         position: fixed;
         left: 0;
@@ -331,6 +336,9 @@
             }
           }
         }
+      }
+      nav.navbar .talktousfull{
+        margin: 0 5px;
       }
     }
   }

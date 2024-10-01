@@ -26,10 +26,10 @@ const Home = () => {
             <div className="col-12 bannerButtons">
               <div className="container">
                 <div className="row justify-content-between">
-                  <div className="col-lg-6 col-md-6 col-sm-12">
+                  <div className="col-sm-6">
                     <Link to="/our-values">Learn more about BJS</Link>
                   </div>
-                  <div className="col-lg-6 col-md-6 col-sm-12">
+                  <div className="col-sm-6">
                     <Link to="/services" className="bjsServices">
                       <span>BJS</span> Services
                     </Link>

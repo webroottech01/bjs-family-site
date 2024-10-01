@@ -213,7 +213,7 @@
   }
   .submit-btn {
     text-align: right;
-    input {
+    button {
       background: var(--BJS-Mid-Gray, #747e87);
       font-family: "Eveleth Dot";
       font-size: 14px;
@@ -225,6 +225,7 @@
       color: #fff;
       width: fit-content;
       border-radius: 66px;
+      border: none;
     }
   }
 }

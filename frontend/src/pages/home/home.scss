@@ -1,944 +1,938 @@
-.homepage{
-.bannerSection {
-  background: url(../../../public/images/bannerbjsus.webp);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-
-  .container {
-    max-width: 1180px;
-    padding-top: 37px;
-
-    p {
-      font-family: "Gotham book";
-      font-size: 20px;
-      font-weight: 400;
-      line-height: 26px;
-      text-align: center;
-      margin: 0px;
-      color: #fff;
-    }
-
-    h1 {
-      font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
-      text-transform: uppercase;
-      color: #faa00e;
-      font-size: 180px;
-      font-weight: 700;
-      line-height: normal;
-      margin-top: -10px;
-      text-align: center; 
-    }
-
-    h5 {
-      text-align: right;
-      bottom: 45px;
-      color: #73c8ef;
-      font-size: 104px;
-      position: relative;
-      right: 38px;
-      transform: rotate(-7deg);
-      line-height: normal;
-      font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
-      text-transform: uppercase;
-      letter-spacing: -2px;
-    }
-
-    .maintextouter {
-      position: relative;
-      width: fit-content;
-      margin: 0 auto;
-    }
-  }
-
-  .bannerButtons {
-    margin-top: 30%;
-    padding-bottom: 64px;
+.homepage {
+  .bannerSection {
+    background: url(../../../public/images/bannerbjsus.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
     .container {
-      max-width: 567px;
+      max-width: 1180px;
+      padding-top: 37px;
+
+      p {
+        font-family: "Gotham book";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+        margin: 0px;
+        color: #fff;
+      }
+
+      h1 {
+        font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
+        text-transform: uppercase;
+        color: #faa00e;
+        font-size: 180px;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: -10px;
+        text-align: center;
+      }
+
+      h5 {
+        text-align: right;
+        bottom: 45px;
+        color: #73c8ef;
+        font-size: 104px;
+        position: relative;
+        right: 38px;
+        transform: rotate(-7deg);
+        line-height: normal;
+        font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
+        text-transform: uppercase;
+        letter-spacing: -2px;
+      }
+
+      .maintextouter {
+        position: relative;
+        width: fit-content;
+        margin: 0 auto;
+      }
     }
 
-    a {
-      border-radius: 66px;
-      background: transparent;
-      width: 100%;
-      border: #fff 1px solid;
-      display: block;
-      text-align: center;
-      transition: all 0.4s linear;
-      line-height: 62px;
-    }
-    a:hover {
-      background: #fff;
-      color: #000;
+    .bannerButtons {
+      margin-top: 30%;
+      padding-bottom: 64px;
+
+      .container {
+        max-width: 567px;
+      }
+
       a {
-        color: #000;
-      }
-    }
-
-    .bjsServices {
-      background: #24292c;
-      border: 1px solid #24292c;
-      font-family: Eveleth Dot;
-      font-size: 20px;
-      text-transform: uppercase;
-      max-width: 235px; 
-      span {
-        color: #feba30;
+        border-radius: 66px;
+        background: transparent;
+        width: 100%;
+        border: #fff 1px solid;
+        display: block;
+        text-align: center;
         transition: all 0.4s linear;
+        line-height: 62px;
+      }
+      a:hover {
+        background: #fff;
+        color: #000;
+        a {
+          color: #000;
+        }
       }
 
-    
-    &:hover {
-      background: #feba30 ; 
-      border-color:#feba30 ;     
-      color: #fff;
-      span {
-        color: #24292c;
-        
+      .bjsServices {
+        background: #24292c;
+        border: 1px solid #24292c;
+        font-family: Eveleth Dot;
+        font-size: 20px;
+        text-transform: uppercase;
+        max-width: 235px;
+        span {
+          color: #feba30;
+          transition: all 0.4s linear;
+        }
+
+        &:hover {
+          background: #feba30;
+          border-color: #feba30;
+          color: #fff;
+          span {
+            color: #24292c;
+          }
+        }
+      }
+
+      a {
+        font-family: "Gotham Book";
+        font-size: 16px;
+        font-weight: 400;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background: transparent;
       }
     }
   }
 
-    a {
+  .homeDeliverSection {
+    .container {
+      max-width: 1720px;
+    }
+    .twoparts {
+      max-width: 500px;
+    }
+  }
+
+  .leftContent {
+    margin-top: 80px;
+    text-align: left;
+
+    h2 {
+      font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
+      font-size: 100px;
+      font-weight: 700;
+      line-height: 95.5px;
+      text-align: left;
+      text-transform: uppercase;
+      color: #73c8ef;
+    }
+
+    span {
+      color: #fbc22b;
+    }
+
+    p {
+      width: 600px;
+      margin-top: 20px;
+      color: #24292c;
+      text-align: justify;
       font-family: "Gotham Book";
       font-size: 16px;
       font-weight: 400;
-      text-align: center;
-      text-decoration: none;
-      color: #ffffff;
-      background: transparent;
+      line-height: 22px;
     }
-  }
-}
 
-.homeDeliverSection {
-  .container {
-    max-width: 1720px;
-  }
-  .twoparts{
-    max-width: 500px;
-  }
-  
-
-}
-
-.leftContent {
-  margin-top: 80px;
-  text-align: left;
-
-  h2 {
-    font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
-    font-size: 100px;
-    font-weight: 700;
-    line-height: 95.5px;
-    text-align: left;
-    text-transform: uppercase;
-    color: #73c8ef;
-  }
-
-  span {
-    color: #fbc22b;
-  }
-
-  p {
-    width: 600px;
-    margin-top: 20px;
-    color: #24292c;
-    text-align: justify;
-    font-family: "Gotham Book";
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-  }
-
-  .moreinfo {
-    margin-top: 58px;
-  }
-
-  a {
-    padding: 16px 30px;
-    border-radius: 66px;
-    color: #24292c;
-    font-family: 'Eveleth Dot';
-    text-transform: uppercase;
-    border: 0px;
-    background: #feba30;
-    box-shadow: 0px 4px 10px 0px rgba(0 0 0 / 15%);
-    transition: all 0.5s linear;
-    text-decoration: none;
-  }
-  a:hover {
-    background: #24292c;
-    color: #fff;
-  }
-
-  .muchmore {
-    font-family: Gotham Book;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 13.4px;
-    text-align: left;
-    color: #000;
-  }
-}
-
-.twoparts {
-  margin-top: 10px;
-
-
-  b {
-    font-family: "Eveleth Dot";
-    font-size: 14px;
-    font-weight: 950;
-    line-height: 19.38px;
-    text-align: left;
-    text-transform: uppercase;
-    color: #24292c;
-    font-weight: normal;
-  }
-
-  ul {
-    padding: 0px 0 0 22px;
-    margin-bottom: 25px;
-    margin-top: 15px;
-  }
-
-  li::marker {
-    color: #fbc22b;
-    font-size: 19px;
-  }
-
-  li {
-    color: #24292c;
-    font-family: Gotham Book;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 13.4px;
-    text-align: left;
-    margin-top: 10px;
-  }
-}
-
-.bjsDifferentSec {
-  .different-technology {
-    .section-content {
-      margin: 0;
-      background: linear-gradient(289deg, #70c6f0 0%, #73c8ef 100%);
-      .left-column-sc {
-        h2 {
-          color: #24292c;
-        }
-        p {
-          color: #24292c;
-        }
-        a {
-          color: #73c8ef;
-        }
-        a:hover {
-          color: #24292c;
-        }
-      }
+    .moreinfo {
+      margin-top: 58px;
     }
-    .left-column-sc {
-      background: linear-gradient(289deg, #70c6f0 0%, #73c8ef 100%);
-    }
-  }
-}
 
-.newsPartners {
-  max-width: 1700px;
-  margin: 0 auto;
-  padding: 60px 0;
-
-  h2 {
-    color: #919495;
-    font-family: "Eveleth Dot";
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 950;
-    line-height: normal;
-    position: relative;
-    margin: 0 auto 40px;
-    &:before {
-      content: "";
-      position: absolute;
-      width: 43%;
-      background: #d1d6d8;
-      height: 1px;
-      left: 0;
-      top: 12px;
-    }
-    &:after {
-      content: "";
-      position: absolute;
-      width: 43%;
-      background: #d1d6d8;
-      height: 1px;
-      right: 0;
-      top: 13px;
-    }
-  }
-}
-
-.beliefDevine {
-  padding: 100px 0;
-  .container {
-    max-width: 1800px !important;
-    width: 100%;
-  }
-  .leftContent {
-    margin-top: 0;
     a {
-      font-family: 'Eveleth Dot';
+      padding: 16px 30px;
       border-radius: 66px;
-      background: var(--BJS-Mid-Gray, #747e87);
-      color: #fff;
+      color: #24292c;
+      font-family: "Eveleth Dot";
+      text-transform: uppercase;
+      border: 0px;
+      background: #feba30;
+      box-shadow: 0px 4px 10px 0px rgba(0 0 0 / 15%);
+      transition: all 0.5s linear;
+      text-decoration: none;
     }
     a:hover {
-      background: #feba30;
+      background: #24292c;
+      color: #fff;
+    }
+
+    .muchmore {
+      font-family: Gotham Book;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 13.4px;
+      text-align: left;
       color: #000;
     }
   }
-  h2 {
-    color: #24292c;
-    font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    width: 100%;
-    margin-bottom: 20px !important;
-  }
-  p {
-    color: #24292c;
-    font-family: "Gotham Book";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 22px; /* 137.5% */
-    width: 94%;
-    margin-bottom: 0;
-    text-align: left;
-  }
-  .comaImg {
-    margin-top: 40px;
-  }
+
   .twoparts {
-    p {
-      color: var(--BJS-Mid-Gray, #747e87);
-      font-family: "Gotham Book";
-      font-size: 15px;
-      font-style: italic;
-      font-weight: 400;
-      line-height: 20px; /* 133.333% */
+    margin-top: 10px;
+
+    b {
+      font-family: "Eveleth Dot";
+      font-size: 14px;
+      font-weight: 950;
+      line-height: 19.38px;
       text-align: left;
-      width: 93%;
+      text-transform: uppercase;
+      color: #24292c;
+      font-weight: normal;
     }
-    .authorDetailing {
-      img {
+
+    ul {
+      padding: 0px 0 0 22px;
+      margin-bottom: 25px;
+      margin-top: 15px;
+    }
+
+    li::marker {
+      color: #fbc22b;
+      font-size: 19px;
+    }
+
+    li {
+      color: #24292c;
+      font-family: Gotham Book;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 13.4px;
+      text-align: left;
+      margin-top: 10px;
+    }
+  }
+
+  .bjsDifferentSec {
+    .different-technology {
+      .section-content {
         margin: 0;
-        width: 140px;
+        background: linear-gradient(289deg, #70c6f0 0%, #73c8ef 100%);
+        .left-column-sc {
+          h2 {
+            color: #24292c;
+          }
+          p {
+            color: #24292c;
+          }
+          a {
+            color: #73c8ef;
+          }
+          a:hover {
+            color: #24292c;
+          }
+        }
       }
-      h3 {
+      .left-column-sc {
+        background: linear-gradient(289deg, #70c6f0 0%, #73c8ef 100%);
+      }
+    }
+  }
+
+  .newsPartners {
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 60px 0;
+
+    h2 {
+      color: #919495;
+      font-family: "Eveleth Dot";
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 950;
+      line-height: normal;
+      position: relative;
+      margin: 0 auto 40px;
+      &:before {
+        content: "";
+        position: absolute;
+        width: 43%;
+        background: #d1d6d8;
+        height: 1px;
+        left: 0;
+        top: 12px;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        width: 43%;
+        background: #d1d6d8;
+        height: 1px;
+        right: 0;
+        top: 13px;
+      }
+    }
+  }
+
+  .beliefDevine {
+    padding: 100px 0;
+    .container {
+      max-width: 1800px !important;
+      width: 100%;
+    }
+    .leftContent {
+      margin-top: 0;
+      a {
+        font-family: "Eveleth Dot";
+        border-radius: 66px;
+        background: var(--BJS-Mid-Gray, #747e87);
+        color: #fff;
+      }
+      a:hover {
+        background: #feba30;
         color: #000;
-        font-family: "Gotham Bold";
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
       }
+    }
+    h2 {
+      color: #24292c;
+      font-family: "Brixton_Wood_PERSONAL_USE_ONLY Vector";
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      width: 100%;
+      margin-bottom: 20px !important;
+    }
+    p {
+      color: #24292c;
+      font-family: "Gotham Book";
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 22px; /* 137.5% */
+      width: 94%;
+      margin-bottom: 0;
+      text-align: left;
+    }
+    .comaImg {
+      margin-top: 40px;
+    }
+    .twoparts {
       p {
         color: var(--BJS-Mid-Gray, #747e87);
         font-family: "Gotham Book";
-        font-size: 14px;
-        font-style: normal;
+        font-size: 15px;
+        font-style: italic;
         font-weight: 400;
-        line-height: normal;
+        line-height: 20px; /* 133.333% */
+        text-align: left;
+        width: 93%;
+      }
+      .authorDetailing {
+        img {
+          margin: 0;
+          width: 140px;
+        }
+        h3 {
+          color: #000;
+          font-family: "Gotham Bold";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+        p {
+          color: var(--BJS-Mid-Gray, #747e87);
+          font-family: "Gotham Book";
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
       }
     }
   }
 }
-}
-.mac.homepage .bannerSection .container h5{
+.mac.homepage .bannerSection .container h5 {
   bottom: 20px;
 }
-.windows.homepage .bannerSection .container h1{
+.windows.homepage .bannerSection .container h1 {
   margin-top: -20px;
 }
 
 /***********Responsive*************/
 /***********Screen Size 1800px*************/
 @media only screen and (max-width: 1800px) {
-  .homepage{
-  .beliefDevine {
-    .container {
-      max-width: 1540px !important;
+  .homepage {
+    .beliefDevine {
+      .container {
+        max-width: 1540px !important;
+      }
+    }
+    .homeDeliverSection {
+      .container {
+        max-width: 1540px;
+      }
+    }
+    .newsPartners {
+      max-width: 1520px;
     }
   }
-  .homeDeliverSection {
-    .container {
-      max-width: 1540px;
-    }
-  }
-  .newsPartners {
-    max-width: 1520px;
-  }
-}
-
 }
 /***********Screen Size 1600px*************/
 @media only screen and (max-width: 1600px) {
-  .homepage{
-
-  .homeDeliverSection {
-    .container {
-      max-width: 1400px;
+  .homepage {
+    .homeDeliverSection {
+      .container {
+        max-width: 1400px;
+      }
+    }
+    .newsPartners {
+      max-width: 1370px;
+    }
+    .leftContent {
+      h2 {
+        font-size: 92px;
+        line-height: 90.5px;
+      }
+    }
+    .beliefDevine {
+      .container {
+        max-width: 1400px !important;
+      }
+      h2 {
+        font-size: 60px;
+        line-height: normal;
+      }
     }
   }
-  .newsPartners {
-    max-width: 1370px;
+  .mac.homepage .bannerSection .container h5 {
+    bottom: 23px;
   }
-  .leftContent {
-    h2 {
-      font-size: 92px;
-      line-height: 90.5px;
-    }
-  }
-  .beliefDevine {
-    .container {
-      max-width: 1400px !important;
-    }
-    h2 {
-      font-size: 60px;
-      line-height: normal;
-    }
-  }
-}
-.mac.homepage .bannerSection .container h5{
-  bottom: 23px;
-}
 }
 /***********Screen Size 1400px*************/
 @media only screen and (max-width: 1400px) {
-  .homepage{
-  .bannerSection {
-    .container {
-      h1 {
-        font-size: 140px;
+  .homepage {
+    .bannerSection {
+      .container {
+        h1 {
+          font-size: 140px;
+        }
+        h5 {
+          font-size: 80px;
+          transform: rotate(355deg);
+          right: 33px;
+        }
+        p {
+          font-size: 19px;
+          line-height: 25px;
+        }
       }
-      h5 {
-        font-size: 80px;
-        transform: rotate(355deg);
-        right: 33px;
-      }
-      p {
-        font-size: 19px;
-        line-height: 25px;
-      }
-    }
-    .bannerButtons {
-      margin-top: 28%;
-      padding-bottom: 50px;
-      .bjsServices {
+      .bannerButtons {
+        margin-top: 28%;
+        padding-bottom: 50px;
+        .bjsServices {
           font-size: 25px;
           max-width: 210px;
-      }
-    }
-  }
-  .homeDeliverSection {
-    .container {
-      max-width: 1290px;
-    }
-  }
-  .leftContent {
-    margin-top: 60px;
-    h2 {
-      font-size: 84px;
-      line-height: 90.5px;
-    }
-    .moreinfo {
-      margin-top: 45px;
-    }
-    a {
-      padding: 14px 26px;
-      font-size: 15px;
-    }
-  }
-  .beliefDevine {
-    .container {
-      max-width: 1290px !important;
-    }
-    p {
-      font-size: 15px;
-      line-height: 20px;
-      width: 100%;
-    }
-    h2 {
-      font-size: 56px;
-      line-height: normal;
-    }
-    .comaImg {
-      margin-top: 30px;
-    }
-    .twoparts {
-      p {
-        font-size: 14px;
-        line-height: 19px;
-        width: 96%;
-        margin-top: 15px;
-      }
-      .authorDetailing {
-        gap: 15px !important;
-        img {
-          margin: 0;
-          width: 92px;
         }
       }
     }
+    .homeDeliverSection {
+      .container {
+        max-width: 1290px;
+      }
+    }
+    .leftContent {
+      margin-top: 60px;
+      h2 {
+        font-size: 84px;
+        line-height: 90.5px;
+      }
+      .moreinfo {
+        margin-top: 45px;
+      }
+      a {
+        padding: 14px 26px;
+        font-size: 15px;
+      }
+    }
+    .beliefDevine {
+      .container {
+        max-width: 1290px !important;
+      }
+      p {
+        font-size: 15px;
+        line-height: 20px;
+        width: 100%;
+      }
+      h2 {
+        font-size: 56px;
+        line-height: normal;
+      }
+      .comaImg {
+        margin-top: 30px;
+      }
+      .twoparts {
+        p {
+          font-size: 14px;
+          line-height: 19px;
+          width: 96%;
+          margin-top: 15px;
+        }
+        .authorDetailing {
+          gap: 15px !important;
+          img {
+            margin: 0;
+            width: 92px;
+          }
+        }
+      }
+    }
+    .newsPartners {
+      max-width: 1270px;
+    }
   }
-  .newsPartners {
-    max-width: 1270px;
+  .windows.homepage .bannerSection .container h1 {
+    margin-top: -10px;
   }
-}
-.windows.homepage .bannerSection .container h1{
-  margin-top: -10px;
-} 
 }
 /***********Screen Size 1300px*************/
 @media only screen and (max-width: 1300px) {
-  .homepage{
-  .bannerSection {
-    .container {
-      p {
-        font-size: 18px;
-        line-height: 24px;
+  .homepage {
+    .bannerSection {
+      .container {
+        p {
+          font-size: 18px;
+          line-height: 24px;
+        }
+        h1 {
+          font-size: 120px;
+          margin-top: -5px;
+        }
+        h5 {
+          bottom: 38px;
+          font-size: 67px;
+          right: 30px;
+        }
       }
-      h1 {
-        font-size: 120px;
-        margin-top: -5px;
-      }
-      h5 {
-        bottom: 38px;
-        font-size: 67px;
-        right: 30px;
-      }
-    }
-    .bannerButtons {
-      margin-top: 24%;
-      padding-bottom: 45px;
-      a {
-        line-height: 46px;
-        font-size: 15px;
-      }
-      .bjsServices {
+      .bannerButtons {
+        margin-top: 24%;
+        padding-bottom: 45px;
+        a {
+          line-height: 46px;
           font-size: 15px;
+        }
+        .bjsServices {
+          font-size: 15px;
+        }
       }
     }
-  }
-  .homeDeliverSection {
-    .container {
-      max-width: 1140px;
+    .homeDeliverSection {
+      .container {
+        max-width: 1140px;
+      }
     }
-  }
-  .leftContent {
-    margin-top: 40px;
-    h2 {
-      font-size: 72px;
-      line-height: 74.5px;
-    }
-    p {
-      margin-top: 16px;
-      font-size: 15px;
-      line-height: 20px;
-    }
-    a {
-      padding: 12px 24px;
-      font-size: 14px;
-    }
-    .moreinfo {
-      margin-top: 35px;
-    }
-  }
-  .twoparts {
-    ul {
-      padding: 0px 0 0 18px;
-      margin-bottom: 20px;
-      margin-top: 10px;
-    }
-    li {
-      font-size: 13px;
-      line-height: 12.4px;
-      margin-top: 8px;
-    }
-  }
-  .beliefDevine {
-    padding: 80px 0;
-    .container {
-      max-width: 1140px !important;
-      margin-bottom: 20px !important;
-    }
-    h2 {
-      font-size: 56px;
-      line-height: normal;
-    }
-    p {
-      margin-top: 10px;
-      font-size: 14px;
-      line-height: 18px;
-    }
-    .comaImg {
-      margin-top: 15px;
-      width: 40px;
+    .leftContent {
+      margin-top: 40px;
+      h2 {
+        font-size: 72px;
+        line-height: 74.5px;
+      }
+      p {
+        margin-top: 16px;
+        font-size: 15px;
+        line-height: 20px;
+      }
+      a {
+        padding: 12px 24px;
+        font-size: 14px;
+      }
+      .moreinfo {
+        margin-top: 35px;
+      }
     }
     .twoparts {
-      p {
-        font-size: 13px;
-        line-height: 17px;
-        width: 100%;
+      ul {
+        padding: 0px 0 0 18px;
+        margin-bottom: 20px;
         margin-top: 10px;
       }
-      .authorDetailing {
-        gap: 10px !important;
-        img {
-          width: 80px;
+      li {
+        font-size: 13px;
+        line-height: 12.4px;
+        margin-top: 8px;
+      }
+    }
+    .beliefDevine {
+      padding: 80px 0;
+      .container {
+        max-width: 1140px !important;
+        margin-bottom: 20px !important;
+      }
+      h2 {
+        font-size: 56px;
+        line-height: normal;
+      }
+      p {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 18px;
+      }
+      .comaImg {
+        margin-top: 15px;
+        width: 40px;
+      }
+      .twoparts {
+        p {
+          font-size: 13px;
+          line-height: 17px;
+          width: 100%;
+          margin-top: 10px;
         }
-        h3 {
-          font-size: 15px;
+        .authorDetailing {
+          gap: 10px !important;
+          img {
+            width: 80px;
+          }
+          h3 {
+            font-size: 15px;
+          }
         }
       }
     }
-  }
-  .newsPartners {
-    padding: 50px 0;
-    max-width: 1130px;
-    h2:before,
-    h2:after {
-      width: 41%;
+    .newsPartners {
+      padding: 50px 0;
+      max-width: 1130px;
+      h2:before,
+      h2:after {
+        width: 41%;
+      }
     }
   }
-  }
-  .mac.homepage .bannerSection .container h5{
+  .mac.homepage .bannerSection .container h5 {
     bottom: 21px;
   }
 }
 /***********Screen Size 1024px*************/
 @media only screen and (max-width: 1024px) {
-  .homepage{
-  .bannerSection {
-    .container {
-      h1 {
-        font-size: 104px;
+  .homepage {
+    .bannerSection {
+      .container {
+        h1 {
+          font-size: 104px;
+        }
+        h5 {
+          font-size: 60px;
+          right: 25px;
+          bottom: 34px;
+        }
+        p {
+          font-size: 17px;
+          line-height: 22px;
+        }
       }
-      h5 {
-        font-size: 60px;
-        right: 25px;
-        bottom: 34px;
+      .bannerButtons {
+        margin-top: 20%;
+        padding-bottom: 45px;
+        a {
+          line-height: 44px;
+          font-size: 14px;
+        }
+        .bjsServices {
+          font-size: 14px;
+        }
+      }
+    }
+    .homeDeliverSection {
+      .container {
+        max-width: 960px;
+      }
+    }
+    .leftContent {
+      margin-top: 20px;
+      h2 {
+        font-size: 58px;
+        line-height: 66.5px;
       }
       p {
-        font-size: 17px;
-        line-height: 22px;
-      }
-    }
-    .bannerButtons {
-      margin-top: 20%;
-      padding-bottom: 45px;
-      a {
-        line-height: 44px;
+        margin-top: 10px;
         font-size: 14px;
-      }
-      .bjsServices {
-          font-size: 14px;
+        line-height: 18px;
       }
     }
-  }
-  .homeDeliverSection {
-    .container {
-      max-width: 960px;
-    }
-  }
-  .leftContent {
-    margin-top: 20px;
-    h2 {
-      font-size: 58px;
-      line-height: 66.5px;
-    }
-    p {
-      margin-top: 10px;
-      font-size: 14px;
-      line-height: 18px;
-    }
-  }
-  .twoparts {
-    ul {
-      padding: 0px 0 0 18px;
-      margin-bottom: 15px;
-    }
-    .row {
-      margin: 0;
-      .col-8 {
-        width: 100%;
+    .twoparts {
+      ul {
+        padding: 0px 0 0 18px;
+        margin-bottom: 15px;
       }
-      .col-4 {
-        width: 100%;
+      .row {
+        margin: 0;
+        .col-8 {
+          width: 100%;
+        }
+        .col-4 {
+          width: 100%;
+        }
       }
     }
-  }
-  .beliefDevine {
-    padding: 65px 0;
-    .container {
-      max-width: 960px !important;
-      margin-bottom: 10px !important;
+    .beliefDevine {
+      padding: 65px 0;
+      .container {
+        max-width: 960px !important;
+        margin-bottom: 10px !important;
+      }
+      h2 {
+        font-size: 42px;
+        line-height: normal;
+      }
     }
-    h2 {
-      font-size: 42px;
-      line-height: normal;
-    }
-  }
 
-  .newsPartners {
-    max-width: 980px;
-    h2:before,
-    h2:after {
-      width: 39%;
+    .newsPartners {
+      max-width: 980px;
+      h2:before,
+      h2:after {
+        width: 39%;
+      }
+    }
+    .mac.homepage .bannerSection .container h5 {
+      bottom: 17px;
     }
   }
-  .mac.homepage .bannerSection .container h5{
-    bottom: 17px;
+  .windows.homepage .bannerSection .container h1 {
+    margin-top: -5px;
   }
-}
-.windows.homepage .bannerSection .container h1{
-  margin-top: -5px;
-}
 }
 /***********Screen Size 820px*************/
 @media only screen and (max-width: 820px) {
-  .homepage{
-  .bannerSection {
-    .container {
-      p {
-        font-size: 14px;
-        line-height: 20px;
+  .homepage {
+    .bannerSection {
+      .container {
+        p {
+          font-size: 14px;
+          line-height: 20px;
+        }
+        h1 {
+          font-size: 78px;
+        }
+        h5 {
+          bottom: 27px;
+          font-size: 45px;
+          right: 20px;
+        }
       }
-      h1 {
-        font-size: 78px;
-      }
-      h5 {
-        bottom: 27px;
-        font-size: 45px;
-        right: 20px;
-      }
-    }
-    .bannerButtons {
-      margin-top: 18%;
-      padding-bottom: 40px;
-
-    }
-  }
-  .homeDeliverSection {
-    .container {
-      max-width: 95%;
-    }
-  }
-  .beliefDevine {
-    .container {
-      max-width: 95% !important;
-      margin-bottom: 10px !important;
-    }
-    h2 {
-      font-size: 42px;
-      line-height: normal;
-    }
-    .twoparts {
-      .authorDetailing {
-        gap: 10px !important;
-        margin-top: 10px;
+      .bannerButtons {
+        margin-top: 18%;
+        padding-bottom: 40px;
       }
     }
-  }
-  .leftContent {
-    h2 {
-      font-size: 54px;
-      line-height: 60.5px;
+    .homeDeliverSection {
+      .container {
+        max-width: 95%;
+      }
     }
-  }
-  .newsPartners {
-    max-width: 780px;
-    h2:before,
-    h2:after {
-      width: 38%;
+    .beliefDevine {
+      .container {
+        max-width: 95% !important;
+        margin-bottom: 10px !important;
+      }
+      h2 {
+        font-size: 42px;
+        line-height: normal;
+      }
+      .twoparts {
+        .authorDetailing {
+          gap: 10px !important;
+          margin-top: 10px;
+        }
+      }
     }
-    h2 {
-      font-size: 18px;
-      margin: 0 auto 30px;
+    .leftContent {
+      h2 {
+        font-size: 54px;
+        line-height: 60.5px;
+      }
     }
-  }
+    .newsPartners {
+      max-width: 780px;
+      h2:before,
+      h2:after {
+        width: 38%;
+      }
+      h2 {
+        font-size: 18px;
+        margin: 0 auto 30px;
+      }
+    }
   }
 }
 /***********Screen Size 768px*************/
 @media only screen and (max-width: 768px) {
-  .homepage{
-  .bannerSection {
-    .container {
-      h1 {
-        font-size: 68px;
-        
+  .homepage {
+    .bannerSection {
+      .container {
+        h1 {
+          font-size: 68px;
+        }
+        h5 {
+          bottom: 26px;
+          font-size: 40px;
+          right: 17px;
+        }
       }
-      h5 {
-        bottom: 26px;
-        font-size: 40px;
-        right: 17px;
+      .bannerButtons {
+        margin-top: 20%;
+        padding-bottom: 35px;
       }
     }
-    .bannerButtons {
-      margin-top: 20%;
-      padding-bottom: 35px;
-
+    .leftContent {
+      h2 {
+        font-size: 48px;
+        line-height: 52.5px;
+      }
+      p {
+        width: 100%;
+      }
     }
-  }
-  .leftContent {
-    h2 {
-      font-size: 48px;
-      line-height: 52.5px;
+    .beliefDevine {
+      padding: 55px 0;
     }
-    p {
-      width: 100%;
+    .newsPartners {
+      max-width: 85%;
+      padding: 40px 0;
+      h2:before,
+      h2:after {
+        width: 35%;
+      }
     }
-  }
-  .beliefDevine {
-    padding: 55px 0;
-  }
-  .newsPartners {
-    max-width: 85%;
-    padding: 40px 0;
-    h2:before,
-    h2:after {
-      width: 35%;
-    }
-  }
   }
 }
 /***********Screen Size 668px*************/
 @media only screen and (max-width: 668px) {
-  .homepage{
-  .bannerSection {
-    .container p {
-      display: inline;
-      margin-right: 5px;
-    }
-    .container h5 {
-
-    }
-    .bannerButtons {
-      margin-top: 24%;
-
-      .row {
-        gap: 10px;
+  .homepage {
+    .bannerSection {
+      .container p {
+        display: inline;
+        margin-right: 5px;
       }
-      a {
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
+      .container h5 {
+      }
+      .bannerButtons {
+        margin-top: 24%;
       }
     }
   }
 }
+@media only screen and (max-width: 580px) {
+  .homepage {
+    .bannerSection {
+      .bannerButtons {
+        .row {
+          gap: 10px;
+        }
+        a {
+          width: 50%;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+    }
+  }
 }
-
 /***********Screen Size 480px*************/
 @media only screen and (max-width: 480px) {
-  .homepage{
-  .bannerSection {
-    background-position: top;
-    .container {
-      h1 {
-        font-size: 44px;
+  .homepage {
+    .bannerSection {
+      background-position: top;
+      .container {
+        h1 {
+          font-size: 44px;
+        }
+        h5 {
+          bottom: 20px;
+          font-size: 30px;
+          letter-spacing: 0px;
+          right: 8px;
+        }
       }
-      h5 {
-        bottom: 20px;
-        font-size: 30px;
-        letter-spacing: 0px;
-        right: 8px;
-      }
-    }
-    .bannerButtons {
-      margin-top: 30%;
-      a {
-        width: 75%;
-        max-width: 100%;
-        &.bjsServices {
+      .bannerButtons {
+        margin-top: 30%;
+        a {
+          width: 75%;
           max-width: 100%;
-      }
-      }
-    }
-  }
-  .leftContent {
-    h2 {
-      font-size: 38px;
-      line-height: 46.5px;
-    }
-    a {
-      width: 100%;
-    }
-  }
-  .beliefDevine {
-    padding: 45px 0;
-    h2 {
-      font-size: 34px;
-      line-height: normal;
-    }
-  }
-  .newsPartners {
-    h2:before,
-    h2:after {
-      width: 22%;
-    }
-  }
-  }
-}
-@media only screen and (max-width: 400px){
-  .homepage{
-  .bannerSection {
-    .container {
-      h5 {
-        font-size: 28px;
-        right: 9px;
+          &.bjsServices {
+            max-width: 100%;
+          }
+        }
       }
     }
-  }
-}
-}
-@media only screen and (max-width: 350px) {
-  .homepage{
-  .newsPartners {
-    h2:before,
-    h2:after {
-      width: 20%;
-    }
-  }
-  .bannerSection {
-    .container h5 {
-
-    }
-    .bannerButtons {
-      margin-top: 38%;
+    .leftContent {
+      h2 {
+        font-size: 38px;
+        line-height: 46.5px;
+      }
       a {
         width: 100%;
       }
     }
-  }
-  .leftContent {
-    h2 {
-      font-size: 32px;
-      line-height: 40.5px;
+    .beliefDevine {
+      padding: 45px 0;
+      h2 {
+        font-size: 34px;
+        line-height: normal;
+      }
     }
-  }
-  .beliefDevine {
-    h2 {
-      font-size: 28px;
-      line-height: normal;
+    .newsPartners {
+      h2:before,
+      h2:after {
+        width: 22%;
+      }
     }
   }
 }
+@media only screen and (max-width: 400px) {
+  .homepage {
+    .bannerSection {
+      .container {
+        h5 {
+          font-size: 28px;
+          right: 9px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 350px) {
+  .homepage {
+    .newsPartners {
+      h2:before,
+      h2:after {
+        width: 20%;
+      }
+    }
+    .bannerSection {
+      .container h5 {
+      }
+      .bannerButtons {
+        margin-top: 38%;
+        a {
+          width: 100%;
+        }
+      }
+    }
+    .leftContent {
+      h2 {
+        font-size: 32px;
+        line-height: 40.5px;
+      }
+    }
+    .beliefDevine {
+      h2 {
+        font-size: 28px;
+        line-height: normal;
+      }
+    }
+  }
 }
