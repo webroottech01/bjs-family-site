@@ -9,6 +9,7 @@ const Careers = () => {
         <>
             <div className="careersMain">
                 <div className='careerBanner'>
+                    <div className='container'>
                     <div className='careerInner d-flex'>
                         <div className='careerContent text-start'>
                             <h1>putting you in the driver’s seat</h1>
@@ -21,6 +22,7 @@ const Careers = () => {
                         </div>
                         <div className='careerImage'></div>
                         <img src={process.env.PUBLIC_URL + "/images/sofacutout.webp"} alt="" className='careerImage' width="100%" />
+                    </div>
                     </div>
                 </div>
 
