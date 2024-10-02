@@ -202,14 +202,14 @@
         margin-right: 5px;
       }
 
-      button.navbar-toggler {
-        order: 4;
-      }
-      .talktousfull {
+      #basic-navbar-nav{
         order: 2;
       }
-      .cswitcher {
+      .talktousfull {
         order: 3;
+      }
+      .cswitcher {
+        order: 4;
         #switcherbtn{
           padding: 0 0 0 20px;
         }
@@ -221,10 +221,15 @@
 @media screen and (max-width: 990px) {
   .header {
     .container {
-      #basic-navbar-nav {
-        order: 5;
+      .talktousfull {
+        order:2;
       }
-
+      .cswitcher {
+        order: 3;
+      }
+      button.navbar-toggler {
+        order: 4;
+      }
       .mainNavigation {
         a.nav-link {
           font-size: 15px;
