@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://bjshomedelivery.us/frontend/build/static/css/main.a503e330.css",
-    "main.js": "https://bjshomedelivery.us/frontend/build/static/js/main.74503007.js",
+    "main.js": "https://bjshomedelivery.us/frontend/build/static/js/main.e24415f0.js",
     "static/js/453.5d962359.chunk.js": "https://bjshomedelivery.us/frontend/build/static/js/453.5d962359.chunk.js",
     "static/media/mediaBg.jpg": "https://bjshomedelivery.us/frontend/build/static/media/mediaBg.2db54fdeeb85bbbb2f1f.jpg",
     "static/media/Brixton_Wood-SVG.woff": "https://bjshomedelivery.us/frontend/build/static/media/Brixton_Wood-SVG.b9f505dff0e571d22fd6.woff",
@@ -39,11 +39,11 @@
     "static/media/slick.woff": "https://bjshomedelivery.us/frontend/build/static/media/slick.295183786cd8a1389865.woff",
     "static/media/chevrondown.svg": "https://bjshomedelivery.us/frontend/build/static/media/chevrondown.319cb2fd91f9c9361410.svg",
     "main.a503e330.css.map": "https://bjshomedelivery.us/frontend/build/static/css/main.a503e330.css.map",
-    "main.74503007.js.map": "https://bjshomedelivery.us/frontend/build/static/js/main.74503007.js.map",
+    "main.e24415f0.js.map": "https://bjshomedelivery.us/frontend/build/static/js/main.e24415f0.js.map",
     "453.5d962359.chunk.js.map": "https://bjshomedelivery.us/frontend/build/static/js/453.5d962359.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a503e330.css",
-    "static/js/main.74503007.js"
+    "static/js/main.e24415f0.js"
   ]
 }
