@@ -15,9 +15,9 @@ const Footer = () => {
                   <h3>About BJS</h3>
                   
                   <Nav className="d-block">
-                    <LinkContainer to="/our-story">
+                    {/* <LinkContainer to="/our-story">
                       <Nav.Link>Our Story</Nav.Link>
-                    </LinkContainer>
+                    </LinkContainer> */}
                     <LinkContainer to="/our-values">
                       <Nav.Link>Our Values</Nav.Link>
                     </LinkContainer>
@@ -29,12 +29,12 @@ const Footer = () => {
                     <LinkContainer to="/technology">
                       <Nav.Link>Our Technology</Nav.Link>
                     </LinkContainer>
-                    <LinkContainer to="/charity-community">
+                    {/* <LinkContainer to="/charity-community">
                       <Nav.Link>Charity & Community</Nav.Link>
                     </LinkContainer>
                     <LinkContainer to="/training-academy">
                       <Nav.Link>Training Academy</Nav.Link>
-                    </LinkContainer>
+                    </LinkContainer> */}
                   </Nav>
                   <div className="fotrSocial">
                     <div>

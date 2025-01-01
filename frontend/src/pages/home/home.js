@@ -17,7 +17,7 @@ const Home = () => {
         <div className="bannerSection">
           <div className="container">
             <p>We’ve come all the way from the UK to offer the very best</p>
-            <p>big and bulky two-person home delivery</p>
+            <p>in big and bulky two-person home delivery</p>
             <div className="maintextouter">
               <h1>california dreamin’</h1>
               <h5>no more</h5>
@@ -48,11 +48,7 @@ const Home = () => {
                   high <span>cali</span>ber home delivery
                 </h2>
                 <p>
-                  Award winning two-person home delivery teams, trained in
-                  excellence and trusted by leading brands. With an enviable
-                  track record of more than a decade the BJS family offer a
-                  range of flexible services to keep you and your customers
-                  happy.
+                Award-winning two-person home delivery teams, trained to excel and trusted by leading brands. With a stellar track record spanning over a decade, the BJS family offers a variety of flexible services to keep you and your customers satisfied.
                 </p>
                 <div className="col-12 twoparts">
                   <div className="row">
@@ -66,7 +62,7 @@ const Home = () => {
                       </ul>
                     </div>
                     <div className="col-lg-6 col-md-6 col-sm-12">
-                      <b>We go above & beyond</b>
+                      <b>The full white-glove service</b>
                       <ul>
                         <li>Room of choice</li>
                         <li>Professionally built & installed</li>
@@ -184,7 +180,7 @@ const Home = () => {
           <DifferentTechnology
             layout="layout1"
             title="what makes bjs different"
-            content="We provide the very best customer service at every stage of the delivery process, putting customers at the heart of everything we do – so that your products, reputation, customers and peace of mind really are safe in our hands."
+            content="We deliver unmatched customer service at every stage of the process, putting customers at the center of everything we do. Your products, your reputation, and your peace of mind are safe in our hands."
             link="/our-difference"
             imageUrl1="/images/Clip path group_11zon.jpg"
           />

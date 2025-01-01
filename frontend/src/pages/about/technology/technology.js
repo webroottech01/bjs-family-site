@@ -50,12 +50,13 @@ const Technology = () => {
       />
       <Withbigbulky></Withbigbulky>
       
-      <div className='partnersMAin'>
+      {/* <div className='partnersMAin'>
       <div className='newsPartners'>
         <h2 className='text-center'>Our Partners</h2>
         <Partners />
       </div> 
-      </div></div>
+      </div> */}
+      </div>
   );
 }
 

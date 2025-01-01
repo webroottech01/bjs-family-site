@@ -17,11 +17,7 @@ const HeartFelt = (props) => {
           <div className="col-12 col-md-12 col-sm-12 heartFeltContent">
             <h2>Heart Felt</h2>
             <p>
-              BJS is a corporate built on compassionate values; named after Baba
-              Jaswant Singh Ji - who remains the spiritual inspiration and
-              guidance behind the brand after his death in 2020 – BJS has an
-              authentic desire to make a lasting and positive impact on the
-              world.{" "}
+              BJS is a corporation built on compassionate values. Inspired by Baba Jaswant Singh Ji, whose legacy of spiritual guidance lives on after his passing in 2020, BJS strives to make a lasting and positive impact on the world.
             </p>
             <Link to={`/${props.btnlink}`}>{props.btntext}</Link>
           </div>

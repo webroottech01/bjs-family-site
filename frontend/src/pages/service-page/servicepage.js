@@ -210,13 +210,13 @@ const Servicepage = () => {
               <div className="col-md-3 p-0">
                 <h2>Warehousing</h2>
                 <p>
-                  We are located centrally in California, just minutes away from
+                  We are located centrally in VIsalia, California just minutes away from
                   Interstate 99. Operating from our single hub reduces the risk
-                  of loss or damage to your furniture, and our warehouses are
+                  of loss or damage to your products, and our warehouses are
                   managed with the latest technology in inventory control.
                 </p>
                 <ul>
-                  <li>Two-man handling</li>
+                  <li>Two-person handling</li>
                   <li>The highest Health & Safety standards</li>
                   <li>Use of mechanical equipment to move products</li>
                   <li>Unloading of containers</li>
@@ -284,19 +284,19 @@ const Servicepage = () => {
           </div>
         </div>
 
-        <div className="partnersMAin">
+        {/* <div className="partnersMAin">
           <div className="newsPartners">
             <h2 className="text-center">Our Partners</h2>
             <Partners />
           </div>
-        </div>
+        </div> */}
 
-        <div className="caseStudy">
+        {/* <div className="caseStudy">
           <div className="container p-0">
             <h2 className="text-start">Case Study</h2>
             <CaseStudy />
           </div>
-        </div>
+        </div> */}
 
         <div className="our-people">
           <div className="container p-0">
